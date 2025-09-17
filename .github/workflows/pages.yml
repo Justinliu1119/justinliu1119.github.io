@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll (Hydejack) to Pages
+name: Run Pages workflow on master
 
 on:
   push:
@@ -21,10 +21,17 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
 
-      - uses: ruby/setup-ruby@v1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: '3.2'         # safer for Jekyll/Hydejack
           bundler-cache: true
+
+      - name: Ensure Linux platform in Gemfile.lock
+        run: |
+          if [ -f Gemfile.lock ]; then
+            bundle lock --add-platform x86_64-linux
+          fi
 
       - name: Install gems
         run: bundle install --without development
