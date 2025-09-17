@@ -2,7 +2,7 @@ name: Build and deploy Jekyll (Hydejack) to Pages
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   workflow_dispatch:
 
 permissions:
