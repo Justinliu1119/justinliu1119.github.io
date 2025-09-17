@@ -12,11 +12,15 @@ lang:                  en
 title:                 Justin Liu
 copyright:             © 2024. All rights reserved.
 
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/canyon.JPG
 accent_color:          rgb(79,177,186)
 theme_color:           rgb(25,55,71)
 
-google_fonts:          false
+google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+font:                  Noto Sans, Helvetica, Arial, sans-serif
+font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+font-code:             ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
 
 hydejack:
   post_addons:         [about, newsletter, related, random, comments]
@@ -79,3 +83,37 @@ compress_html:
 
 sass:
   style:               compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-avatar
+  - jemoji
+  - jekyll-include-cache
+
+menu: 
+  - title: About
+    url: /#about
+  - title: Publications
+    url: /#publications
+  - title: Research
+    url: /#research
+  - title: Teaching
+    url: /#teaching/
+  - title: Work Experience
+    url: /#work Experience
+
+
+author:
+  name: Justin Liu
+  picture: /assets/img/logo.png
+  email: jliu3548@usc.edu
+  github: https://github.com/Justinliu119
+  google: https://scholar.google.com/citations?hl=en&user=94K23cEAAAAJ&view_op=list_works&gmla=AH8HC4wnORLpcI--wZ9Y8CMugtKJBpua6UZ1xC_AjxoXjTwhu6kK-_zAw8FK_2tY_TO9DC8RujzFAzE7MRo4u2bt
+
+
+
+  
+
