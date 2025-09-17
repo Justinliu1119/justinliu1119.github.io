@@ -69,3 +69,17 @@ compress_html:
 
 sass:
   style:               compressed
+
+# --- GitHub Pages / Hydejack required settings ---
+url: "https://justinliu1119.github.io"
+baseurl: ""
+
+# Make sure plugins are TOP-LEVEL (NOT inside the `hydejack:` block)
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Use the remote theme
+remote_theme: hydecorp/hydejack@v9
+# --- end required settings ---
