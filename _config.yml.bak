@@ -83,15 +83,3 @@ plugins:
 # Use the remote theme
 remote_theme: hydecorp/hydejack@v9
 # --- end required settings ---
-
-# --- Required for GitHub Pages + Hydejack (appended by setup script) ---
-url: "https://justinliu1119.github.io"
-baseurl: ""
-
-# Use Hydejack's remote theme and required plugins (top-level, not inside `hydejack:`)
-remote_theme: hydecorp/hydejack@v9
-plugins:
-  - jekyll-include-cache
-  - jekyll-sitemap
-  - jekyll-feed
-# --- end required settings ---
