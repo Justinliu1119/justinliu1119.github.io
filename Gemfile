@@ -4,4 +4,8 @@ gem "jekyll", "~> 4.3"
 gem "jekyll-include-cache"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
-gem "webrick"          # for local serve if you try locally
+gem "jekyll-paginate"
+gem "jekyll-gist"
+gem "jekyll-avatar"
+gem "jemoji"
+gem "webrick"            # local serve convenience

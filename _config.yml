@@ -117,3 +117,14 @@ author:
 
   
 
+
+# --- normalized plugins (override) ---
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-avatar
+  - jemoji
+# --- end normalized plugins ---
