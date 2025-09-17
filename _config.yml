@@ -160,3 +160,19 @@ menu:
   - title: Work Experience
     url: /work/
 # --- end normalized menu ---
+
+# --- single-page sidebar menu (anchors) ---
+menu:
+  - title: About
+    url: /#about
+  - title: Publications
+    url: /#publications
+  - title: Research
+    url: /#research
+  - title: Projects
+    url: /#projects
+  - title: Teaching
+    url: /#teaching
+  - title: Work Experience
+    url: /#work-experience
+# --- end single-page menu ---
