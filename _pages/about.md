@@ -1,56 +1,239 @@
----
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+# About
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Hello! I am Justin Liu. I completed dual B.S. degrees in Electrical and Computer Engineering (Honors) and Applied & Computational Mathematics at the University of Southern California in May 2025. I am a researcher in the [Autonomous Networks Research Group](https://anrg.usc.edu/www/) advised by Professor Bhaskar Krishnamachari, and I have worked closely with Professor Peter Beerel. I was also a visiting scholar at Northwestern’s [Design Automation of Intelligent Systems Lab](http://zhulab.eecs.northwestern.edu/index.html) advised by Prof. [Qi Zhu](http://users.eecs.northwestern.edu/~qzhu/). I also collaborate with Prof. [Yinyu Ye](https://stanford.edu/~yyye/).
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research is focused in autunomous network, control and their applications in multi-agent and Cyper-Physical-Systems. Specifically, I design decentralized systems that can coordinate over long horizons, make robust decisions under uncertainty, and satisfy safety constraints in dynamic environments.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+**Current focus areas**
+- **Data-Driven Decision-Making:** developing online learning algorithms that handle uncerntainty with convergence and regret guarentees in multi-agent games.  
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+- **Generative modeling for dynamics:** Leveraging diffusion models to enable decentralized systems to infer global states from partial and noisy observations, improving coordination under uncertainty.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+- **Safety in embodied AI:** Using LLMs for high-level task planning combined with Temporal Logic–based verification to guarantee interpretable, constraint‑compliant behaviors in simulators such as AI2‑THOR and VirtualHome.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Looking ahead, I aim to advance learning and optimization methods that make autonomous systems simultaneously high‑performance, fair, and safety‑critical.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## News
+- **[June 2025]** We submitted a paper on Distributed ML Inference Framework to[ICRL 2026]
+- **[June 2025]** Paper on Distributed ML Inference Framework published by[GLSVLSI 2025](https://neurips.cc/)
+- **[June 2025]** - Started as a Visiting Scholar at [Design Automation of Intelligent Systems Lab]((http://zhulab.eecs.northwestern.edu/index.html)
+- **[May 2025]** Submitted Undergrad Thesis <a href="/frank_yang/assets/pdf/MS_Thesis_Frank.pdf" target="_blank">"Safety-Assured Autonomy of Learning-Enabled Emobodied AI Agents"</a>!
+- **[November 2024]** - Paper on Pedestrain Detection published by IEEE SiPS [IEEE SiPS 2024](https://ieeexplore.ieee.org/xpl/conhome/10768211/proceeding)
+- **[May 2024]** - Paper on Model-Based Kalman Filter State Prediction for Submarine Trajectory won Honorable Mention from MCM 2024
+- **[June 2023]** - Started as a ML Intern at [Tsinghua MetacamTech Lab](https://www.metacam.tech/)
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
+## Publications
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+Yue Hu, G. Datta, K. Beerel, **Yao Liu**, Peter Beerel. *Let’s Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types.* IEEE SiPS 2024 (Published). [IEEE Xplore](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Xuan Zhou, U. Muhan, **Yao Liu**, Peter Beerel. *An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection.* GLSVLSI 2025 (Published). [ACM DOI](https://dl.acm.org/doi/10.1145/3716368.3735230)
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+**Yao Liu**, S. Mohanty, E. Ondula, Bhaskar Krishnamachari. *Cooperative Multi-Agent System: A Fairness Perspective towards Competitive Equilibrium* (In Preparation).
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Simon Zhan, **Yao Liu**, Philip Wang, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang,
+Kangrui Wang, Huajie Shao, Manling Li, Qi Zhu. SENTINEL: A Multi-Level Formal Framework for Safety Evaluation
+of LLM-based Embodied Agents (Submmitted to ICLR 2026)
+
+A. Goeckner, A. Ruan, **Yao Liu**, W. Gao, Alessandro Pinto, Qi Zhu. *Quiet Multi-Agent System for Task Allocation* (In Preparation).
+
+
+C. Chen, **Yao Liu**, Z. Yang, J. Yang, Yinyu Ye (alphabetical order). *Adaptive Online Arrow–Debreu Market* (Working Manuscript).
+
+## Research Projects
+
+<img src="/yao_liu/images/Benchmark_LLM.png" width="35%" align="left" style="margin:2rem 2rem 2rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">SENTINEL: A MULTI-LEVEL FORMAL FRAMWORK FOR SAFETY EVALUATION
+OF LLM-BASED EMBODIED AGENTS
+AGENTS</h3>
+
+Advised by: [Prof. Qi Zhu & Manling Li]()
+<br clear="right">Sources: [Project]() / [Paper]()
+<br clear="right"> We developed a safety-aware framework for LLM-based embodied agents that do household tasks. Safety rules are formalized as Linear Temporal Logic (LTL) and checked before execution; high-level, symbolic plans are converted into structured, low-level action sequences runnable in AI2-THOR. During execution, we evaluate Computation Tree Logic (CTL) properties across all possible trajectories to deliver real-time, interpretable diagnostics whenever a rule is violated. 
+
+<img src="/yao_liu/images/QMAS.png" width="35%" align="left" style="margin:2rem 2rem 4rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">Quiet Multi-Agent System</h3>
+
+Advised by: [Prof. Qi Zhu](http://users.eecs.northwestern.edu/~qzhu/)
+<br clear="right">Sources: [Paper]() 
+<br clear="right"> Developed a diffusion-based module that reconstructs the global system state using only local observations and limited communication. Integrated with PPO-trained policies, the predicted state enables communication-efficient task allocation for In-Situ Resource Utilization (ISRU) on planetary surfaces. To track confidence, we add epistemic uncertainty estimation using deep ensembles, informing both action and communication decisions.
+
+<img src="img" width="35%" align="left" style="margin: 2rem 2rem 5rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">Efficient Encoding of Graphics Primitives with Simplex-based Structures</h3>
+
+Advised by: [Prof. Bhaskar Krishmanachari](http://users.ece.northwestern.edu/~yingwu/)
+<br clear="right">Source: [Paper](./frank_yang/assets/pdf/Encoding.pdf)
+<br clear="right">Developed a multi-agent reinforcement learning framework grounded in the Eisenberg–Gale (EG) competitive equilibrium to ensure fair and efficient agent–goal assignment. Incorporated graph neural networks (GNNs) in the actor–critic architecture for message passing among nearby agents and goals. Extended the framework with an online EG baseline that recomputes assignments from the currently discovered goals, solving the same optimization problem over dynamically revealed partitions.
+<br>
+
+<img src="img" width="35%" align="left" style="margin: 2rem 2rem 5rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">Efficient Encoding of Graphics Primitives with Simplex-based Structures</h3>
+
+Advised by: [Prof. Yinyu Ye](https://stanford.edu/~yyye/)
+<br clear="right">Source: [Paper]()
+<br clear="right">
+Develop an adaptive online decision-making framework for Arrow–Debreu Competitive Equilibrium with incomplete agent information. Extend the Eisenberg–Gale (EG) program to the online setting using two update rules: **Certainty-Equivalent (CE)** to compute prices/allocations from current estimated demand, and **Sample-Average Approximation (SAA)** to refine prices from mini-batches of recent arrival.
+
+<img src="ML_Inference.png" width="35%" align="left" style="margin: 2rem 2rem 5rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">Distributed Inference & Adversarial Detection:</h3>
+
+Advised by: [Prof. Peter Beerel](https://sites.usc.edu/eessc/people/)
+<br clear="right">Source: [Paper](https://dl.acm.org/doi/10.1145/3716368.3735230)
+<br clear="right">
+We designed a redundancy-driven scheme for distributed inference that scrambles replica timing to foil periodicity-based attacks. Co-develop lightweight detectors for stochastic corruptions reaching **99% confidence** with minimal overhead via optimized redundancy. Prove required inferences converge to a tight upper bound even at low redundancy, and show the gap to a centralized-RNG baseline is negligible. Recommend heterogeneous PRNGs with coprime periods to resist pattern learning while keeping compute and bandwidth costs low.
+
+
+<img src="Pedestrian_Detection.png" width="35%" align="left" style="margin: 2rem 2rem 5rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">Distributed Inference & Adversarial Detection:</h3>
+
+Advised by: [Prof. Peter Beerel](https://sites.usc.edu/eessc/people/)
+<br clear="right">Source: [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224)
+<br clear="right">
+We developed a pipeline for **pedestrian detection across shutter types**. We built a UE5 module to **simulate rolling-shutter (RS) distortions** from high-FPS global-shutter (GS) video, generating paired GS↔RS frames with precise ground truth. Our validation on real RS scenes shows RS-aware training **closes the GS gap** and improves performance (**+53.1% recall**, **+30.3% mAP@0.5; +42.4% mAP@0.5–0.95**)—**without ISP RS-correction**. 
+
+
+
+
+## Teaching
+
+***Graduate TA*** for CS340: [Computer Networking](https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/340.html) taught by Alexandar Kuzmanovic, Winter 2023
+
+***Graduate TA*** for CS310: [Scalable Software Architectures](https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/310.html) taught by Joe Hummel, Fall 2023
+
+***Undergraduate TA*** for CS396: [Intro to Web Development](https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/396-6.html) taught by Sarah Van Wart, Spring 2022
+
+***Project Manager*** for Institute of Electrical and Electronics Engineers, 2022
+
+## Other Projects
+
+<img src="/frank_yang/assets/img/quadrotor.jpg" width="35%" align="left" style="margin: 0rem 2rem 2rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">Quadrotor Design and Control</h3>
+_(Mar 2024 - Jun 2024)_
+
+Source: [Code](https://github.com/yyf20001230/CS410) 
+<br clear="right">Developed a WiFi-enabled quadrotor using Raspberry Pi and IMU; implemented PID control, safety measures, and joystick interfacing in C that allows stable manual flight control; integrated Vive Lighthouse with IR sensors to enable autonomous flight control with precise 3D positioning
+
+<img src="/frank_yang/assets/img/reminiscia.jpg" width="35%" align="left" style="margin: 0rem 2rem 1rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">Reminiscia</h3>
+_(Dec 2022 - May 2023)_
+
+Source: [Code](https://github.com/yyf20001230/reminiscia) 
+<br clear="right">Implemented a multimodal text-to-image search application using pretrained vision-language models; employed Vision and CoreML to allow calculations of cosine similarity between text and image embeddings; distilled original 224MB CLIP model into an 85MB, 6-layer image encoder to improve inference speed
+<br>
+<br>
+<br>
+
+
+<img src="/frank_yang/assets/img/lie.jpg" width="35%" align="left" style="margin: 0rem 2rem 5rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">Transformer-based Lie Detection</h3>
+_(Feb 2022 - Jan 2023)_
+
+Advised by: [Zach Wood Woughty](https://zachwd.com/)
+<br clear="right">Source: [Code](https://github.com/yyf20001230/Lie_Detection)
+<br clear="right">Conceptualized a vision-based transformer that detects lies from multimodal inputs with PyTorch; trained a transformer encoder from fine-tuning Inceptionv3; pinpointed 20 micro-gestures and facial AUs that most contribute to lying; resulted an out-of-sample lying classification of 76%
+
+
+<!-- <img src="/frank_yang/assets/img/matcha.jpg" width="35%" align="left" style="margin: 2rem 2rem 4rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">MatchaNU</h3>
+_(Jun 2021 - Feb 2022)_
+
+Launched a IOS application to assist Northwestern students with course planning and building navigation
+<br>Integrated Google Geocoding API to generate building name from scrapped catalog into geocoordinates
+<br>Integrated UIKit with LocationManager in SwiftUI to track location and provide to classrooms navigation
+<br> Used by over 1000 Northwestern undergraduates every quarter; making updates from quarterly testing
+
+<br clear="right" style="margin: 1rem 0rem 2rem">[Code](https://github.com/yyf20001230/matchaNU)
+<br>
+<br> -->
+
+<!-- <img src="/frank_yang/assets/img/lightfield.jpg" width="35%" align="left" style="margin: 2rem 2rem 6rem 0rem"/>
+
+<h3 style="margin: 0rem 0rem 1rem">Single-Len Lightfield imaging</h3>
+_(Jul 2021 - Feb 2022)_
+
+Introduced an alternative to a light-field camera that synthesizes camera focus point after a video is taken
+<br>Researched capturing the light-field from a camera with known parameter with OpenCV
+<br>Tested with mirrorless-cam experiments and decreased the functional cost of a light-field camera by 3000%
+
+<br clear="right" style="margin: 1rem 0rem 2rem">[Code](https://github.com/yyf20001230/LightField)
+<br> -->
+
+## Work Experiences
+
+***Software Engineer Intern @ [Target](https://www.target.com)*** _(June 2023 - Aug 2023)_
+
+Developed a Golang application within a Vela CI/CD pipeline to enforce security and compliance standards
+<br>Integrated Postgres with RestAPI for build lifecycle and versioning information retrieval and storage
+
+***Lead Tech Engineer @ [Skuy](https://www.skuy.app/)*** _(Apr 2022 - Jun 2024)_
+
+Built a college community network app startup, amassed 1000+ users on both the App Store and Google Play
+<br>Led a 2-months database migration from Heroku to Firebase for service growth and stability
+<br>Configured CI/CD pipeline on Expo for IOS Pod and Android Gradle builds
+
+***Software Development Engineering Intern @ [Amazon](https://www.amazon.com/)*** _(Jun 2022 - Sep 2022)_
+
+Implemented a Sagemaker site that provides benchmarked health & architecture evaluations for ML models
+<br>Presented a demo to Sagemaker engineers; received candidacy to beta-launch model cards on AWS Re:Invent
+
+## Skills
+
+***Languages***: Python, Go, TypeScript, SwiftUI, HTML/CSS/JavaScript, C++
+<br>***Robotic Learning***: ROS2, Torch, CUDA, TensorFlow, OpenCV
+<br>***Web/Mobile Development***: React, React Native, Flask, Redux, Node, ESLint, Cypress
+<br>***DevOps***: RestAPI, AWS, Firebase, Heroku, Elastic Beanstalk, Git, Vela, Docker, MySQL, PostgresSQL
+
+## Cimematography
+
+<img src="/frank_yang/assets/img/photography.png" width="40%" align="left" style="margin:2rem 4rem 5rem 0rem"/>
+
+<br clear="right"> Outside of school, I am a freelance photographer taking landscape, portrait, and graduation photos. In my creative endeavor, I am a cinematographer working on film projects such as Applause For A Cause and TEDx. I am committed to creating cinematic lighting and true-story shots that evokes emotion. Check out my [portfolio](https://sashimiphotos.com) for my fun side!
+
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=http%3A%2F%2Ffrankyang.me&count_bg=%23FFA148&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
+
+[CV]: https://drive.google.com/file/d/1lxpvsV7zgDOGkaYI4jsujNtcj7tX1Utx/view?usp=sharing
+[blog]: https://hydejack.com/blog/
+[portfolio]: https://hydejack.com/projects/
+[resume]: https://hydejack.com/resume/
+[download]: https://hydejack.com/download/
+[welcome]: https://hydejack.com/
+[forms]: https://hydejack.com/forms-by-example/
+
+[features]: https://hydejack.com/#features
+[news]: https://hydejack.com/#build-an-audience
+[syntax]: https://hydejack.com/#syntax-highlighting
+[latex]: https://hydejack.com/#beautiful-math
+[dark]: https://hydejack.com/blog/hydejack/2018-09-01-introducing-dark-mode/
+[search]: https://hydejack.com/#_search-input
+[grid]: https://hydejack.com/blog/hydejack/
+
+[lic]: LICENSE.md
+[pro]: licenses/PRO.md
+[docs]: https://hydejack.com/docs/
+[ofln]: https://hydejack.com/docs/advanced/#enabling-offline-support
+[math]: https://hydejack.com/docs/writing/#adding-math
+
+[kit]: https://github.com/hydecorp/hydejack-starter-kit/releases
+[src]: https://github.com/hydecorp/hydejack
+[gem]: https://rubygems.org/gems/jekyll-theme-hydejack
+[buy]: https://gum.co/nuOluY
+[nfy]: https://app.netlify.com/start/deploy?repository=https://github.com/hydecorp/hydejack-starter-kit
+[dtn]: https://www.netlify.com/img/deploy/button.svg
+
+[gpss]: https://developers.google.com/speed/pagespeed/insights/?url=https://hydejack.com/
+[hy-push-state]: https://hydecorp.github.io/hy-push-state/
+[hy-drawer]: https://hydecorp.github.io/hy-drawer/
+[rouge]: http://rouge.jneen.net
+[katex]: https://khan.github.io/KaTeX/
+[mathjax]: https://www.mathjax.org/
+[tinyletter]: https://tinyletter.com/
