@@ -62,7 +62,7 @@ Advised by: [Prof. Qi Zhu](http://users.eecs.northwestern.edu/~qzhu/)
 
 <img src="img" width="35%" align="left" style="margin: 2rem 2rem 5rem 0rem"/>
 
-<h3 style="margin: 0rem 0rem 1rem">Efficient Encoding of Graphics Primitives with Simplex-based Structures</h3>
+<h3 style="margin: 0rem 0rem 1rem">Fairness in Multi-Agent Task Allocation</h3>
 
 Advised by: [Prof. Bhaskar Krishmanachari](http://users.ece.northwestern.edu/~yingwu/)
 <br clear="right">Source: [Paper](./frank_yang/assets/pdf/Encoding.pdf)
@@ -71,7 +71,7 @@ Advised by: [Prof. Bhaskar Krishmanachari](http://users.ece.northwestern.edu/~yi
 
 <img src="img" width="35%" align="left" style="margin: 2rem 2rem 5rem 0rem"/>
 
-<h3 style="margin: 0rem 0rem 1rem">Efficient Encoding of Graphics Primitives with Simplex-based Structures</h3>
+<h3 style="margin: 0rem 0rem 1rem">Arrow-Debreu Equilibrium: Adaptive Online Stochastic Optimization:</h3>
 
 Advised by: [Prof. Yinyu Ye](https://stanford.edu/~yyye/)
 <br clear="right">Source: [Paper]()
