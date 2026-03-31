@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xiangyu Shi's Academic Homepage"
+title                    : "Justin Liu's Academic Homepage"
 description              : ""
 repository               : "JasonShiii/JasonShiii.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,13 +21,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Xiangyu Shi"
+  name             : "Justin Liu"
   avatar           : "images/Autograph.png"
   bio              : "Ph.D. in EECS at UC Berkeley; AI and Robotics Researcher"
-  location         : "Evanston, IL, USA"
+  location         : "Los Angeles, CA, USA"
   employer         : # "Northwestern University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=e2tIBXkAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=94K23cEAAAAJ&hl=en"
   email            : "xiangyushi2029@u.northwestern.edu"
   cv               : "/Justin_Yao_Liu_CV.pdf"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
@@ -52,7 +52,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "ShiXiangyu2024"
+  twitter          :
   vine             :
   weibo            :
   xing             :

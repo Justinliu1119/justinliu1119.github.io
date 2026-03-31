@@ -103,44 +103,11 @@ We develop a multi-agent reinforcement learning framework grounded in the Eisenb
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Research Project</div>
-      <img src='images/Arrow_Debreu.png' alt="Arrow-Debreu adaptive online stochastic optimization" width="100%">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-**Arrow-Debreu Equilibrium: Adaptive Online Stochastic Optimization**
-
-Develop an adaptive online decision-making framework for Arrow–Debreu Competitive Equilibrium with incomplete agent information. Extend the Eisenberg–Gale (EG) program to the online setting using two update rules: Certainty-Equivalent (CE) to compute prices/allocations from current estimated demand, and Sample-Average Approximation (SAA) to refine prices from mini-batches of recent arrival.
-
-  </div>
-</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Research Project</div>
-      <img src='images/Arrow_Debreu.png' alt="Arrow-Debreu adaptive online stochastic optimization" width="100%">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-**Arrow-Debreu Equilibrium: Adaptive Online Stochastic Optimization**
-
-Develop an adaptive online decision-making framework for Arrow–Debreu Competitive Equilibrium with incomplete agent information. Extend the Eisenberg–Gale (EG) program to the online setting using two update rules: Certainty-Equivalent (CE) to compute prices/allocations from current estimated demand, and Sample-Average Approximation (SAA) to refine prices from mini-batches of recent arrival.
-
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Research Project</div>
+      <div class="badge">GLVISI 2025</div>
       <img src="{{ site.baseurl }}/images/ML_Inference.png" alt="Distributed inference framework for IoT systems" style="width:100%; height:auto; display:block;" />
       <img src="{{ site.baseurl }}/images/ML_Inference_2.png" alt="Distributed inference additional figure" style="width:100%; height:auto; display:block; margin-top: 0.5rem;" />
     </div>
@@ -158,7 +125,7 @@ We designed a redundancy-driven scheme for distributed inference that scrambles 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Research Project</div>
+      <div class="badge">IEEE SiPS 2024</div>
       <img src='images/Pedestrian_Detection.png' alt="Synthetic dataset analysis for pedestrian detection" width="100%">
     </div>
   </div>
@@ -171,7 +138,42 @@ We developed a pipeline for pedestrian detection across shutter types. We built 
 
   </div>
 </div>
-  
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Research Project</div>
+      <img src="{{ site.baseurl }}/images/Kalman_Filter.png" style="width:100%; height:auto; max-height: 500px;" />
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+
+**Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering**
+
+We introduce a model-based navigation/search pipeline for submersibles under communication loss. We fuse multi-buoy TDoA with an (E)KF to denoise and predict state, tuning process/measurement noise via residual statistics. Beacon outages are handled via gating and covariance inflation; uncertainty ellipsoids guide planning. Filtered tracks form a maximum-likelihood search heatmap to prioritize regions and return paths. In simulation, we achieve meter-level accuracy (MAE CDF <= 4 m) and robust tracking during dropouts.
+  </div>
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Research Project</div>
+      <img src='images/Arrow_Debreu.png' alt="Arrow-Debreu adaptive online stochastic optimization" width="100%">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+
+**Arrow-Debreu Equilibrium: Adaptive Online Stochastic Optimization**
+
+Develop an adaptive online decision-making framework for Arrow–Debreu Competitive Equilibrium with incomplete agent information. Extend the Eisenberg–Gale (EG) program to the online setting using two update rules: Certainty-Equivalent (CE) to compute prices/allocations from current estimated demand, and Sample-Average Approximation (SAA) to refine prices from mini-batches of recent arrival.
+
+  </div>
+</div>
+
 ## Selected Recognition
 
 <hr class="recognition-divider" />

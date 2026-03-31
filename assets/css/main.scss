@@ -107,3 +107,49 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.page__header {
+    margin-bottom: 2rem;
+}
+
+.page__header .page__title {
+    margin-bottom: 0.4rem;
+}
+
+.page__header .page__lead {
+    margin-bottom: 0;
+    color: #5a6673;
+}
+
+.publication-list {
+    margin: 0 0 2rem;
+}
+
+.publication-item {
+    padding: 1.1rem 0;
+    border-bottom: 1px solid #e6e8eb;
+}
+
+.publication-item:first-child {
+    padding-top: 0.25rem;
+}
+
+.publication-authors,
+.publication-title,
+.publication-venue,
+.publication-links {
+    margin-bottom: 0.35rem;
+}
+
+.publication-title {
+    font-weight: 700;
+}
+
+.publication-venue {
+    color: #5a6673;
+    font-style: italic;
+}
+
+.publication-links {
+    margin-bottom: 0;
+}
