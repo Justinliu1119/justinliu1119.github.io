@@ -11,7 +11,7 @@ excerpt: "Selected papers and manuscripts in multi-agent systems, cyber-physical
 
 Simon Zhan<sup>\*</sup>, Philip Wang<sup>\*</sup>, <u>Yao Liu</u><sup>\*</sup>, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Kangrui Wang, Huajie Shao, Manling Li, and Qi Zhu.  
 **"SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents."** *Under review*.  
-[[Paper](https://arxiv.org/abs/2510.12985)]F
+[[Paper](https://arxiv.org/abs/2510.12985)]
 
 <ins>Yao Liu</ins>, Sampad Mohanty, Elizabeth Ondula, and Bhaskar Krishnamachari.  
 **"DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents."** *arXiv preprint arXiv:2511.17915*.  

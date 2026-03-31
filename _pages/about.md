@@ -50,7 +50,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:115%; max-width:506px;">
+      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:106%; max-width:466px;">
     </div>
   </div>
 
@@ -158,7 +158,7 @@ We developed a pipeline for pedestrian detection across shutter types. We built 
 **Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering**
 
 We introduce a model-based navigation/search pipeline for submersibles under communication loss. We fuse multi-buoy TDoA with an (E)KF to denoise and predict state, tuning process/measurement noise via residual statistics. Beacon outages are handled via gating and covariance inflation; uncertainty ellipsoids guide planning. Filtered tracks form a maximum-likelihood search heatmap to prioritize regions and return paths. In simulation, we achieve meter-level accuracy (MAE CDF <= 4 m) and robust tracking during dropouts.
-[https://arxiv.org/abs/2603.27422]
+[Paper](https://arxiv.org/abs/2603.27422)
   </div>
 </div>
 
@@ -166,7 +166,7 @@ We introduce a model-based navigation/search pipeline for submersibles under com
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:115%; max-width:506px;">
+      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:106%; max-width:466px;">
     </div>
   </div>
 
@@ -182,8 +182,6 @@ Develop an adaptive online decision-making framework for Arrow–Debreu Competit
 
 
 ## Selected Recognition
-
-<hr class="recognition-divider" />
 
 <ul class="recognition-list">
   <li><span class="recognition-title">Discover Scholar Distinction</span>, USC (Spring 2025)</li>
@@ -209,7 +207,6 @@ Held office hours; graded homework, labs, and quizzes.
 ## Work Experiences
 
 ***Software Engineer Intern @ [Tsinghua University MetaCam Lab](https://www.metacam.tech/)*** _(June 2023 - Aug 2023)_
-
 Implement a spatial-adaptive CNN to correct optical aberrations by learning and removing point spread functions (PSFs) across the image field. Build a synthetic training pipeline with ray-tracing and PSF superposition to generate PSF-convolved images, then fine-tune the network with PSF-based augmentations to handle spatially variant blur and chromatic dispersion. Deliver a production-ready model that improves restoration quality by +1.7% over state-of-the-art baselines.
 
 ## Skills
