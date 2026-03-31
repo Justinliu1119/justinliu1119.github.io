@@ -1,8 +1,6 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
-
 /*
  *    Minimal Mistakes Jekyll Theme
  *
@@ -121,39 +119,6 @@ h1:before, .anchor:before {
 .page__header .page__lead {
     margin-bottom: 0;
     color: #5a6673;
-}
-
-.publication-list {
-    margin: 0 0 2rem;
-}
-
-.publication-item {
-    padding: 1.1rem 0;
-    border-bottom: 1px solid #e6e8eb;
-}
-
-.publication-item:first-child {
-    padding-top: 0.25rem;
-}
-
-.publication-authors,
-.publication-title,
-.publication-venue,
-.publication-links {
-    margin-bottom: 0.35rem;
-}
-
-.publication-title {
-    font-weight: 700;
-}
-
-.publication-venue {
-    color: #5a6673;
-    font-style: italic;
-}
-
-.publication-links {
-    margin-bottom: 0;
 }
 
 .legacy-projects-font,
