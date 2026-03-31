@@ -89,7 +89,7 @@ Developed a diffusion-based module that reconstructs the global system state usi
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" width="100%">
+      <img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" style="width:110%; max-width:110%;">
     </div>
   </div>
 
@@ -149,7 +149,7 @@ We developed a pipeline for pedestrian detection across shutter types. We built 
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Kalman_Filter.png' | relative_url }}" style="width:auto; max-width:100%; max-height:198px;" />
+      <img src="{{ '/images/Kalman_Filter.png' | relative_url }}" style="width:auto; max-width:100%; max-height:218px;" />
     </div>
   </div>
 
