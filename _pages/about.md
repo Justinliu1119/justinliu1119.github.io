@@ -71,7 +71,7 @@ We developed a multi-level safety evaluation framework for embodied LLM agents t
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet Multi-Agent System" width="100%">
+      <img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet Multi-Agent System" style="width:auto; max-width:100%; max-height:220px;">
     </div>
   </div>
 
@@ -110,8 +110,8 @@ We develop a multi-agent reinforcement learning framework grounded in the Eisenb
   <div class='paper-box-image'>
     <div>
       <div class="badge">GLVISI 2025</div>
-      <img src="{{ '/images/ML_Inference.png' | relative_url }}" alt="Distributed inference framework for IoT systems" style="width:100%; height:auto; display:block;" />
-      <img src="{{ '/images/ML_Inference_2.png' | relative_url }}" alt="Distributed inference additional figure" style="width:100%; height:auto; display:block; margin-top: 0.5rem;" />
+      <img src="{{ '/images/ML_Inference.png' | relative_url }}" alt="Distributed inference framework for IoT systems" style="width:auto; max-width:100%; max-height:150px; display:block;" />
+      <img src="{{ '/images/ML_Inference_2.png' | relative_url }}" alt="Distributed inference additional figure" style="width:auto; max-width:100%; max-height:150px; display:block; margin-top: 0.5rem;" />
     </div>
   </div>
 
@@ -145,7 +145,7 @@ We developed a pipeline for pedestrian detection across shutter types. We built 
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Kalman_Filter.png' | relative_url }}" style="width:100%; height:auto; max-height: 500px;" />
+      <img src="{{ '/images/Kalman_Filter.png' | relative_url }}" style="width:auto; max-width:100%; max-height:220px;" />
     </div>
   </div>
 

@@ -12,14 +12,5 @@ main:
   - title: "Other Projects"
     url: "/other-projects/"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "CV"
+    url: "/cv/"
