@@ -14,7 +14,7 @@ excerpt: "Selected non-publication projects and competition work."
   <div class='paper-box-image'>
     <div>
       <div class="badge">Kaggle Project</div>
-      <img src="{{ site.baseurl }}/images/LLM_Fine_Tuning.png" alt="Chatbot Arena Human Preference Prediction" style="width:100%; height:auto; max-height: 500px;" />
+      <img src="{{ '/images/LLM_Fine_Tuning.png' | relative_url }}" alt="Chatbot Arena Human Preference Prediction" style="width:100%; height:auto; max-height: 500px;" />
     </div>
   </div>
 
@@ -32,7 +32,7 @@ We trained Gemma-2-9B and Llama-3.1-8B with 4-bit QLoRA to predict human prefere
   <div class='paper-box-image'>
     <div>
       <div class="badge">Embeded System</div>
-      <img src="{{ site.baseurl }}/images/MCU.png" alt="Autonomous inventory management system" style="width:100%; height:auto; max-height: 500px;" />
+      <img src="{{ '/images/MCU.png' | relative_url }}" alt="Autonomous inventory management system" style="width:100%; height:auto; max-height: 500px;" />
     </div>
   </div>
 

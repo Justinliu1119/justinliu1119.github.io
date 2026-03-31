@@ -8,7 +8,8 @@
 # Site Settings
 title                    : "Justin Liu's Academic Homepage"
 description              : ""
-repository               : "JasonShiii/JasonShiii.github.io"
+url                      : "https://justinliu1119.github.io"
+repository               : "Justinliu1119/justinliu1119.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics

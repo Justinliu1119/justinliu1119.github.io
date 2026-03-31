@@ -5,7 +5,7 @@
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{% if author.avatar contains '://' %}{{ author.avatar }}{% else %}{{ author.avatar | relative_url }}{% endif %}" class="author__avatar" alt="{{ author.name }}">
   </div>
 
   <div class="author__content">
@@ -32,7 +32,7 @@
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
       {% if author.cv %}
-        <li><a href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV</a></li>
+        <li><a href="{% if author.cv contains '://' %}{{ author.cv }}{% else %}{{ author.cv | relative_url }}{% endif %}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>

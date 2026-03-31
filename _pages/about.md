@@ -50,7 +50,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src='images/Sentinel_framework.png' alt="SENTINEL" width="100%">
+      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" width="100%">
     </div>
   </div>
 
@@ -71,7 +71,7 @@ We developed a multi-level safety evaluation framework for embodied LLM agents t
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src='images/QMAS.png' alt="Quiet Multi-Agent System" width="100%">
+      <img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet Multi-Agent System" width="100%">
     </div>
   </div>
 
@@ -89,7 +89,7 @@ Developed a diffusion-based module that reconstructs the global system state usi
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src='images/FAIR_MARL.png' alt="DISPATCH framework" width="100%">
+      <img src="{{ '/images/FAIR_MARL.png' | relative_url }}" alt="DISPATCH framework" width="100%">
     </div>
   </div>
 
@@ -110,8 +110,8 @@ We develop a multi-agent reinforcement learning framework grounded in the Eisenb
   <div class='paper-box-image'>
     <div>
       <div class="badge">GLVISI 2025</div>
-      <img src="{{ site.baseurl }}/images/ML_Inference.png" alt="Distributed inference framework for IoT systems" style="width:100%; height:auto; display:block;" />
-      <img src="{{ site.baseurl }}/images/ML_Inference_2.png" alt="Distributed inference additional figure" style="width:100%; height:auto; display:block; margin-top: 0.5rem;" />
+      <img src="{{ '/images/ML_Inference.png' | relative_url }}" alt="Distributed inference framework for IoT systems" style="width:100%; height:auto; display:block;" />
+      <img src="{{ '/images/ML_Inference_2.png' | relative_url }}" alt="Distributed inference additional figure" style="width:100%; height:auto; display:block; margin-top: 0.5rem;" />
     </div>
   </div>
 
@@ -128,7 +128,7 @@ We designed a redundancy-driven scheme for distributed inference that scrambles 
   <div class='paper-box-image'>
     <div>
       <div class="badge">IEEE SiPS 2024</div>
-      <img src='images/Pedestrian_Detection.png' alt="Synthetic dataset analysis for pedestrian detection" width="100%">
+      <img src="{{ '/images/Pedestrian_Detection.png' | relative_url }}" alt="Synthetic dataset analysis for pedestrian detection" width="100%">
     </div>
   </div>
 
@@ -145,7 +145,7 @@ We developed a pipeline for pedestrian detection across shutter types. We built 
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ site.baseurl }}/images/Kalman_Filter.png" style="width:100%; height:auto; max-height: 500px;" />
+      <img src="{{ '/images/Kalman_Filter.png' | relative_url }}" style="width:100%; height:auto; max-height: 500px;" />
     </div>
   </div>
 
@@ -163,7 +163,7 @@ We introduce a model-based navigation/search pipeline for submersibles under com
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src='images/Arrow_Debreu.png' alt="Arrow-Debreu adaptive online stochastic optimization" width="100%">
+      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" width="100%">
     </div>
   </div>
 
