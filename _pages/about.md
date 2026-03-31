@@ -50,7 +50,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:106%; max-width:466px;">
+      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:auto; max-width:100%; height:209px;">
     </div>
   </div>
 
@@ -89,7 +89,7 @@ Developed a diffusion-based module that reconstructs the global system state usi
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/FAIR_MARL.png' | relative_url }}" alt="DISPATCH framework" width="100%">
+      <img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" width="100%">
     </div>
   </div>
 
@@ -166,7 +166,7 @@ We introduce a model-based navigation/search pipeline for submersibles under com
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:106%; max-width:466px;">
+      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:auto; max-width:100%; height:209px;">
     </div>
   </div>
 
@@ -176,14 +176,13 @@ We introduce a model-based navigation/search pipeline for submersibles under com
 
 Develop an adaptive online decision-making framework for Arrow–Debreu Competitive Equilibrium with incomplete agent information. Extend the Eisenberg–Gale (EG) program to the online setting using two update rules: Certainty-Equivalent (CE) to compute prices/allocations from current estimated demand, and Sample-Average Approximation (SAA) to refine prices from mini-batches of recent arrival.
 
-  </div>
-</div>
 
 
 
 ## Selected Recognition
 
 <ul class="recognition-list">
+  <li><span class="recognition-title">UC Berkeley EECS PhD Fellowship</span>, UC Berkeley (Fall 2026)</li>
   <li><span class="recognition-title">Discover Scholar Distinction</span>, USC (Spring 2025)</li>
   <li><span class="recognition-title">Gold Medalist</span>, Kaggle - Chatbot Arena Human Preference Predictions (Summer 2024)</li>
   <li><span class="recognition-title">Honorable Mention</span>, Mathematical Contest in Modeling (COMAP) (Spring 2024)</li>
