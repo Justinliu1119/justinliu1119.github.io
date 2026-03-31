@@ -44,6 +44,8 @@ My research focuses on decentralized control, stochastic optimization, and uncer
 
 # Projects
 
+<div class='legacy-projects-font' markdown="1">
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -172,6 +174,8 @@ We introduce a model-based navigation/search pipeline for submersibles under com
 Develop an adaptive online decision-making framework for Arrow–Debreu Competitive Equilibrium with incomplete agent information. Extend the Eisenberg–Gale (EG) program to the online setting using two update rules: Certainty-Equivalent (CE) to compute prices/allocations from current estimated demand, and Sample-Average Approximation (SAA) to refine prices from mini-batches of recent arrival.
 
   </div>
+</div>
+
 </div>
 
 ## Selected Recognition

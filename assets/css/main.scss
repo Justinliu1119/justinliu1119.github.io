@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
 /*
  *    Minimal Mistakes Jekyll Theme
  *
@@ -152,4 +154,9 @@ h1:before, .anchor:before {
 
 .publication-links {
     margin-bottom: 0;
+}
+
+.legacy-projects-font,
+.legacy-projects-font * {
+    font-family: $legacy-sans-serif;
 }
