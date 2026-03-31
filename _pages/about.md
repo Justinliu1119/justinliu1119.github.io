@@ -50,7 +50,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:auto; max-width:100%; max-height:215px;">
+      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:105%; max-width:105%;">
     </div>
   </div>
 
@@ -89,7 +89,7 @@ Developed a diffusion-based module that reconstructs the global system state usi
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" style="width:110%; max-width:110%;">
+      <img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" style="width:105%; max-width:105%;">
     </div>
   </div>
 
@@ -167,7 +167,7 @@ We introduce a model-based navigation/search pipeline for submersibles under com
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:auto; max-width:100%; max-height:215px;">
+      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:105%; max-width:105%;">
     </div>
   </div>
 
