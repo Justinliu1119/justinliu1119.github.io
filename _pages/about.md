@@ -52,7 +52,6 @@ My research focuses on decentralized control, stochastic optimization, and uncer
   </div>
 
   <div class='paper-box-text' markdown="1">
-
 **SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents**
 
 We developed a multi-level safety evaluation framework for embodied LLM agents that injects temporal-logic safety constraints into prompts, enabling semantic, plan, and trajectory-level checking; built computation-tree-based verification in VirtualHome and AI2-THOR to reproducibly detect unsafe states, ordering violations, and timed hazards with interpretable counterexamples.
