@@ -8,7 +8,8 @@ excerpt: "Selected papers and manuscripts in multi-agent systems, cyber-physical
 
 *`*` indicates equal contribution. `†` indicates alphabetical order.*
 
-Simon Zhan<sup>&ast;</sup>, <ins>Yao Liu</ins><sup>&ast;</sup>, Philip Wang<sup>&ast;</sup>, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Kangrui Wang, Huajie Shao, Manling Li, and Qi Zhu.  
+
+Simon Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <u>Yao Liu</u><sup>*</sup>, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Kangrui Wang, Huajie Shao, Manling Li, and Qi Zhu.  
 **"SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents."** *Under review*.  
 [[Paper](https://arxiv.org/abs/2510.12985)]
 
