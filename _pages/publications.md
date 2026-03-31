@@ -8,7 +8,7 @@ excerpt: "Selected papers and manuscripts in multi-agent systems, cyber-physical
 
 *`*` indicates equal contribution. `†` indicates alphabetical order.*
 
-Simon Zhan<sup>*</sup>, <ins>Yao Liu</ins><sup>*</sup>, Philip Wang<sup>*</sup>, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Kangrui Wang, Huajie Shao, Manling Li, and Qi Zhu.  
+Simon Zhan<sup>&ast;</sup>, <ins>Yao Liu</ins><sup>&ast;</sup>, Philip Wang<sup>&ast;</sup>, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Kangrui Wang, Huajie Shao, Manling Li, and Qi Zhu.  
 **"SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents."** *Under review*.  
 [[Paper](https://arxiv.org/abs/2510.12985)]
 
@@ -31,7 +31,7 @@ Yue Hu, G. Datta, K. Beerel, <ins>Yao Liu</ins>, and Peter Beerel.
 A. Goeckner, A. Ruan, <ins>Yao Liu</ins>, W. Gao, Alessandro Pinto, and Qi Zhu.  
 **"Quiet Multi-Agent System for Task Allocation."** *In preparation*.
 
-C. Chen<sup>†</sup>, <ins>Yao Liu</ins><sup>†</sup>, J. Yang<sup>†</sup>, Z. Yang<sup>†</sup>, and Yinyu Ye.  
+C. Chen<sup>&dagger;</sup>, <ins>Yao Liu</ins><sup>&dagger;</sup>, J. Yang<sup>&dagger;</sup>, Z. Yang<sup>&dagger;</sup>, and Yinyu Ye.  
 **"Adaptive Online Arrow-Debreu Markets."** *In preparation*.
 
 <ins>Yao Liu</ins>, Bryan Shaddy, Assad Oberai, and Peter Beerel.  

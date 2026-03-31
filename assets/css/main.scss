@@ -125,3 +125,13 @@ h1:before, .anchor:before {
 .legacy-projects-font * {
     font-family: $legacy-sans-serif;
 }
+
+.legacy-projects-font .paper-box-text,
+.legacy-projects-font .paper-box-text p,
+.legacy-projects-font .paper-box-text li,
+.legacy-projects-font .paper-box-text a,
+.legacy-projects-font .paper-box-text strong {
+    font-family: $legacy-sans-serif;
+    font-size: 16px;
+    line-height: 1.45;
+}
