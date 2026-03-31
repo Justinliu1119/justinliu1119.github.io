@@ -1,37 +1,52 @@
 ---
-permalink: /publications/
+layout: single
 title: "Publications"
+permalink: /publications/
 author_profile: true
 ---
 
-# Publications
+<p><em>(* indicates equal contribution; <sup>&dagger;</sup> indicates alphabetical order.)</em></p>
 
-(* indicates equal contribution; † indicates alphabetical order.)
+<p>
+  <u>Yao Liu</u>, Sampad Mohanty, Elizabeth Ondula, and Bhaskar Krishnamachari.<br>
+  <strong>"DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents."</strong> <em>arXiv preprint arXiv:2511.17915.</em><br>
+  [<a href="https://arxiv.org/abs/2511.17915">Paper</a>]
+</p>
 
-Yao Liu, Sampad Mohanty, Elizabeth Ondula, and Bhaskar Krishnamachari.  
-**"DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents."** *arXiv preprint arXiv:2511.17915.*  
-[Paper](https://arxiv.org/pdf/2511.17915)
+<p>
+  Simon Zhan<sup>*</sup>, <u>Yao Liu</u><sup>*</sup>, Philip Wang<sup>*</sup>, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Kangrui Wang, Huajie Shao, Manling Li, and Qi Zhu.<br>
+  <strong>"SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents."</strong> <em>Under review.</em><br>
+  [<a href="https://arxiv.org/abs/2510.12985">Paper</a>]
+</p>
 
-Simon Zhan\*, Yao Liu\*, Philip Wang\*, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Kangrui Wang, Huajie Shao, Manling Li, and Qi Zhu.  
-**"SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents."** *Under review.*  
-[Paper](https://arxiv.org/abs/2510.12985)
+<p>
+  Yue Hu, G. Datta, K. Beerel, <u>Yao Liu</u>, and Peter Beerel.<br>
+  <strong>"Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types."</strong> <em>Proceedings of the IEEE Signal Processing Systems  (SiPS), 2024.</em><br>
+  [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Paper</a>]
+</p>
 
-Yue Hu, G. Datta, K. Beerel, Yao Liu, and Peter Beerel.  
-**"Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types."** *Proceedings of the IEEE Signal Processing Systems (SiPS), 2024.*  
-[Paper](https://ieeexplore.ieee.org/xpl/conhome/10768211/proceeding)
+<p>
+  Xuan Zhou, U. Muhan, <u>Yao Liu</u>, and Peter Beerel.<br>
+  <strong>"An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection."</strong> <em>Proceedings of the Great Lakes Symposium on VLSI (GLSVLSI), 2025.</em><br>
+  [<a href="https://dl.acm.org/doi/10.1145/3716368.3735230">Paper</a>]
+</p>
 
-Xuan Zhou, U. Muhan, Yao Liu, and Peter Beerel.  
-**"An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection."** *Proceedings of the Great Lakes Symposium on VLSI (GLSVLSI), 2025.*  
-[Paper](https://dl.acm.org/doi/10.1145/3716368.3735230)
+<p>
+  A. Goeckner, A. Ruan, <u>Yao Liu</u>, W. Gao, Alessandro Pinto, and Qi Zhu.<br>
+  <strong>"Quiet Multi-Agent System for Task Allocation."</strong> <em>In preparation.</em>
+</p>
 
-A. Goeckner, A. Ruan, Yao Liu, W. Gao, Alessandro Pinto, and Qi Zhu.  
-**"Quiet Multi-Agent System for Task Allocation."** *In preparation.*
+<p>
+  Zizhan Tang<sup>*</sup>, <u>Yao Liu</u><sup>*</sup>, and Jiexli Liu.<br>
+  <strong>"Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering."</strong> <em>Submitted to IEEE Intelligent Vehicles Symposium (IV), 2026.</em>
+</p>
 
-Zizhan Tang\*, Yao Liu\*, and Jiexli Liu.  
-**"Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering."** *Submitted to IEEE Intelligent Vehicles Symposium (IV), 2026.*
+<p>
+  C. Chen<sup>&dagger;</sup>, <u>Yao Liu</u><sup>&dagger;</sup>, J. Yang<sup>&dagger;</sup>, Z. Yang<sup>&dagger;</sup>, and Yinyu Ye.<br>
+  <strong>"Adaptive Online Arrow-Debreu Markets."</strong> <em>In preparation.</em>
+</p>
 
-C. Chen†, Yao Liu†, J. Yang†, Z. Yang†, and Yinyu Ye.  
-**"Adaptive Online Arrow-Debreu Markets."** *In preparation.*
-
-Yao Liu, Bryan Shaddy, Assad Oberai, and Peter Beerel.  
-**"Visualization of Wildfire Spread and Smoke Using Unreal Engine."** *In preparation.*
+<p>
+  <u>Yao Liu</u>, Bryan Shaddy, Assad Oberai, and Peter Beerel.<br>
+  <strong>"Visualization of Wildfire Spread and Smoke Using Unreal Engine."</strong> <em>In preparation.</em>
+</p>
