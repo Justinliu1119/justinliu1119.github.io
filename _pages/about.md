@@ -155,8 +155,6 @@ We developed a pipeline for pedestrian detection across shutter types. We built 
 
 We introduce a model-based navigation/search pipeline for submersibles under communication loss. We fuse multi-buoy TDoA with an (E)KF to denoise and predict state, tuning process/measurement noise via residual statistics. Beacon outages are handled via gating and covariance inflation; uncertainty ellipsoids guide planning. Filtered tracks form a maximum-likelihood search heatmap to prioritize regions and return paths. In simulation, we achieve meter-level accuracy (MAE CDF <= 4 m) and robust tracking during dropouts.
   </div>
-
-  </div>
 </div>
 
 <div class='paper-box'>
