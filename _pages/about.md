@@ -50,7 +50,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:auto; max-width:100%; max-height:199px;">
+      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:auto; max-width:100%; max-height:215px;">
     </div>
   </div>
 
@@ -158,6 +158,7 @@ We developed a pipeline for pedestrian detection across shutter types. We built 
 **Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering**
 
 We introduce a model-based navigation/search pipeline for submersibles under communication loss. We fuse multi-buoy TDoA with an Kalman Filter to denoise and predict state, tuning process/measurement noise via residual statistics. Beacon outages are handled via gating and covariance inflation; uncertainty ellipsoids guide planning. Filtered tracks form a maximum-likelihood search heatmap to prioritize regions and return paths. In simulation, we achieve meter-level accuracy (MAE CDF <= 4 m) and robust tracking during dropouts.
+
 [Paper](https://arxiv.org/abs/2603.27422)
   </div>
 </div>
@@ -166,7 +167,7 @@ We introduce a model-based navigation/search pipeline for submersibles under com
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:auto; max-width:100%; max-height:199px;">
+      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:auto; max-width:100%; max-height:215px;">
     </div>
   </div>
 
