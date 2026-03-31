@@ -23,9 +23,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
 
 **Current Focus Areas**
 - **Data-Driven Decision-Making:** Developing online learning algorithms that handle uncertainty with convergence and regret guarantees in multi-agent games.  
-
 - **Generative modeling for dynamics:** Leveraging diffusion models to enable decentralized systems to infer global states from partial and noisy observations, improving coordination under uncertainty.
-
 - **Safety in embodied AI:** Using LLMs for high-level task planning combined with Temporal Logic–based verification to guarantee interpretable, constraint‑compliant behaviors in simulators such as AI2‑THOR and VirtualHome.
 
 
@@ -42,8 +40,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
 - **[June 2023]** - Started as a ML Intern at [Tsinghua MetacamTech Lab](https://www.metacam.tech/)
 
 
-# Projects
-
+## Projects
 <div class='legacy-projects-font' markdown="1">
 
 <div class='paper-box'>
