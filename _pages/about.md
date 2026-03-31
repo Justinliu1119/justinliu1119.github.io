@@ -50,7 +50,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" width="100%">
+      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:115%; max-width:506px;">
     </div>
   </div>
 
@@ -121,6 +121,8 @@ We develop a multi-agent reinforcement learning framework grounded in the Eisenb
 
 We designed a redundancy-driven scheme for distributed inference that scrambles replica timing to foil periodicity-based attacks. Co-develop lightweight detectors for stochastic corruptions reaching 99% confidence with minimal overhead via optimized redundancy. Prove required inferences converge to a tight upper bound even at low redundancy, and show the gap to a centralized-RNG baseline is negligible. Recommend heterogeneous PRNGs with coprime periods to resist pattern learning while keeping compute and bandwidth costs low.
 
+[Paper](https://dl.acm.org/doi/10.1145/3716368.3735230)
+
   </div>
 </div>
 
@@ -138,6 +140,8 @@ We designed a redundancy-driven scheme for distributed inference that scrambles 
 
 We developed a pipeline for pedestrian detection across shutter types. We built a UE5 module to simulate rolling-shutter (RS) distortions from high-FPS global-shutter (GS) video, generating paired GS↔RS frames with precise ground truth. Our validation on real RS scenes shows RS-aware training closes the GS gap and improves performance (+53.1% recall, +30.3% mAP@0.5; +42.4% mAP@0.5–0.95)—without ISP RS-correction.
 
+[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224)
+
   </div>
 </div>
 
@@ -154,6 +158,7 @@ We developed a pipeline for pedestrian detection across shutter types. We built 
 **Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering**
 
 We introduce a model-based navigation/search pipeline for submersibles under communication loss. We fuse multi-buoy TDoA with an (E)KF to denoise and predict state, tuning process/measurement noise via residual statistics. Beacon outages are handled via gating and covariance inflation; uncertainty ellipsoids guide planning. Filtered tracks form a maximum-likelihood search heatmap to prioritize regions and return paths. In simulation, we achieve meter-level accuracy (MAE CDF <= 4 m) and robust tracking during dropouts.
+[https://arxiv.org/abs/2603.27422]
   </div>
 </div>
 
@@ -161,7 +166,7 @@ We introduce a model-based navigation/search pipeline for submersibles under com
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" width="100%">
+      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:115%; max-width:506px;">
     </div>
   </div>
 
