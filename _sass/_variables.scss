@@ -45,28 +45,45 @@ $type-size-8                : 0.625em;  // ~10px
 
 
 /*
-   Colors
+   Colors - Midnight Blue & Terracotta Theme
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+/* Main Brand Colors */
+$primary-color              : #1e3a52;        /* Midnight blue (headings, primary actions) */
+$secondary-color            : #c85a3f;        /* Terracotta (accents, highlights) */
+$tertiary-color             : #2d5573;        /* Medium blue (secondary elements) */
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+/* Supporting Accent Colors */
+$accent-warm                : #e8a846;        /* Golden amber (success states, highlights) */
+$accent-cool                : #5a7d9a;        /* Slate blue (info, links) */
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #224b8d;
-// $info-color                 : #52adc8;
+/* Page Background and Surface Colors */
+$body-color                 : #fdfbf9;        /* Warm off-white background */
+$background-color           : #fdfbf9;
+$surface-color              : #ffffff;        /* Pure white for cards/sections */
+$code-background-color      : #f5f2ed;        /* Warm light beige for code blocks */
+
+/* Text Colors */
+$text-color                 : #2a2622;        /* Warm charcoal (main text) */
+$text-secondary             : #5a524e;        /* Muted brown-gray (secondary text) */
+$text-muted                 : #8a8078;        /* Light gray-brown (captions, dates) */
+
+/* Borders & Dividers */
+$border-color               : #ebe6e0;        /* Warm light gray */
+$border-dark                : #d4cec5;        /* Medium warm gray */
+
+/* Neutral grays (legacy support) */
+$gray                       : #8a8078;        /* Aligned with text-muted */
+$dark-gray                  : #5a524e;        /* Aligned with text-secondary */
+$darker-gray                : #2a2622;        /* Aligned with text-color */
+$light-gray                 : #d4cec5;        /* Aligned with border-dark */
+$lighter-gray               : #ebe6e0;        /* Aligned with border-color */
+
+/* Semantic colors */
+$success-color              : #6b8e6f;        /* Muted sage green */
+$warning-color              : #e8a846;        /* Warm amber */
+$danger-color               : #c85a3f;        /* Terracotta */
+$info-color                 : #5a7d9a;        /* Slate blue */
 
 /* brands */
 $behance-color              : #1769FF;
@@ -92,11 +109,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color                 : $text-secondary;
+$link-color-hover           : $secondary-color;
+$link-color-visited         : $text-secondary;
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : $secondary-color;
 
 
 /*
