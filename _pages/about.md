@@ -50,7 +50,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:auto; max-width:100%; height:209px;">
+      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:auto; max-width:100%; max-height:199px;">
     </div>
   </div>
 
@@ -157,7 +157,7 @@ We developed a pipeline for pedestrian detection across shutter types. We built 
 
 **Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering**
 
-We introduce a model-based navigation/search pipeline for submersibles under communication loss. We fuse multi-buoy TDoA with an (E)KF to denoise and predict state, tuning process/measurement noise via residual statistics. Beacon outages are handled via gating and covariance inflation; uncertainty ellipsoids guide planning. Filtered tracks form a maximum-likelihood search heatmap to prioritize regions and return paths. In simulation, we achieve meter-level accuracy (MAE CDF <= 4 m) and robust tracking during dropouts.
+We introduce a model-based navigation/search pipeline for submersibles under communication loss. We fuse multi-buoy TDoA with an Kalman Filter to denoise and predict state, tuning process/measurement noise via residual statistics. Beacon outages are handled via gating and covariance inflation; uncertainty ellipsoids guide planning. Filtered tracks form a maximum-likelihood search heatmap to prioritize regions and return paths. In simulation, we achieve meter-level accuracy (MAE CDF <= 4 m) and robust tracking during dropouts.
 [Paper](https://arxiv.org/abs/2603.27422)
   </div>
 </div>
@@ -166,7 +166,7 @@ We introduce a model-based navigation/search pipeline for submersibles under com
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
-      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:auto; max-width:100%; height:209px;">
+      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:auto; max-width:100%; max-height:199px;">
     </div>
   </div>
 
@@ -175,7 +175,8 @@ We introduce a model-based navigation/search pipeline for submersibles under com
 **Arrow-Debreu Equilibrium: Adaptive Online Stochastic Optimization**
 
 Develop an adaptive online decision-making framework for Arrow–Debreu Competitive Equilibrium with incomplete agent information. Extend the Eisenberg–Gale (EG) program to the online setting using two update rules: Certainty-Equivalent (CE) to compute prices/allocations from current estimated demand, and Sample-Average Approximation (SAA) to refine prices from mini-batches of recent arrival.
-
+  </div>
+</div>
 
 
 
