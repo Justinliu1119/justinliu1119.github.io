@@ -41,6 +41,7 @@ My research focuses on decentralized control, stochastic optimization, and uncer
 
 
 ## Projects
+<hr>
 <div class='legacy-projects-font' markdown="1">
 
 <div class='paper-box'>
@@ -176,6 +177,7 @@ Develop an adaptive online decision-making framework for Arrow–Debreu Competit
   </div>
 </div>
 
+</div>
 
 
 ## Selected Recognition
