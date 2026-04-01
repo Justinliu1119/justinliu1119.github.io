@@ -75,8 +75,7 @@ We developed a multi-level safety evaluation framework for embodied LLM agents t
 
 **Quiet Multi-Agent System**
 
-Developed a diffusion-based module that reconstructs the global system state using only local observations and limited communication. Integrated with PPO-trained policies, the predicted state enables communication-efficient task allocation for In-Situ Resource Utilization (ISRU) on planetary surfaces. To track confidence, we add epistemic uncertainty estimation using deep ensembles, informing both action and communication decisions.
-
+This research develops multi-agent systems that remain robust to disturbances while intelligently minimizing communication. The development of embodied world models, paired with uncertainty-reducing communication and action co-planning, will improve the robustness of multi-agent systems and reduce the communication required for coordination in partially observable environments, thereby increasing their utility in harsh environments.
   </div>
 </div>
 
