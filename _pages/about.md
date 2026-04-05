@@ -95,7 +95,7 @@ This research develops multi-agent systems that remain robust to disturbances wh
 We develop a multi-agent reinforcement learning framework grounded in the Eisenberg–Gale (EG) competitive equilibrium to ensure fair and efficient agent–goal assignment. Incorporated graph neural networks (GNNs) in the actor–critic architecture for message passing among nearby agents and goals. Extended the framework with an online EG baseline that recomputes assignments from the currently discovered goals, solving the same optimization problem over dynamically revealed partitions.
 
 [Paper](https://arxiv.org/pdf/2511.17915) \| 
-[Code](Coming soon)
+[Code]((https://github.com/NU-IDEAS-Lab/SENTINEL))
 
   </div>
 </div>
