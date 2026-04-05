@@ -209,6 +209,6 @@ Implement a spatial-adaptive CNN to correct optical aberrations by learning and 
 ## Skills
 
 ***Languages***: Python (NumPy, CVXPY, TensorFlow, PyTorch), C/C++, Verilog/HDL, MATLAB, HTML
-<br>***Robotic Learning***: ROS2, AI2-THOR/Alfred, VirtualHome, BEHAVIOR-1K, OpenCV, CUDA, MAPPO, MuJoCo, SLAM, Issac Lab
-<br>***Web/Mobile Development***: Reinforcement Learning, Diffusion Models, Online Learning, SGD, AdaBoost, Transformers
-<br>***DevOps***: Git, Docker, AWS, Firebase, REST APIs, MySQL
+<br>***Robotic Learning***: OpenCV, OpenAI Gymnasium, Alfred, ROS2 VirtualHome, BEHAVIOR-1K, MPE, MuJoCo, NVIDIA Isaac Sim, ROS2
+<br>***Machine Learning:***: Reinforcement Learning, Diffusion Models, Online Learning, SGD, AdaBoost, Transformers
+<br>***DevOps/Tools**: Git, CVXPY, Unity, Unreal Engine, Simulink, Docker, AWS, Firebase, REST APIs, MySQL
