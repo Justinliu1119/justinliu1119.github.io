@@ -58,7 +58,7 @@ We developed a multi-level safety evaluation framework for embodied LLM agents t
 
 [Website](https://nu-ideas-lab.github.io/SENTINEL/) \| 
 [Paper](https://arxiv.org/abs/2510.12985) \| 
-[Code](Coming soon)
+[Code](https://github.com/NU-IDEAS-Lab/SENTINEL)
 
   </div>
 </div>
