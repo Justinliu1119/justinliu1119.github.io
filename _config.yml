@@ -26,9 +26,9 @@ author:
   avatar           : "images/Autograph.png"
   bio              : "Ph.D. in EECS at UC Berkeley; AI and Robotics Researcher"
   location         : "Los Angeles, CA, USA"
-  employer         : # "Northwestern University"
+  employer         : 
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=94K23cEAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=BbvMhlEAAAAJ&hl=en"
   email            : "jliu3548@usc.edu"
   cv               : "/cv/"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
