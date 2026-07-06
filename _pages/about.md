@@ -67,6 +67,8 @@ My research focuses on decentralized control, stochastic optimization, and uncer
 
 We developed a canonicalized visuomotor reinforcement learning framework for functional mug-handle grasping. The method transforms both depth observations and end-effector actions into a shared mug-centric frame, allowing a single closed-loop policy to generalize across mug geometries, placements, and upright or inverted poses. Trained entirely in simulation, AnyMug transfers zero-shot to a real Franka Panda robot, achieving robust handle grasping on unseen physical mugs.
 
+[Paper](https://arxiv.org/pdf/2606.21148)
+
   </div>
 </div>
 
