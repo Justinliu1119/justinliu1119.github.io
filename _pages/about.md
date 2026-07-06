@@ -47,6 +47,33 @@ My research focuses on decentralized control, stochastic optimization, and uncer
   <div class='paper-box-image'>
     <div>
       <div class="badge">Research Project</div>
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        controls
+        preload="metadata"
+        style="width:auto; max-width:100%; max-height:198px; display:block; box-shadow: 3px 3px 6px #888;"
+      >
+        <source src="{{ '/assets/videos/anycat.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+**AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation-Action Canonicalization**
+
+We developed a canonicalized visuomotor reinforcement learning framework for functional mug-handle grasping. The method transforms both depth observations and end-effector actions into a shared mug-centric frame, allowing a single closed-loop policy to generalize across mug geometries, placements, and upright or inverted poses. Trained entirely in simulation, AnyMug transfers zero-shot to a real Franka Panda robot, achieving robust handle grasping on unseen physical mugs.
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Research Project</div>
       <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:105%; max-width:105%;">
     </div>
   </div>
