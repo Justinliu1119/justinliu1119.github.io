@@ -439,8 +439,8 @@ details.pub-authors[open] summary { display: none; }
   pointer-events: none;
 }
 @media (min-width: 48em) {
-  .pub-media.has-caption video { top: 25px; height: calc(100% - 35px); width: calc(100% - 8px); left: 4px; }
-  .pub-media.has-caption .media-caption { left: 18px; }
+  .pub-media.has-caption video { top: 25px; height: calc(100% - 32px); width: calc(100% - 8px); left: 4px; }
+  .pub-media.has-caption .media-caption { left: 17.5px; }
 }
 .pub-media.has-caption { padding-top: 26px; }
 
