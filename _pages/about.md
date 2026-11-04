@@ -73,7 +73,7 @@ I study how robots can use predictive world models to infer what they cannot dir
     <video autoplay loop muted playsinline preload="metadata" poster="{{ '/images/anymug_poster.jpg' | relative_url }}" aria-label="AnyMug grasping demo">
       <source src="{{ '/assets/videos/anymug_2col.mp4' | relative_url }}" type="video/mp4">
     </video>
-    <span class="media-caption">Real-robot rollouts · 4 mugs · 5× speed</span>
+    <span class="media-caption">Real-robot grasps across varied mug poses · 5× speed</span>
   </div>
   <div class="pub-body">
     <p class="pub-title">AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization</p>
