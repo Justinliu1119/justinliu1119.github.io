@@ -378,3 +378,21 @@ details.pub-authors[open] summary { display: none; }
 @media (min-width: 48em) {
   .pub-media { flex: 0 0 270px; width: 270px; }
 }
+
+/* Venue tag for accepted papers: soft navy pill; status text stays plain */
+.pub-meta .pub-venue:not(.status) {
+  display: inline-block;
+  padding: 0.05em 0.6em 0.1em;
+  margin-right: 0.15em;
+  font-size: 0.86em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  color: #1e3a52;
+  background: #e8eef5;
+  border: 1px solid #cfdbe8;
+  border-radius: 4px;
+  vertical-align: 0.05em;
+}
+.pub-meta .pub-venue:not(.status) + .sep { display: none; }
+.pub-meta .pub-venue:not(.status) ~ a { margin-left: 0.2em; }
