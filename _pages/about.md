@@ -71,8 +71,8 @@ I study how robots can use predictive world models to infer what they cannot dir
 <div class="pub" data-href="https://arxiv.org/abs/2606.21148">
   <div class="pub-media has-caption">
     <span class="media-caption">Grasping across varied mug poses</span>
-    <video autoplay loop muted playsinline preload="metadata" poster="{{ '/images/anymug_grid_poster.jpg' | relative_url }}" aria-label="AnyMug grasping demo">
-      <source src="{{ '/assets/videos/anymug_grid.mp4' | relative_url }}" type="video/mp4">
+    <video autoplay loop muted playsinline preload="metadata" poster="{{ '/images/anymug_grasp_poster.jpg' | relative_url }}" aria-label="AnyMug grasping demo">
+      <source src="{{ '/assets/videos/anymug_grasp.mp4' | relative_url }}" type="video/mp4">
     </video>
   </div>
   <div class="pub-body">

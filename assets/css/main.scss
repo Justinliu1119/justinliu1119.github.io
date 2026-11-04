@@ -423,7 +423,7 @@ details.pub-authors[open] summary { display: none; }
 /* Caption line at the top of a figure frame; the media sits below it */
 .pub-media .media-caption {
   position: absolute;
-  top: 6px;
+  top: 3px;
   left: 10px;
   right: 10px;
   z-index: 1;
@@ -431,7 +431,7 @@ details.pub-authors[open] summary { display: none; }
   white-space: nowrap;
   overflow: hidden;
   font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", Georgia, serif;
-  font-size: 0.68em;
+  font-size: 0.62em;
   line-height: 1.3;
   letter-spacing: 0;
   font-weight: 700;
@@ -439,8 +439,8 @@ details.pub-authors[open] summary { display: none; }
   pointer-events: none;
 }
 @media (min-width: 48em) {
-  .pub-media.has-caption video { top: 25px; height: calc(100% - 32px); width: calc(100% - 8px); left: 4px; }
-  .pub-media.has-caption .media-caption { left: 17.5px; }
+  .pub-media.has-caption video { top: 19px; height: calc(100% - 26px); width: calc(100% - 8px); left: 4px; }
+  .pub-media.has-caption .media-caption { left: 10px; }
 }
 .pub-media.has-caption { padding-top: 26px; }
 
@@ -463,3 +463,7 @@ details.pub-authors[open] summary { display: none; }
 .pub-title a, .pub-title a:visited { color: inherit; text-decoration: none; }
 .pub-title a:hover { text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) { .pub, .pub:hover { transition: none; transform: none; } }
+
+/* Site logo in the masthead */
+.site-brand { display: inline-flex; align-items: center; gap: 0.5em; }
+.site-logo { width: 26px; height: 26px; border-radius: 6px; display: block; }
