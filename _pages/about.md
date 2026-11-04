@@ -94,9 +94,8 @@ I approach these questions with tools from optimization, reinforcement learning,
   <div class="pub-body">
     <p class="pub-title">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</p>
     <p class="pub-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
-    <p class="pub-venue"><b>NeurIPS 2026</b></p>
-    <p class="pub-links"><a href="https://arxiv.org/abs/2510.12985">Paper</a> <a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a> <a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a></p>
-    <p class="pub-summary">Safety for embodied LLM agents is usually judged informally. SENTINEL expresses safety requirements in temporal logic and checks them at three levels (semantic interpretation, generated plans, and executed trajectories), using computation-tree-based verification in VirtualHome and AI2-THOR to flag unsafe states, ordering violations, and timed hazards with interpretable counterexamples.</p>
+    <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2510.12985">Paper</a><span class="sep">|</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a><span class="sep">|</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a></p>
+    <p class="pub-summary">SENTINEL specifies safety requirements for embodied LLM agents in temporal logic and checks them at the semantic, plan, and trajectory levels. Verification in VirtualHome and AI2-THOR flags unsafe states, ordering violations, and timed hazards with interpretable counterexamples.</p>
   </div>
 </div>
 
@@ -105,9 +104,8 @@ I approach these questions with tools from optimization, reinforcement learning,
   <div class="pub-body">
     <p class="pub-title">An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection</p>
     <p class="pub-authors">Xuan Zhou, U. Muhan, <strong>Yao Liu</strong>, Peter Beerel</p>
-    <p class="pub-venue"><b>GLSVLSI 2025</b></p>
-    <p class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3716368.3735230">Paper</a></p>
-    <p class="pub-summary">Detecting Byzantine faults in distributed ML inference without full replication. A partial-redundancy scheme randomizes which inferences are replicated; we derive closed-form bounds on the number of inferences needed for 99% detection confidence at 2–5% redundancy and show a negligible gap between independent and centralized RNG schedulers, validated on GPT-2.</p>
+    <p class="pub-meta"><span class="pub-venue">GLSVLSI 2025</span><span class="sep">|</span><a href="https://dl.acm.org/doi/10.1145/3716368.3735230">Paper</a></p>
+    <p class="pub-summary">A partial-redundancy scheme for detecting Byzantine faults in distributed ML inference. We derive bounds on the inferences needed for 99% detection confidence at 2–5% redundancy, validated on GPT-2.</p>
   </div>
 </div>
 
@@ -116,9 +114,8 @@ I approach these questions with tools from optimization, reinforcement learning,
   <div class="pub-body">
     <p class="pub-title">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</p>
     <p class="pub-authors">Yue Hu, G. Datta, K. Beerel, <strong>Yao Liu</strong>, Peter Beerel</p>
-    <p class="pub-venue"><b>IEEE SiPS 2024</b></p>
-    <p class="pub-links"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Paper</a></p>
-    <p class="pub-summary">Rolling-shutter distortion degrades detectors trained on global-shutter data. An Unreal Engine 5 module synthesizes paired global/rolling-shutter frames with exact ground truth; on real rolling-shutter scenes, rolling-shutter-aware training improves recall by 53.1% and mAP@0.5 by 30.3% without ISP correction.</p>
+    <p class="pub-meta"><span class="pub-venue">IEEE SiPS 2024</span><span class="sep">|</span><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Paper</a></p>
+    <p class="pub-summary">An Unreal Engine 5 pipeline synthesizes paired global- and rolling-shutter frames with exact ground truth. Rolling-shutter-aware training improves recall by 53.1% on real rolling-shutter scenes.</p>
   </div>
 </div>
 
@@ -131,11 +128,10 @@ I approach these questions with tools from optimization, reinforcement learning,
     </video>
   </div>
   <div class="pub-body">
-    <p class="pub-title">Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization (AnyMug)</p>
+    <p class="pub-title">AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization</p>
     <p class="pub-authors">Le Qiu, Cole Harrison, Jiankai Sun, <strong>Yao Liu</strong>, Suning Huang, Qianzhong Chen, Yang You, Marco Pavone</p>
-    <p class="pub-venue">arXiv preprint, 2026</p>
-    <p class="pub-links"><a href="https://arxiv.org/abs/2606.21148">Paper</a></p>
-    <p class="pub-summary">Grasping a mug by its handle requires a policy that works across shapes, placements, and orientations. AnyMug maps depth observations and end-effector actions into a shared mug-centric frame so a single closed-loop PPO policy covers upright and inverted poses; trained only in simulation, it reaches 80% zero-shot success on unseen real mugs with a Franka Panda.</p>
+    <p class="pub-meta"><span class="pub-venue status">arXiv preprint, 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2606.21148">Paper</a></p>
+    <p class="pub-summary">A single closed-loop policy grasps mugs by the handle across shapes and poses by canonicalizing observations and actions in a mug-centric frame. Trained only in simulation, it transfers zero-shot to a real Franka Panda.</p>
   </div>
 </div>
 
@@ -144,9 +140,8 @@ I approach these questions with tools from optimization, reinforcement learning,
   <div class="pub-body">
     <p class="pub-title">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</p>
     <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
-    <p class="pub-venue">Submitted to <b>AAMAS 2027</b></p>
-    <p class="pub-links"><a href="https://arxiv.org/abs/2511.17915">Paper</a> <a href="https://github.com/Justinliu1119/EG_MARL">Code</a></p>
-    <p class="pub-summary">Heterogeneous agents discovering tasks under partial observability must split work both efficiently and fairly. DISPATCH trains decentralized policies toward Eisenberg–Gale equilibrium assignments, using attention-based GNN message passing among nearby agents and goals, and compares against an online Eisenberg–Gale baseline that re-solves the assignment as goals are revealed.</p>
+    <p class="pub-meta"><span class="pub-venue status">Submitted to AAMAS 2027</span><span class="sep">|</span><a href="https://arxiv.org/abs/2511.17915">Paper</a><span class="sep">|</span><a href="https://github.com/Justinliu1119/EG_MARL">Code</a></p>
+    <p class="pub-summary">Decentralized policies for fair and efficient task assignment among heterogeneous agents under partial observability, learned toward Eisenberg–Gale equilibrium allocations with attention-based GNN message passing.</p>
   </div>
 </div>
 
@@ -155,8 +150,8 @@ I approach these questions with tools from optimization, reinforcement learning,
   <div class="pub-body">
     <p class="pub-title">Quiet Multi-Agent Systems via Predictive World Modeling and Selective Communications</p>
     <p class="pub-authors">Anthony Goeckner, Weihe Gao, <strong>Yao Liu</strong>, Alessandro Pinto, Qi Zhu</p>
-    <p class="pub-venue">In submission</p>
-    <p class="pub-summary">Reducing how much robots must talk to coordinate. A conditional diffusion model infers global state from local views; its predictive uncertainty decides when communication is needed, and the predictions guide MARL policies for heterogeneous robots on resource exploration, extraction, and transport tasks modeled on NASA's ISRU challenge.</p>
+    <p class="pub-meta"><span class="pub-venue status">In submission</span></p>
+    <p class="pub-summary">A conditional diffusion model infers global state from local views, and its uncertainty decides when robots need to communicate. The predictions guide MARL policies on NASA ISRU-style exploration and transport tasks.</p>
   </div>
 </div>
 
@@ -165,9 +160,8 @@ I approach these questions with tools from optimization, reinforcement learning,
   <div class="pub-body">
     <p class="pub-title">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</p>
     <p class="pub-authors">Zizhan Tang<sup>*</sup>, <strong>Yao Liu</strong><sup>*</sup>, Jiexi Liu</p>
-    <p class="pub-venue">Submitted to <b>IEEE IV 2026</b></p>
-    <p class="pub-links"><a href="https://arxiv.org/abs/2603.27422">Paper</a></p>
-    <p class="pub-summary">Locating a submersible after communication loss. Multi-buoy TDoA measurements are fused with a Kalman filter whose noise parameters are tuned from residual statistics; beacon outages are handled by gating and covariance inflation, and filtered tracks produce a likelihood heatmap for search. In simulation the pipeline achieves meter-level accuracy (MAE ≤ 4 m) and stays stable through dropouts.</p>
+    <p class="pub-meta"><span class="pub-venue status">Submitted to IEEE IV 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2603.27422">Paper</a></p>
+    <p class="pub-summary">Multi-buoy TDoA measurements are fused with an adaptively tuned Kalman filter to track a submersible through communication loss. Filtered tracks yield a search heatmap, with meter-level accuracy in simulation.</p>
   </div>
 </div>
 
@@ -178,8 +172,8 @@ I approach these questions with tools from optimization, reinforcement learning,
   <div class="pub-body">
     <p class="pub-title">Adaptive Online Pricing for Arrow–Debreu Markets</p>
     <p class="pub-authors">C. Chen<sup>†</sup>, <strong>Yao Liu</strong><sup>†</sup>, J. Yang<sup>†</sup>, Z. Yang<sup>†</sup>, Yinyu Ye</p>
-    <p class="pub-venue">In preparation</p>
-    <p class="pub-summary">Computing competitive-equilibrium prices when agents arrive sequentially with incomplete information. We extend the Eisenberg–Gale program online with certainty-equivalent and sample-average-approximation updates, and establish <i>O</i>(log <i>n</i>) regret with <i>O</i>(1) constraint violation.</p>
+    <p class="pub-meta"><span class="pub-venue status">In preparation</span></p>
+    <p class="pub-summary">Online algorithms that compute Arrow–Debreu equilibrium prices as agents arrive with incomplete information, with <i>O</i>(log <i>n</i>) regret and <i>O</i>(1) constraint violation.</p>
   </div>
 </div>
 

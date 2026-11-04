@@ -310,18 +310,25 @@ $pub-rule: #e6e8eb;
   }
 }
 
-/* Figure column matches the height of the text column on desktop */
+/* Publication entries modeled on a fixed 16:9 media frame, top-aligned with compact text */
 @include breakpoint($medium) {
-  .pub { align-items: stretch; }
+  .pub { align-items: flex-start; gap: 1.4em; }
   .pub-media {
-    width: 240px;
-    max-width: 240px;
-    aspect-ratio: auto;
-    align-self: stretch;
-    min-height: 150px;
-    padding: 6px;
+    width: 32%;
+    max-width: 260px;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 8px;
     background: #fff;
+    margin-top: 0.2em;
   }
-  .pub-media img, .pub-media video { width: 100%; height: 100%; object-fit: contain; }
-  .pub-body { display: flex; flex-direction: column; justify-content: center; }
+  .pub-media img, .pub-media video { width: 100%; height: 100%; object-fit: contain; border-radius: 7px; }
 }
+.pub-body p.pub-meta { margin-bottom: 0.2em; }
+.pub-meta .pub-venue { font-style: normal; font-weight: 600; color: $text-color; }
+.pub-meta .pub-venue.status { font-weight: 400; font-style: italic; color: $pub-muted; }
+.pub-meta a { text-decoration: none; }
+.pub-meta a:hover { text-decoration: underline; }
+.pub-meta .sep { color: $pub-muted; margin: 0 0.35em; }
+.pub-authors { color: $pub-muted; }
+.pub-authors strong { color: $text-color; }
