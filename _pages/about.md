@@ -92,7 +92,7 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
 </div>
 
 <div class="pub">
-  <div class="pub-media"><img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/dispatch_setting.png' | relative_url }}" alt="DISPATCH problem setting: robots, task stations, and skill compatibility" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</p>
     <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
