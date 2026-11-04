@@ -118,7 +118,7 @@ I study how robots can use predictive world models to infer what they cannot dir
   <div class="pub-body">
     <p class="pub-title"><a href="https://arxiv.org/abs/2511.17915">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</a></p>
     <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
-    <p class="pub-meta"><span class="pub-venue status">Submitted to AAMAS 2027</span><span class="sep">|</span><a href="https://arxiv.org/abs/2511.17915">Paper</a><span class="sep">|</span><a href="https://github.com/Justinliu1119/EG_MARL">Code</a><span class="sep">|</span><a href="#liu2026dispatch" class="bib-toggle" aria-expanded="false" aria-controls="liu2026dispatch">BibTeX</a></p>
+    <p class="pub-meta"><span class="pub-venue status">Submitted to AAMAS 2027</span><span class="sep">|</span><a href="https://arxiv.org/abs/2511.17915">Paper</a><span class="sep">|</span><a href="https://justinliu1119.github.io/DISPATCH/">Website</a><span class="sep">|</span><span>Code (coming soon)</span><span class="sep">|</span><a href="#liu2026dispatch" class="bib-toggle" aria-expanded="false" aria-controls="liu2026dispatch">BibTeX</a></p>
     <pre class="bibtex" id="liu2026dispatch" hidden>@misc{liu2026dispatch,
   title         = {DISPATCH -- Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents},
   author        = {Yao Liu and Sampad Mohanty and Elizabeth Ondula and Bhaskar Krishnamachari},
