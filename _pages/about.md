@@ -38,7 +38,7 @@ I study how robots can use predictive world models to infer what they cannot dir
 <div class="edu">
   <div class="edu-row">
     <img class="edu-logo" src="{{ '/images/seal_berkeley.svg' | relative_url }}" alt="UC Berkeley">
-    <div class="edu-text"><strong>University of California, Berkeley</strong><br><span>Ph.D. in Electrical Engineering and Computer Sciences</span></div>
+    <div class="edu-text"><strong>UC Berkeley</strong><br><span>Ph.D. in Electrical Engineering and Computer Sciences</span></div>
     <span class="date">2026 – present</span>
   </div>
   <div class="edu-row">
