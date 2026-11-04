@@ -68,7 +68,7 @@ I study how robots can use predictive world models to infer what they cannot dir
 
 <p class="pub-note"><sup>*</sup> equal contribution &nbsp;·&nbsp; <sup>†</sup> alphabetical order &nbsp;·&nbsp; <a href="{{ '/publications/' | relative_url }}">Full list</a></p>
 
-<div class="pub">
+<div class="pub" data-href="https://arxiv.org/abs/2606.21148">
   <div class="pub-media has-caption">
     <span class="media-caption">Grasping across varied mug poses</span>
     <video autoplay loop muted playsinline preload="metadata" poster="{{ '/images/anymug_grid_poster.jpg' | relative_url }}" aria-label="AnyMug grasping demo">
@@ -76,7 +76,7 @@ I study how robots can use predictive world models to infer what they cannot dir
     </video>
   </div>
   <div class="pub-body">
-    <p class="pub-title">AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization</p>
+    <p class="pub-title"><a href="https://arxiv.org/abs/2606.21148">AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization</a></p>
     <p class="pub-authors">Le Qiu, Cole Harrison, Jiankai Sun, <strong>Yao Liu</strong>, Suning Huang, Qianzhong Chen, Yang You, Marco Pavone</p>
     <p class="pub-meta"><span class="pub-venue status">arXiv preprint, 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2606.21148">Paper</a><span class="sep">|</span><a href="#qiu2026anymug" class="bib-toggle" aria-expanded="false" aria-controls="qiu2026anymug">BibTeX</a></p>
     <pre class="bibtex" id="qiu2026anymug" hidden>@misc{qiu2026anymug,
@@ -92,10 +92,10 @@ I study how robots can use predictive world models to infer what they cannot dir
   </div>
 </div>
 
-<div class="pub">
+<div class="pub" data-href="https://arxiv.org/abs/2510.12985">
   <div class="pub-media"><img src="{{ '/images/sentinel_pipeline.png' | relative_url }}" alt="SENTINEL framework overview" loading="lazy"></div>
   <div class="pub-body">
-    <p class="pub-title">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</p>
+    <p class="pub-title"><a href="https://arxiv.org/abs/2510.12985">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</a></p>
     <p class="pub-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
     <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2510.12985">Paper</a><span class="sep">|</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a><span class="sep">|</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a><span class="sep">|</span><a href="#zhan2026sentinel" class="bib-toggle" aria-expanded="false" aria-controls="zhan2026sentinel">BibTeX</a></p>
     <pre class="bibtex" id="zhan2026sentinel" hidden>@misc{zhan2026sentinel,
@@ -111,10 +111,10 @@ I study how robots can use predictive world models to infer what they cannot dir
   </div>
 </div>
 
-<div class="pub">
+<div class="pub" data-href="https://arxiv.org/abs/2511.17915">
   <div class="pub-media"><img src="{{ '/images/dispatch_setting.png' | relative_url }}" alt="DISPATCH problem setting: robots, task stations, and skill compatibility" loading="lazy"></div>
   <div class="pub-body">
-    <p class="pub-title">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</p>
+    <p class="pub-title"><a href="https://arxiv.org/abs/2511.17915">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</a></p>
     <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
     <p class="pub-meta"><span class="pub-venue status">Submitted to AAMAS 2027</span><span class="sep">|</span><a href="https://arxiv.org/abs/2511.17915">Paper</a><span class="sep">|</span><a href="https://github.com/Justinliu1119/EG_MARL">Code</a><span class="sep">|</span><a href="#liu2026dispatch" class="bib-toggle" aria-expanded="false" aria-controls="liu2026dispatch">BibTeX</a></p>
     <pre class="bibtex" id="liu2026dispatch" hidden>@misc{liu2026dispatch,
@@ -140,10 +140,10 @@ I study how robots can use predictive world models to infer what they cannot dir
   </div>
 </div>
 
-<div class="pub">
+<div class="pub" data-href="https://dl.acm.org/doi/10.1145/3716368.3735230">
   <div class="pub-media"><img src="{{ '/images/distributed_detection.png' | relative_url }}" alt="Distributed inference framework for IoT systems" loading="lazy"></div>
   <div class="pub-body">
-    <p class="pub-title">An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection</p>
+    <p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3716368.3735230">An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection</a></p>
     <p class="pub-authors">Xuan Zhou, U. Muhan, <strong>Yao Liu</strong>, Peter Beerel</p>
     <p class="pub-meta"><span class="pub-venue">GLSVLSI 2025</span><span class="sep">|</span><a href="https://dl.acm.org/doi/10.1145/3716368.3735230">Paper</a><span class="sep">|</span><a href="#zhou2025distributed" class="bib-toggle" aria-expanded="false" aria-controls="zhou2025distributed">BibTeX</a></p>
     <pre class="bibtex" id="zhou2025distributed" hidden>@inproceedings{zhou2025distributed,
@@ -160,10 +160,10 @@ I study how robots can use predictive world models to infer what they cannot dir
   </div>
 </div>
 
-<div class="pub">
+<div class="pub" data-href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">
   <div class="pub-media"><img src="{{ '/images/letsroll_pipeline.png' | relative_url }}" alt="Traditional versus rolling-shutter-aware detection pipeline" loading="lazy"></div>
   <div class="pub-body">
-    <p class="pub-title">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</p>
+    <p class="pub-title"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</a></p>
     <p class="pub-authors">Yue Hu, G. Datta, K. Beerel, <strong>Yao Liu</strong>, Peter Beerel</p>
     <p class="pub-meta"><span class="pub-venue">IEEE SiPS 2024</span><span class="sep">|</span><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Paper</a><span class="sep">|</span><a href="#hu2024letsroll" class="bib-toggle" aria-expanded="false" aria-controls="hu2024letsroll">BibTeX</a></p>
     <pre class="bibtex" id="hu2024letsroll" hidden>@inproceedings{hu2024letsroll,
@@ -179,10 +179,10 @@ I study how robots can use predictive world models to infer what they cannot dir
   </div>
 </div>
 
-<div class="pub">
+<div class="pub" data-href="https://arxiv.org/abs/2603.27422">
   <div class="pub-media"><img src="{{ '/images/auv_localization.png' | relative_url }}" alt="Acoustic localization of a submersible from surface buoys" loading="lazy"></div>
   <div class="pub-body">
-    <p class="pub-title">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</p>
+    <p class="pub-title"><a href="https://arxiv.org/abs/2603.27422">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</a></p>
     <p class="pub-authors">Zizhan Tang<sup>*</sup>, <strong>Yao Liu</strong><sup>*</sup>, Jiexi Liu</p>
     <p class="pub-meta"><span class="pub-venue status">Submitted to IEEE IV 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2603.27422">Paper</a><span class="sep">|</span><a href="#tang2026auv" class="bib-toggle" aria-expanded="false" aria-controls="tang2026auv">BibTeX</a></p>
     <pre class="bibtex" id="tang2026auv" hidden>@misc{tang2026auv,
@@ -259,6 +259,11 @@ I study how robots can use predictive world models to infer what they cannot dir
 
 <script>
 document.addEventListener('click', function (e) {
+  var card = e.target.closest('.pub[data-href]');
+  if (card && !e.target.closest('a, button, pre, video, details, summary') && !window.getSelection().toString()) {
+    window.open(card.getAttribute('data-href'), '_self');
+    return;
+  }
   var t = e.target.closest('.bib-toggle');
   if (!t) return;
   e.preventDefault();
