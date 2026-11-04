@@ -54,7 +54,7 @@ excerpt: "Papers and manuscripts on multi-agent systems, online decision-making,
 
 <div class="pub"><div class="pub-body">
     <p class="pub-title">Quiet Multi-Agent Systems via Predictive World Modeling and Selective Communications</p>
-    <p class="pub-authors">Anthony Goeckner, Weihe Gao, <strong>Yao Liu</strong>, Alessandro Pinto, Qi Zhu</p>
+    <p class="pub-authors">Anthony Goeckner, <strong>Yao Liu</strong>, Zhian Ruan, Weihe Gao, Alessandro Pinto, Qi Zhu</p>
     <p class="pub-venue">In submission</p>
 </div></div>
 
