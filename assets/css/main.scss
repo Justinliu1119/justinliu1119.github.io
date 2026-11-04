@@ -364,3 +364,6 @@ details.pub-authors[open] summary { display: none; }
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* Let prose and lists use the full content width */
+.intro p, .theme, .entry, .edu-row { max-width: none; }
