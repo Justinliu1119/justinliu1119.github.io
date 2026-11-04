@@ -332,3 +332,17 @@ $pub-rule: #e6e8eb;
 .pub-meta .sep { color: $pub-muted; margin: 0 0.35em; }
 .pub-authors { color: $pub-muted; }
 .pub-authors strong { color: $text-color; }
+
+/* Figure panel matches text height: panel stretches with the text, figure is contained inside */
+details.pub-authors { margin: 0 0 0.3em; }
+details.pub-authors summary { cursor: pointer; list-style: none; }
+details.pub-authors summary::-webkit-details-marker { display: none; }
+details.pub-authors .authors-toggle { color: #1a0dab; font-size: 0.9em; margin-left: 0.3em; }
+details.pub-authors[open] summary { display: none; }
+@media (min-width: 48em) {
+  .pub { align-items: stretch; gap: 1.5em; }
+  .pub-media { flex: 0 0 40%; width: 40%; max-width: none; aspect-ratio: auto; min-height: 0; margin-top: 0; padding: 8px; background: #fff; border: 1px solid #eceef0; border-radius: 8px; box-sizing: border-box; }
+  .pub-media { position: relative; }
+  .pub-media img, .pub-media video { position: absolute; top: 8px; left: 8px; width: calc(100% - 16px); height: calc(100% - 16px); object-fit: contain; }
+  .pub-body { display: block; }
+}

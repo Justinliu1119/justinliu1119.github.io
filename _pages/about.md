@@ -87,20 +87,52 @@ I approach these questions with tools from optimization, reinforcement learning,
 
 <p class="pub-note"><sup>*</sup> equal contribution &nbsp;·&nbsp; <sup>†</sup> alphabetical order &nbsp;·&nbsp; <a href="{{ '/publications/' | relative_url }}">Full list</a></p>
 
-<h3 class="pub-group">Conference papers</h3>
+<div class="pub">
+  <div class="pub-media">
+    <video autoplay loop muted playsinline preload="metadata" aria-label="AnyMug grasping demo">
+      <source src="{{ '/assets/videos/anycat.mp4' | relative_url }}" type="video/mp4">
+    </video>
+  </div>
+  <div class="pub-body">
+    <p class="pub-title">AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization</p>
+    <p class="pub-authors">Le Qiu, Cole Harrison, Jiankai Sun, <strong>Yao Liu</strong>, Suning Huang, Qianzhong Chen, Yang You, Marco Pavone</p>
+    <p class="pub-meta"><span class="pub-venue status">arXiv preprint, 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2606.21148">Paper</a></p>
+    <p class="pub-summary">A single closed-loop policy grasps mugs by the handle across shapes and poses by canonicalizing observations and actions in a mug-centric frame. Trained only in simulation, it transfers zero-shot to a real Franka Panda.</p>
+  </div>
+</div>
 
 <div class="pub">
-  <div class="pub-media"><img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL framework overview" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/sentinel_pipeline.png' | relative_url }}" alt="SENTINEL framework overview" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</p>
-    <p class="pub-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
+    <details class="pub-authors"><summary>Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, et al. <span class="authors-toggle">show all 17</span></summary>Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</details>
     <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2510.12985">Paper</a><span class="sep">|</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a><span class="sep">|</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a></p>
     <p class="pub-summary">SENTINEL specifies safety requirements for embodied LLM agents in temporal logic and checks them at the semantic, plan, and trajectory levels. Verification in VirtualHome and AI2-THOR flags unsafe states, ordering violations, and timed hazards with interpretable counterexamples.</p>
   </div>
 </div>
 
 <div class="pub">
-  <div class="pub-media"><img src="{{ '/images/ML_Inference.png' | relative_url }}" alt="Distributed inference framework for IoT systems" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet multi-agent system" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">Quiet Multi-Agent Systems via Predictive World Modeling and Selective Communications</p>
+    <p class="pub-authors">Anthony Goeckner, Weihe Gao, <strong>Yao Liu</strong>, Alessandro Pinto, Qi Zhu</p>
+    <p class="pub-meta"><span class="pub-venue status">In submission</span></p>
+    <p class="pub-summary">A conditional diffusion model infers global state from local views, and its uncertainty decides when robots need to communicate. The predictions guide MARL policies on NASA ISRU-style exploration and transport tasks.</p>
+  </div>
+</div>
+
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</p>
+    <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
+    <p class="pub-meta"><span class="pub-venue status">Submitted to AAMAS 2027</span><span class="sep">|</span><a href="https://arxiv.org/abs/2511.17915">Paper</a><span class="sep">|</span><a href="https://github.com/Justinliu1119/EG_MARL">Code</a></p>
+    <p class="pub-summary">Decentralized policies for fair and efficient task assignment among heterogeneous agents under partial observability, learned toward Eisenberg–Gale equilibrium allocations with attention-based GNN message passing.</p>
+  </div>
+</div>
+
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/ML_Inference_2.png' | relative_url }}" alt="Distributed inference framework for IoT systems" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection</p>
     <p class="pub-authors">Xuan Zhou, U. Muhan, <strong>Yao Liu</strong>, Peter Beerel</p>
@@ -119,44 +151,8 @@ I approach these questions with tools from optimization, reinforcement learning,
   </div>
 </div>
 
-<h3 class="pub-group">Preprints and submissions</h3>
-
 <div class="pub">
-  <div class="pub-media">
-    <video autoplay loop muted playsinline preload="metadata" aria-label="AnyMug grasping demo">
-      <source src="{{ '/assets/videos/anycat.mp4' | relative_url }}" type="video/mp4">
-    </video>
-  </div>
-  <div class="pub-body">
-    <p class="pub-title">AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization</p>
-    <p class="pub-authors">Le Qiu, Cole Harrison, Jiankai Sun, <strong>Yao Liu</strong>, Suning Huang, Qianzhong Chen, Yang You, Marco Pavone</p>
-    <p class="pub-meta"><span class="pub-venue status">arXiv preprint, 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2606.21148">Paper</a></p>
-    <p class="pub-summary">A single closed-loop policy grasps mugs by the handle across shapes and poses by canonicalizing observations and actions in a mug-centric frame. Trained only in simulation, it transfers zero-shot to a real Franka Panda.</p>
-  </div>
-</div>
-
-<div class="pub">
-  <div class="pub-media"><img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" loading="lazy"></div>
-  <div class="pub-body">
-    <p class="pub-title">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</p>
-    <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
-    <p class="pub-meta"><span class="pub-venue status">Submitted to AAMAS 2027</span><span class="sep">|</span><a href="https://arxiv.org/abs/2511.17915">Paper</a><span class="sep">|</span><a href="https://github.com/Justinliu1119/EG_MARL">Code</a></p>
-    <p class="pub-summary">Decentralized policies for fair and efficient task assignment among heterogeneous agents under partial observability, learned toward Eisenberg–Gale equilibrium allocations with attention-based GNN message passing.</p>
-  </div>
-</div>
-
-<div class="pub">
-  <div class="pub-media"><img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet multi-agent system" loading="lazy"></div>
-  <div class="pub-body">
-    <p class="pub-title">Quiet Multi-Agent Systems via Predictive World Modeling and Selective Communications</p>
-    <p class="pub-authors">Anthony Goeckner, Weihe Gao, <strong>Yao Liu</strong>, Alessandro Pinto, Qi Zhu</p>
-    <p class="pub-meta"><span class="pub-venue status">In submission</span></p>
-    <p class="pub-summary">A conditional diffusion model infers global state from local views, and its uncertainty decides when robots need to communicate. The predictions guide MARL policies on NASA ISRU-style exploration and transport tasks.</p>
-  </div>
-</div>
-
-<div class="pub">
-  <div class="pub-media"><img src="{{ '/images/Kalman_Filter.png' | relative_url }}" alt="Kalman filter AUV tracking" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/Kalman_Filter_2.png' | relative_url }}" alt="Kalman filter AUV tracking" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</p>
     <p class="pub-authors">Zizhan Tang<sup>*</sup>, <strong>Yao Liu</strong><sup>*</sup>, Jiexi Liu</p>
@@ -164,8 +160,6 @@ I approach these questions with tools from optimization, reinforcement learning,
     <p class="pub-summary">Multi-buoy TDoA measurements are fused with an adaptively tuned Kalman filter to track a submersible through communication loss. Filtered tracks yield a search heatmap, with meter-level accuracy in simulation.</p>
   </div>
 </div>
-
-<h3 class="pub-group">In preparation</h3>
 
 <div class="pub">
   <div class="pub-media"><img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Adaptive online Arrow-Debreu markets" loading="lazy"></div>
