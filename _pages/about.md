@@ -201,4 +201,3 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
 <strong>Tools</strong>: Git, Docker, AWS, Unreal Engine, Unity, Simulink
 </div>
 
-<script src="{{ '/assets/js/pub-fit.js' | relative_url }}"></script>
