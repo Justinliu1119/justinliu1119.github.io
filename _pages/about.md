@@ -85,19 +85,9 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
   <div class="pub-media"><img src="{{ '/images/sentinel_pipeline.png' | relative_url }}" alt="SENTINEL framework overview" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</p>
-    <details class="pub-authors"><summary>Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, et al. <span class="authors-toggle">show all 17</span></summary>Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</details>
+    <p class="pub-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
     <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2510.12985">Paper</a><span class="sep">|</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a><span class="sep">|</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a></p>
     <p class="pub-summary">SENTINEL specifies safety requirements for embodied LLM agents in temporal logic and checks them at the semantic, plan, and trajectory levels. Verification in VirtualHome and AI2-THOR flags unsafe states, ordering violations, and timed hazards with interpretable counterexamples.</p>
-  </div>
-</div>
-
-<div class="pub">
-  <div class="pub-media"><img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet multi-agent system" loading="lazy"></div>
-  <div class="pub-body">
-    <p class="pub-title">Quiet Multi-Agent Systems via Predictive World Modeling and Selective Communications</p>
-    <p class="pub-authors">Anthony Goeckner, Weihe Gao, <strong>Yao Liu</strong>, Alessandro Pinto, Qi Zhu</p>
-    <p class="pub-meta"><span class="pub-venue status">In submission</span></p>
-    <p class="pub-summary">A conditional diffusion model infers global state from local views, and its uncertainty decides when robots need to communicate. The predictions guide MARL policies on NASA ISRU-style exploration and transport tasks.</p>
   </div>
 </div>
 
@@ -108,6 +98,16 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
     <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
     <p class="pub-meta"><span class="pub-venue status">Submitted to AAMAS 2027</span><span class="sep">|</span><a href="https://arxiv.org/abs/2511.17915">Paper</a><span class="sep">|</span><a href="https://github.com/Justinliu1119/EG_MARL">Code</a></p>
     <p class="pub-summary">Decentralized policies for fair and efficient task assignment among heterogeneous agents under partial observability, learned toward Eisenberg–Gale equilibrium allocations with attention-based GNN message passing.</p>
+  </div>
+</div>
+
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet multi-agent system" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">Quiet Multi-Agent Systems via Predictive World Modeling and Selective Communications</p>
+    <p class="pub-authors">Anthony Goeckner, Weihe Gao, <strong>Yao Liu</strong>, Alessandro Pinto, Qi Zhu</p>
+    <p class="pub-meta"><span class="pub-venue status">In submission</span></p>
+    <p class="pub-summary">A conditional diffusion model infers global state from local views, and its uncertainty decides when robots need to communicate. The predictions guide MARL policies on NASA ISRU-style exploration and transport tasks.</p>
   </div>
 </div>
 
