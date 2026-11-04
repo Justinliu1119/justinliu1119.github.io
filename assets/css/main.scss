@@ -427,7 +427,7 @@ details.pub-authors[open] summary { display: none; }
   left: 10px;
   right: 10px;
   z-index: 1;
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   overflow: hidden;
   font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", Georgia, serif;
@@ -440,5 +440,6 @@ details.pub-authors[open] summary { display: none; }
 }
 @media (min-width: 48em) {
   .pub-media.has-caption video { top: 29px; height: calc(100% - 35px); }
+  .pub-media.has-caption .media-caption { left: 19px; }
 }
 .pub-media.has-caption { padding-top: 26px; }
