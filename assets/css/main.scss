@@ -368,11 +368,12 @@ details.pub-authors[open] summary { display: none; }
 /* Let prose and lists use the full content width */
 .intro p, .theme, .entry, .edu-row { max-width: none; }
 
-/* Wider overall layout so the text column has more room */
-#main { max-width: 1560px !important; }
-.masthead .masthead__inner-wrap { max-width: 1560px !important; }
+/* Only the publication rows extend into the right margin; the rest of the page keeps its width */
 @media (min-width: 57.8125em) {
-  .page { padding-left: 1.5em; padding-right: 0; }
+  .pub { margin-right: -40px; }
+}
+@media (min-width: 80em) {
+  .pub { margin-right: -110px; }
 }
 @media (min-width: 48em) {
   .pub-media { flex: 0 0 270px; width: 270px; }
