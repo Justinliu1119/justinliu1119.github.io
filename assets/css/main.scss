@@ -346,3 +346,9 @@ details.pub-authors[open] summary { display: none; }
   .pub-media img, .pub-media video { position: absolute; top: 8px; left: 8px; width: calc(100% - 16px); height: calc(100% - 16px); object-fit: contain; }
   .pub-body { display: block; }
 }
+
+/* Every publication figure uses the same fixed frame (same width and height); text height may vary */
+@media (min-width: 48em) {
+  .pub { align-items: flex-start; }
+  .pub-media { flex: 0 0 300px; width: 300px; height: auto; aspect-ratio: 16 / 10; align-self: flex-start; }
+}
