@@ -352,3 +352,15 @@ details.pub-authors[open] summary { display: none; }
   .pub { align-items: flex-start; }
   .pub-media { flex: 0 0 300px; width: 300px; height: auto; aspect-ratio: 16 / 10; align-self: flex-start; }
 }
+
+/* Calmer in-text links: no underline, muted accent color, underline on hover */
+.page__content a,
+.page__content a:visited {
+  color: #2f5d8a;
+  text-decoration: none;
+}
+.page__content a:hover {
+  color: #1e3a52;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
