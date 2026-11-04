@@ -77,7 +77,16 @@ I study how robots can use predictive world models to infer what they cannot dir
   <div class="pub-body">
     <p class="pub-title">AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization</p>
     <p class="pub-authors">Le Qiu, Cole Harrison, Jiankai Sun, <strong>Yao Liu</strong>, Suning Huang, Qianzhong Chen, Yang You, Marco Pavone</p>
-    <p class="pub-meta"><span class="pub-venue status">arXiv preprint, 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2606.21148">Paper</a></p>
+    <p class="pub-meta"><span class="pub-venue status">arXiv preprint, 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2606.21148">Paper</a><span class="sep">|</span><a href="#qiu2026anymug" class="bib-toggle" aria-expanded="false" aria-controls="qiu2026anymug">BibTeX</a></p>
+    <pre class="bibtex" id="qiu2026anymug" hidden>@misc{qiu2026anymug,
+  title         = {Pose-Agnostic Robotic Functional Grasping via Observation-Action Canonicalization},
+  author        = {Le Qiu and Cole Harrison and Jiankai Sun and Yao Liu and Suning Huang and Qianzhong Chen and Yang You and Marco Pavone},
+  year          = {2026},
+  eprint        = {2606.21148},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2606.21148}
+}</pre>
     <p class="pub-summary">A single closed-loop policy grasps mugs by the handle across shapes and poses by canonicalizing observations and actions in a mug-centric frame. Trained only in simulation, it transfers zero-shot to a real Franka Panda.</p>
   </div>
 </div>
@@ -87,7 +96,16 @@ I study how robots can use predictive world models to infer what they cannot dir
   <div class="pub-body">
     <p class="pub-title">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</p>
     <p class="pub-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
-    <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2510.12985">Paper</a><span class="sep">|</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a><span class="sep">|</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a></p>
+    <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2510.12985">Paper</a><span class="sep">|</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a><span class="sep">|</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a><span class="sep">|</span><a href="#zhan2026sentinel" class="bib-toggle" aria-expanded="false" aria-controls="zhan2026sentinel">BibTeX</a></p>
+    <pre class="bibtex" id="zhan2026sentinel" hidden>@misc{zhan2026sentinel,
+  title         = {SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents},
+  author        = {Simon Sinong Zhan and Philip Wang and Yao Liu and Yiyan Peng and Zinan Wang and Qineng Wang and Zhian Ruan and Xiangyu Shi and Xinyu Cao and Frank Yang and Zhenyang Ni and Kangrui Wang and Ruohan Zhang and Huajie Shao and Manling Li and Qi Zhu},
+  year          = {2026},
+  eprint        = {2510.12985},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2510.12985}
+}</pre>
     <p class="pub-summary">SENTINEL specifies safety requirements for embodied LLM agents in temporal logic and checks them at the semantic, plan, and trajectory levels. Verification in VirtualHome and AI2-THOR flags unsafe states, ordering violations, and timed hazards with interpretable counterexamples.</p>
   </div>
 </div>
@@ -97,7 +115,16 @@ I study how robots can use predictive world models to infer what they cannot dir
   <div class="pub-body">
     <p class="pub-title">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</p>
     <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
-    <p class="pub-meta"><span class="pub-venue status">Submitted to AAMAS 2027</span><span class="sep">|</span><a href="https://arxiv.org/abs/2511.17915">Paper</a><span class="sep">|</span><a href="https://github.com/Justinliu1119/EG_MARL">Code</a></p>
+    <p class="pub-meta"><span class="pub-venue status">Submitted to AAMAS 2027</span><span class="sep">|</span><a href="https://arxiv.org/abs/2511.17915">Paper</a><span class="sep">|</span><a href="https://github.com/Justinliu1119/EG_MARL">Code</a><span class="sep">|</span><a href="#liu2026dispatch" class="bib-toggle" aria-expanded="false" aria-controls="liu2026dispatch">BibTeX</a></p>
+    <pre class="bibtex" id="liu2026dispatch" hidden>@misc{liu2026dispatch,
+  title         = {DISPATCH -- Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents},
+  author        = {Yao Liu and Sampad Mohanty and Elizabeth Ondula and Bhaskar Krishnamachari},
+  year          = {2026},
+  eprint        = {2511.17915},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.MA},
+  url           = {https://arxiv.org/abs/2511.17915}
+}</pre>
     <p class="pub-summary">Decentralized policies for fair and efficient task assignment among heterogeneous agents under partial observability, learned toward Eisenberg–Gale equilibrium allocations with attention-based GNN message passing.</p>
   </div>
 </div>
@@ -117,7 +144,17 @@ I study how robots can use predictive world models to infer what they cannot dir
   <div class="pub-body">
     <p class="pub-title">An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection</p>
     <p class="pub-authors">Xuan Zhou, U. Muhan, <strong>Yao Liu</strong>, Peter Beerel</p>
-    <p class="pub-meta"><span class="pub-venue">GLSVLSI 2025</span><span class="sep">|</span><a href="https://dl.acm.org/doi/10.1145/3716368.3735230">Paper</a></p>
+    <p class="pub-meta"><span class="pub-venue">GLSVLSI 2025</span><span class="sep">|</span><a href="https://dl.acm.org/doi/10.1145/3716368.3735230">Paper</a><span class="sep">|</span><a href="#zhou2025distributed" class="bib-toggle" aria-expanded="false" aria-controls="zhou2025distributed">BibTeX</a></p>
+    <pre class="bibtex" id="zhou2025distributed" hidden>@inproceedings{zhou2025distributed,
+  title     = {An Efficient Distributed Machine Learning Inference Framework with Byzantine Fault Detection},
+  author    = {Zhou, Xuan and Mohan, Utkarsh and Liu, Yao and Beerel, Peter},
+  booktitle = {Proceedings of the Great Lakes Symposium on VLSI 2025},
+  series    = {GLSVLSI '25},
+  pages     = {56--63},
+  publisher = {ACM},
+  year      = {2025},
+  doi       = {10.1145/3716368.3735230}
+}</pre>
     <p class="pub-summary">A partial-redundancy scheme for detecting Byzantine faults in distributed ML inference. We derive bounds on the inferences needed for 99% detection confidence at 2–5% redundancy, validated on GPT-2.</p>
   </div>
 </div>
@@ -127,7 +164,16 @@ I study how robots can use predictive world models to infer what they cannot dir
   <div class="pub-body">
     <p class="pub-title">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</p>
     <p class="pub-authors">Yue Hu, G. Datta, K. Beerel, <strong>Yao Liu</strong>, Peter Beerel</p>
-    <p class="pub-meta"><span class="pub-venue">IEEE SiPS 2024</span><span class="sep">|</span><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Paper</a></p>
+    <p class="pub-meta"><span class="pub-venue">IEEE SiPS 2024</span><span class="sep">|</span><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Paper</a><span class="sep">|</span><a href="#hu2024letsroll" class="bib-toggle" aria-expanded="false" aria-controls="hu2024letsroll">BibTeX</a></p>
+    <pre class="bibtex" id="hu2024letsroll" hidden>@inproceedings{hu2024letsroll,
+  title     = {Let's Roll: A Synthetic and Real Dataset for Pedestrian Detection Across Different Shutter Types},
+  author    = {Hu, Yue and Datta, Gourav and Beerel, Kira and Liu, Yao and Beerel, Peter},
+  booktitle = {2024 IEEE Workshop on Signal Processing Systems (SiPS)},
+  pages     = {113--118},
+  publisher = {IEEE},
+  year      = {2024},
+  doi       = {10.1109/SiPS62058.2024.00028}
+}</pre>
     <p class="pub-summary">An Unreal Engine 5 pipeline synthesizes paired global- and rolling-shutter frames with exact ground truth. Rolling-shutter-aware training improves recall by 53.1% on real rolling-shutter scenes.</p>
   </div>
 </div>
@@ -137,7 +183,16 @@ I study how robots can use predictive world models to infer what they cannot dir
   <div class="pub-body">
     <p class="pub-title">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</p>
     <p class="pub-authors">Zizhan Tang<sup>*</sup>, <strong>Yao Liu</strong><sup>*</sup>, Jiexi Liu</p>
-    <p class="pub-meta"><span class="pub-venue status">Submitted to IEEE IV 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2603.27422">Paper</a></p>
+    <p class="pub-meta"><span class="pub-venue status">Submitted to IEEE IV 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2603.27422">Paper</a><span class="sep">|</span><a href="#tang2026auv" class="bib-toggle" aria-expanded="false" aria-controls="tang2026auv">BibTeX</a></p>
+    <pre class="bibtex" id="tang2026auv" hidden>@misc{tang2026auv,
+  title         = {Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering},
+  author        = {Zizhan Tang and Yao Liu and Jessica Liu},
+  year          = {2026},
+  eprint        = {2603.27422},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2603.27422}
+}</pre>
     <p class="pub-summary">Multi-buoy TDoA measurements are fused with an adaptively tuned Kalman filter to track a submersible through communication loss. Filtered tracks yield a search heatmap, with meter-level accuracy in simulation.</p>
   </div>
 </div>
@@ -201,3 +256,14 @@ I study how robots can use predictive world models to infer what they cannot dir
 <strong>Tools</strong>: Git, Docker, AWS, Unreal Engine, Unity, Simulink
 </div>
 
+<script>
+document.addEventListener('click', function (e) {
+  var t = e.target.closest('.bib-toggle');
+  if (!t) return;
+  e.preventDefault();
+  var pre = document.getElementById(t.getAttribute('aria-controls'));
+  if (!pre) return;
+  pre.hidden = !pre.hidden;
+  t.setAttribute('aria-expanded', String(!pre.hidden));
+});
+</script>

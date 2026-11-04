@@ -395,3 +395,21 @@ details.pub-authors[open] summary { display: none; }
   vertical-align: 0.05em;
 }
 .pub-meta .pub-venue:not(.status) + .sep { display: none; }
+
+/* BibTeX drop-down */
+.pub-body pre.bibtex {
+  margin: 0.45em 0 0.5em;
+  padding: 0.7em 0.9em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.74em;
+  line-height: 1.5;
+  color: #2a2622;
+  background: #f4f6f8;
+  border: 1px solid #e3e7eb;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+}
+.pub-body pre.bibtex[hidden] { display: none; }
+.bib-toggle[aria-expanded="true"] { text-decoration: underline; }
