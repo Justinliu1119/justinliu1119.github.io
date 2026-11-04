@@ -27,8 +27,8 @@ excerpt: "Papers and manuscripts on multi-agent systems, online decision-making,
 <div class="pub"><div class="pub-body">
     <p class="pub-title">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</p>
     <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
-    <p class="pub-venue">Submitted to <b>AAMAS 2027</b></p>
-    <p class="pub-links"><a href="https://arxiv.org/abs/2511.17915">Paper</a> <a href="https://justinliu1119.github.io/DISPATCH/">Website</a> <span>Code (coming soon)</span></p>
+    <p class="pub-venue">arXiv preprint, 2025</p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2511.17915">Paper</a> <a href="https://justinliu1119.github.io/DISPATCH/">Website</a></p>
 </div></div>
 
 <div class="pub"><div class="pub-body">
