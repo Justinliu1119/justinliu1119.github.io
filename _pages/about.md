@@ -105,7 +105,7 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
   <div class="pub-media"><img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet multi-agent system" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">Quiet Multi-Agent Systems via Predictive World Modeling and Selective Communications</p>
-    <p class="pub-authors">Anthony Goeckner, <strong>Yao Liu</strong>, Zhian Ruan, Weihe Gao, Alessandro Pinto, Qi Zhu</p>
+    <p class="pub-authors">Anthony Goeckner, <strong>Yao Liu</strong>, Zhian Ruan, Alessandro Pinto, Qi Zhu</p>
     <p class="pub-meta"><span class="pub-venue status">In submission</span></p>
     <p class="pub-summary">A conditional diffusion model infers global state from local views, and its uncertainty decides when robots need to communicate. The predictions guide MARL policies on NASA ISRU-style exploration and transport tasks.</p>
   </div>
