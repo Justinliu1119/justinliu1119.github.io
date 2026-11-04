@@ -17,227 +17,217 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am Justin Yao Liu. I will begin my Ph.D. in EECS at the UC Berkeley in Fall 2026. I completed dual B.S. degrees in Electrical and Computer Engineering (Honors) and Applied & Computational Mathematics at the University of Southern California in May 2025. I am a researcher in intelligent cyber-physical systems with [Autonomous Networks Research Group](https://anrg.usc.edu/www/) advised by Prof. [Bhaskar Krishnamachari](https://viterbi.usc.edu/directory/faculty/Krishnamachari/Bhaskar), and I have worked closely with Prof. [Peter Beerel](https://sites.usc.edu/eessc/people/) on conditional diffusion models. I was also a visiting scholar at Northwestern University [Design Automation of Intelligent Systems Lab](http://zhulab.eecs.northwestern.edu/index.html), advised by Prof. [Qi Zhu](http://users.eecs.northwestern.edu/~qzhu/). I'm also fortunate enough to be advised by Prof. [Yinyu Ye](https://stanford.edu/~yyye/) on stochastic online optimization.
+<div class="intro" markdown="1">
 
-My research focuses on decentralized control, stochastic optimization, and uncertainty-robust learning with applications in multi-agent and cyber-physical systems. Specifically, I design autonomous agents that can coordinate over long horizons, make robust decisions under uncertainty, and satisfy safety constraints in dynamic environments. Looking ahead, I aim to advance learning and optimization methods that make autonomous systems simultaneously high‑performance, fair, and safety‑critical.
+I am a first-year Ph.D. student in Electrical Engineering and Computer Sciences at UC Berkeley. I received B.S. degrees in Electrical and Computer Engineering (Honors) and Applied & Computational Mathematics from the University of Southern California in 2025.
 
-**Current Focus Areas**
-- **Data-Driven Decision-Making:** Developing online learning algorithms that handle uncertainty with convergence and regret guarantees in multi-agent games.  
-- **Generative modeling for dynamics:** Leveraging diffusion models to enable decentralized systems to infer global states from partial and noisy observations, improving coordination under uncertainty.
-- **Safety in embodied AI:** Using LLMs for high-level task planning combined with Temporal Logic–based verification to guarantee interpretable, constraint‑compliant behaviors in simulators such as AI2‑THOR and VirtualHome.
+Before Berkeley, I worked with Prof. [Bhaskar Krishnamachari](https://viterbi.usc.edu/directory/faculty/Krishnamachari/Bhaskar) in the [Autonomous Networks Research Group](https://anrg.usc.edu/www/) and Prof. [Peter Beerel](https://sites.usc.edu/eessc/people/) at USC; with Prof. [Qi Zhu](http://users.eecs.northwestern.edu/~qzhu/) in the [Design Automation of Intelligent Systems Lab](http://zhulab.eecs.northwestern.edu/index.html) at Northwestern, where I was a visiting scholar; with Prof. [Yinyu Ye](https://stanford.edu/~yyye/) at Stanford on online stochastic optimization; and with Prof. Dionysis Kalogerias at Yale on robust multi-agent learning.
 
+</div>
 
+## Education
+
+<div class="edu">
+  <div class="edu-row">
+    <img class="edu-logo" src="{{ '/images/logo_berkeley.svg' | relative_url }}" alt="UC Berkeley">
+    <div class="edu-text"><strong>University of California, Berkeley</strong><br><span>Ph.D. in Electrical Engineering and Computer Sciences</span></div>
+    <span class="date">2026 – present</span>
+  </div>
+  <div class="edu-row">
+    <img class="edu-logo" src="{{ '/images/logo_usc.svg' | relative_url }}" alt="University of Southern California">
+    <div class="edu-text"><strong>University of Southern California</strong><br><span>B.S. in Electrical and Computer Engineering (Honors)<br>B.S. in Applied &amp; Computational Mathematics</span></div>
+    <span class="date">2021 – 2025</span>
+  </div>
+</div>
+
+## Research
+
+<div class="intro" markdown="1">
+
+I study how autonomous agents can make good decisions when each one sees only part of the world, information arrives over time, and some outcomes are unsafe. These conditions appear in multi-robot exploration, embodied assistants, and networked cyber-physical systems. They raise a shared set of questions: what an agent should infer about what it cannot observe, when communication is worth its cost, how tasks and resources should be divided as new information is revealed, and how to check that a learned or language-model-driven policy respects safety constraints.
+
+I approach these questions with tools from optimization, reinforcement learning, generative modeling, and formal methods. My work so far falls into three connected threads.
+
+</div>
+
+<div class="themes">
+  <div class="theme">
+    <div class="theme-title">Coordination under partial observability</div>
+    <p>Decentralized policies that assign tasks fairly and coordinate with limited communication, using equilibrium-based objectives, graph message passing, and diffusion models that infer global state from local views.</p>
+    <div class="theme-works">DISPATCH · Quiet Multi-Agent Systems · Zeroth-order robust MARL (ongoing)</div>
+  </div>
+  <div class="theme">
+    <div class="theme-title">Online decision-making under uncertainty</div>
+    <p>Algorithms that update prices, allocations, or state estimates as data arrives sequentially, with regret and constraint-violation guarantees where possible.</p>
+    <div class="theme-works">Adaptive Online Arrow–Debreu Markets · AUV navigation via Kalman filtering · Byzantine-robust distributed inference</div>
+  </div>
+  <div class="theme">
+    <div class="theme-title">Safe and reliable embodied agents</div>
+    <p>Formal specification and verification of safety for LLM-based embodied agents, and robot policies that generalize across object geometry and pose.</p>
+    <div class="theme-works">SENTINEL · AnyMug</div>
+  </div>
+</div>
 
 ## News
-- **[Dec 2025]** – Our paper *"DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents"* is submitted to **IEEE RA-L 2026**. [arXiv:2511.17915](https://arxiv.org/pdf/2511.17915)
-- **[Nov 2025]** - Our Paper "Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering" is submitted to [IEEE Intelligent Vehicles 2026]([https://dl.acm.org/doi/10.1145/3716368.3735230)
-- **[Sep 2025]** - Our Paper "SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents" is live at [SENTINEL](https://nu-ideas-lab.github.io/Sentinel/)
-- **[June 2025]** - Our Paper on the Distributed ML Inference Framework is published by [GLSVLSI 2025](https://dl.acm.org/doi/10.1145/3716368.3735230)
-- **[June 2025]** - Started as a Visiting Scholar at [Design Automation of Intelligent Systems Lab](http://zhulab.eecs.northwestern.edu/index.html)
-- **[May 2025]** - Undergrad Thesis on Online Dynamic Resource Allocation is accepted by USC
-- **[November 2024]** - Paper on Pedestrian Detection published by [IEEE SiPS 2024](https://ieeexplore.ieee.org/xpl/conhome/10768211/proceeding)
-- **[May 2024]** - Paper on Model-Based Kalman Filter State Prediction for Submarine Trajectory won Honorable Mention from [MCM 2024](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2024/results/#b)
-- **[June 2023]** - Started as a ML Intern at [Tsinghua MetacamTech Lab](https://www.metacam.tech/)
 
+<ul class="dated-list">
+  <li><span class="date">Aug 2026</span><span class="item">Started my Ph.D. in EECS at UC Berkeley.</span></li>
+  <li><span class="date">Dec 2025</span><span class="item"><em>DISPATCH</em> released on <a href="https://arxiv.org/abs/2511.17915">arXiv</a>.</span></li>
+  <li><span class="date">Nov 2025</span><span class="item"><em>Predictive Modeling in AUV Navigation</em> submitted to IEEE IV 2026 (<a href="https://arxiv.org/abs/2603.27422">arXiv</a>).</span></li>
+  <li><span class="date">Sep 2025</span><span class="item"><em>SENTINEL</em> released, with a <a href="https://nu-ideas-lab.github.io/SENTINEL/">project page</a>.</span></li>
+  <li><span class="date">Jun 2025</span><span class="item">Distributed ML inference paper published at <a href="https://dl.acm.org/doi/10.1145/3716368.3735230">GLSVLSI 2025</a>.</span></li>
+  <li><span class="date">Jun 2025</span><span class="item">Started as a visiting scholar at the <a href="http://zhulab.eecs.northwestern.edu/index.html">Design Automation of Intelligent Systems Lab</a>, Northwestern.</span></li>
+  <li><span class="date">May 2025</span><span class="item">Undergraduate thesis on online dynamic resource allocation accepted by USC.</span></li>
+  <li><span class="date">Nov 2024</span><span class="item">Pedestrian detection paper published at <a href="https://ieeexplore.ieee.org/xpl/conhome/10768211/proceeding">IEEE SiPS 2024</a>.</span></li>
+  <li><span class="date">May 2024</span><span class="item">Honorable Mention, <a href="https://www.contest.comap.com/undergraduate/contests/mcm/contests/2024/results/#b">MCM 2024</a>, for Kalman-filter-based submarine trajectory prediction.</span></li>
+  <li><span class="date">Jun 2023</span><span class="item">Started as an ML intern at <a href="https://www.metacam.tech/">Tsinghua MetaCam Lab</a>.</span></li>
+</ul>
 
-## Projects
-<div class='legacy-projects-font' markdown="1">
+## Selected Publications
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Research Project</div>
-      <video
-        autoplay
-        loop
-        muted
-        playsinline
-        controls
-        preload="metadata"
-        style="width:auto; max-width:100%; max-height:198px; display:block; box-shadow: 3px 3px 6px #888;"
-      >
-        <source src="{{ '/assets/videos/anycat.mp4' | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </div>
+<p class="pub-note"><sup>*</sup> equal contribution &nbsp;·&nbsp; <sup>†</sup> alphabetical order &nbsp;·&nbsp; <a href="{{ '/publications/' | relative_url }}">Full list</a></p>
 
-  <div class='paper-box-text' markdown="1">
-**AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation-Action Canonicalization**
+<h3 class="pub-group">Conference papers</h3>
 
-We developed a canonicalized visuomotor reinforcement learning framework for functional mug-handle grasping. The method transforms both depth observations and end-effector actions into a shared mug-centric frame, allowing a single closed-loop policy to generalize across mug geometries, placements, and upright or inverted poses. Trained entirely in simulation, AnyMug transfers zero-shot to a real Franka Panda robot, achieving robust handle grasping on unseen physical mugs.
-
-[Paper](https://arxiv.org/pdf/2606.21148)
-
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL framework overview" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</p>
+    <p class="pub-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
+    <p class="pub-venue"><b>NeurIPS 2026</b></p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2510.12985">Paper</a> <a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a> <a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a></p>
+    <p class="pub-summary">Safety for embodied LLM agents is usually judged informally. SENTINEL expresses safety requirements in temporal logic and checks them at three levels (semantic interpretation, generated plans, and executed trajectories), using computation-tree-based verification in VirtualHome and AI2-THOR to flag unsafe states, ordering violations, and timed hazards with interpretable counterexamples.</p>
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Research Project</div>
-      <img src="{{ '/images/Sentinel_framework.png' | relative_url }}" alt="SENTINEL" style="width:105%; max-width:105%;">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-**SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents**
-
-We developed a multi-level safety evaluation framework for embodied LLM agents that injects temporal-logic safety constraints into prompts, enabling semantic, plan, and trajectory-level checking; built computation-tree-based verification in VirtualHome and AI2-THOR to reproducibly detect unsafe states, ordering violations, and timed hazards with interpretable counterexamples.
-
-[Website](https://nu-ideas-lab.github.io/SENTINEL/) \| 
-[Paper](https://arxiv.org/abs/2510.12985) \| 
-[Code](https://github.com/NU-IDEAS-Lab/SENTINEL)
-
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/ML_Inference.png' | relative_url }}" alt="Distributed inference framework for IoT systems" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection</p>
+    <p class="pub-authors">Xuan Zhou, U. Muhan, <strong>Yao Liu</strong>, Peter Beerel</p>
+    <p class="pub-venue"><b>GLSVLSI 2025</b></p>
+    <p class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3716368.3735230">Paper</a></p>
+    <p class="pub-summary">Detecting Byzantine faults in distributed ML inference without full replication. A partial-redundancy scheme randomizes which inferences are replicated; we derive closed-form bounds on the number of inferences needed for 99% detection confidence at 2–5% redundancy and show a negligible gap between independent and centralized RNG schedulers, validated on GPT-2.</p>
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Research Project</div>
-      <img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet Multi-Agent System" style="width:auto; max-width:100%; max-height:198px;">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-**Quiet Multi-Agent System**
-
-This research develops multi-agent systems that remain robust to disturbances while intelligently minimizing communication. The development of embodied world models, paired with uncertainty-reducing communication and action co-planning, will improve the robustness of multi-agent systems and reduce the communication required for coordination in partially observable environments, thereby increasing their utility in harsh environments.
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/Pedestrian_Detection.png' | relative_url }}" alt="Synthetic dataset analysis for pedestrian detection" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</p>
+    <p class="pub-authors">Yue Hu, G. Datta, K. Beerel, <strong>Yao Liu</strong>, Peter Beerel</p>
+    <p class="pub-venue"><b>IEEE SiPS 2024</b></p>
+    <p class="pub-links"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Paper</a></p>
+    <p class="pub-summary">Rolling-shutter distortion degrades detectors trained on global-shutter data. An Unreal Engine 5 module synthesizes paired global/rolling-shutter frames with exact ground truth; on real rolling-shutter scenes, rolling-shutter-aware training improves recall by 53.1% and mAP@0.5 by 30.3% without ISP correction.</p>
   </div>
 </div>
 
+<h3 class="pub-group">Preprints and submissions</h3>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Research Project</div>
-      <img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" style="width:105%; max-width:105%;">
-    </div>
+<div class="pub">
+  <div class="pub-media">
+    <video autoplay loop muted playsinline preload="metadata" aria-label="AnyMug grasping demo">
+      <source src="{{ '/assets/videos/anycat.mp4' | relative_url }}" type="video/mp4">
+    </video>
   </div>
-
-  <div class='paper-box-text' markdown="1">
-
-**DISPATCH--Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents**
-
-We develop a multi-agent reinforcement learning framework grounded in the Eisenberg–Gale (EG) competitive equilibrium to ensure fair and efficient agent–goal assignment. Incorporated graph neural networks (GNNs) in the actor–critic architecture for message passing among nearby agents and goals. Extended the framework with an online EG baseline that recomputes assignments from the currently discovered goals, solving the same optimization problem over dynamically revealed partitions.
-
-[Paper](https://arxiv.org/pdf/2511.17915) \| 
-[Code]((https://github.com/NU-IDEAS-Lab/SENTINEL))
-
+  <div class="pub-body">
+    <p class="pub-title">Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization (AnyMug)</p>
+    <p class="pub-authors">Le Qiu, Cole Harrison, Jiankai Sun, <strong>Yao Liu</strong>, Suning Huang, Qianzhong Chen, Yang You, Marco Pavone</p>
+    <p class="pub-venue">arXiv preprint, 2026</p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2606.21148">Paper</a></p>
+    <p class="pub-summary">Grasping a mug by its handle requires a policy that works across shapes, placements, and orientations. AnyMug maps depth observations and end-effector actions into a shared mug-centric frame so a single closed-loop PPO policy covers upright and inverted poses; trained only in simulation, it reaches 80% zero-shot success on unseen real mugs with a Franka Panda.</p>
   </div>
 </div>
 
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">GLVISI 2025</div>
-      <img src="{{ '/images/ML_Inference.png' | relative_url }}" alt="Distributed inference framework for IoT systems" style="width:auto; max-width:100%; max-height:105px; display:block;" />
-      <img src="{{ '/images/ML_Inference_2.png' | relative_url }}" alt="Distributed inference additional figure" style="width:auto; max-width:100%; max-height:105px; display:block; margin-top: 0.5rem;" />
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-**An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection**
-
-We designed a redundancy-driven scheme for distributed inference that scrambles replica timing to foil periodicity-based attacks. Co-develop lightweight detectors for stochastic corruptions reaching 99% confidence with minimal overhead via optimized redundancy. Prove required inferences converge to a tight upper bound even at low redundancy, and show the gap to a centralized-RNG baseline is negligible. Recommend heterogeneous PRNGs with coprime periods to resist pattern learning while keeping compute and bandwidth costs low.
-
-[Paper](https://dl.acm.org/doi/10.1145/3716368.3735230)
-
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/fairmarl.png' | relative_url }}" alt="DISPATCH framework" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">DISPATCH: Decentralized Informed Spatial Planning and Assignment of Tasks for Cooperative Heterogeneous Agents</p>
+    <p class="pub-authors"><strong>Yao Liu</strong>, Sampad Mohanty, Elizabeth Ondula, Bhaskar Krishnamachari</p>
+    <p class="pub-venue">Submitted to <b>AAMAS 2027</b></p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2511.17915">Paper</a> <a href="https://github.com/Justinliu1119/EG_MARL">Code</a></p>
+    <p class="pub-summary">Heterogeneous agents discovering tasks under partial observability must split work both efficiently and fairly. DISPATCH trains decentralized policies toward Eisenberg–Gale equilibrium assignments, using attention-based GNN message passing among nearby agents and goals, and compares against an online Eisenberg–Gale baseline that re-solves the assignment as goals are revealed.</p>
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">IEEE SiPS 2024</div>
-      <img src="{{ '/images/Pedestrian_Detection.png' | relative_url }}" alt="Synthetic dataset analysis for pedestrian detection" width="100%">
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-**Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types**
-
-We developed a pipeline for pedestrian detection across shutter types. We built a UE5 module to simulate rolling-shutter (RS) distortions from high-FPS global-shutter (GS) video, generating paired GS↔RS frames with precise ground truth. Our validation on real RS scenes shows RS-aware training closes the GS gap and improves performance (+53.1% recall, +30.3% mAP@0.5; +42.4% mAP@0.5–0.95)—without ISP RS-correction.
-
-[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224)
-
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/QMAS.png' | relative_url }}" alt="Quiet multi-agent system" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">Quiet Multi-Agent Systems via Predictive World Modeling and Selective Communications</p>
+    <p class="pub-authors">Anthony Goeckner, Weihe Gao, <strong>Yao Liu</strong>, Alessandro Pinto, Qi Zhu</p>
+    <p class="pub-venue">In submission</p>
+    <p class="pub-summary">Reducing how much robots must talk to coordinate. A conditional diffusion model infers global state from local views; its predictive uncertainty decides when communication is needed, and the predictions guide MARL policies for heterogeneous robots on resource exploration, extraction, and transport tasks modeled on NASA's ISRU challenge.</p>
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Research Project</div>
-      <img src="{{ '/images/Kalman_Filter.png' | relative_url }}" style="width:auto; max-width:100%; max-height:218px;" />
-    </div>
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-**Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering**
-
-We introduce a model-based navigation/search pipeline for submersibles under communication loss. We fuse multi-buoy TDoA with an Kalman Filter to denoise and predict state, tuning process/measurement noise via residual statistics. Beacon outages are handled via gating and covariance inflation; uncertainty ellipsoids guide planning. Filtered tracks form a maximum-likelihood search heatmap to prioritize regions and return paths. In simulation, we achieve meter-level accuracy (MAE CDF <= 4 m) and robust tracking during dropouts.
-
-[Paper](https://arxiv.org/abs/2603.27422)
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/Kalman_Filter.png' | relative_url }}" alt="Kalman filter AUV tracking" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</p>
+    <p class="pub-authors">Zizhan Tang<sup>*</sup>, <strong>Yao Liu</strong><sup>*</sup>, Jiexi Liu</p>
+    <p class="pub-venue">Submitted to <b>IEEE IV 2026</b></p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2603.27422">Paper</a></p>
+    <p class="pub-summary">Locating a submersible after communication loss. Multi-buoy TDoA measurements are fused with a Kalman filter whose noise parameters are tuned from residual statistics; beacon outages are handled by gating and covariance inflation, and filtered tracks produce a likelihood heatmap for search. In simulation the pipeline achieves meter-level accuracy (MAE ≤ 4 m) and stays stable through dropouts.</p>
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Research Project</div>
-      <img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Arrow-Debreu adaptive online stochastic optimization" style="width:105%; max-width:105%;">
-    </div>
-  </div>
+<h3 class="pub-group">In preparation</h3>
 
-  <div class='paper-box-text' markdown="1">
-
-**Arrow-Debreu Equilibrium: Adaptive Online Stochastic Optimization**
-
-Develop an adaptive online decision-making framework for Arrow–Debreu Competitive Equilibrium with incomplete agent information. Extend the Eisenberg–Gale (EG) program to the online setting using two update rules: Certainty-Equivalent (CE) to compute prices/allocations from current estimated demand, and Sample-Average Approximation (SAA) to refine prices from mini-batches of recent arrival.
+<div class="pub">
+  <div class="pub-media"><img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Adaptive online Arrow-Debreu markets" loading="lazy"></div>
+  <div class="pub-body">
+    <p class="pub-title">Adaptive Online Pricing for Arrow–Debreu Markets</p>
+    <p class="pub-authors">C. Chen<sup>†</sup>, <strong>Yao Liu</strong><sup>†</sup>, J. Yang<sup>†</sup>, Z. Yang<sup>†</sup>, Yinyu Ye</p>
+    <p class="pub-venue">In preparation</p>
+    <p class="pub-summary">Computing competitive-equilibrium prices when agents arrive sequentially with incomplete information. We extend the Eisenberg–Gale program online with certainty-equivalent and sample-average-approximation updates, and establish <i>O</i>(log <i>n</i>) regret with <i>O</i>(1) constraint violation.</p>
   </div>
 </div>
 
-</div>
+## Honors
 
+<ul class="dated-list date-right">
+  <li><span class="item">UC Berkeley EECS Ph.D. Fellowship</span><span class="date">2026</span></li>
+  <li><span class="item">Discover Scholar Distinction, USC</span><span class="date">2025</span></li>
+  <li><span class="item">Gold Medal, Kaggle LMSYS Chatbot Arena Human Preference Predictions</span><span class="date">2024</span></li>
+  <li><span class="item">Honorable Mention, Mathematical Contest in Modeling (COMAP)</span><span class="date">2024</span></li>
+  <li><span class="item">Ming Hsieh Institute Undergraduate Scholar, USC (top 5 research scholars in EE)</span><span class="date">2024</span></li>
+  <li><span class="item">Provost Research Scholarship, USC</span><span class="date">2024</span></li>
+  <li><span class="item">Academic Achievement Award, USC</span><span class="date">2024–2025</span></li>
+  <li><span class="item">W.V.T. Rusch Engineering Honors Degree, USC</span><span class="date">2023</span></li>
+  <li><span class="item">Richardson CURVE Award, USC</span><span class="date">2022–2024</span></li>
+  <li><span class="item">Dean's List, USC</span><span class="date">2022–2025</span></li>
+</ul>
 
-## Selected Recognition
+## Service
 
-<ul class="recognition-list">
-  <li><span class="recognition-title">UC Berkeley EECS PhD Fellowship</span>, UC Berkeley (Fall 2026)</li>
-  <li><span class="recognition-title">Discover Scholar Distinction</span>, USC (Spring 2025)</li>
-  <li><span class="recognition-title">Gold Medalist</span>, Kaggle - Chatbot Arena Human Preference Predictions (Summer 2024)</li>
-  <li><span class="recognition-title">Honorable Mention</span>, Mathematical Contest in Modeling (COMAP) (Spring 2024)</li>
-  <li><span class="recognition-title">Ming Hsieh Institute Undergraduate Scholar</span>, USC (top 5 research scholars in Electrical Engineering) (Spring 2024)</li>
-  <li><span class="recognition-title">Academic Achievement Award</span>, USC (Spring 2024-Spring 2025)</li>
-  <li><span class="recognition-title">Provost Research Scholarship</span>, USC (Spring 2024)</li>
-  <li><span class="recognition-title">W.V.T. Rusch Engineering Honors Degree</span>, USC (Fall 2023)</li>
-  <li><span class="recognition-title">Richardson CURVE Award</span>, USC (2022-2024)</li>
+<ul class="dated-list date-right">
+  <li><span class="item">Reviewer, Conference on Robot Learning (CoRL)</span><span class="date">2026</span></li>
+  <li><span class="item">Reviewer, IEEE Intelligent Vehicles Symposium (IV)</span><span class="date">2026</span></li>
 </ul>
 
 ## Teaching
 
-**Linear Circuits (EE 202L), USC — Spring 2025 & Fall 2024**  
-Held office hours, led lab sections, and ran exam‑review sessions.  
-[Course page](https://catalogue.usc.edu/preview_course_nopop.php?catoid=18&coid=283518)
+<div class="entry">
+  <div class="entry-head"><span><strong>Course Producer</strong>, <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=18&amp;coid=283518">EE 202 Linear Circuits</a>, USC</span><span class="date">Fall 2023 – Spring 2025</span></div>
+  <p>Led lab sections, held office hours, and ran exam review sessions.</p>
+</div>
+<div class="entry">
+  <div class="entry-head"><span><strong>Grader</strong>, <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=21&amp;coid=330673">EE 301 Linear Systems</a> and MATH 245, USC</span><span class="date">Fall 2024</span></div>
+  <p>Graded homework, quizzes, and lab reports.</p>
+</div>
 
-**Linear Systems (EE 301/301L), USC — Fall 2024**  
-Held office hours; graded homework, labs, and quizzes.  
-[Course page](https://catalogue.usc.edu/preview_course_nopop.php?catoid=21&coid=330673)
+## Industry Experience
 
-## Work Experiences
-
-***Software Engineer Intern @ [Tsinghua University MetaCam Lab](https://www.metacam.tech/)*** _(June 2023 - Aug 2023)_
-Implement a spatial-adaptive CNN to correct optical aberrations by learning and removing point spread functions (PSFs) across the image field. Build a synthetic training pipeline with ray-tracing and PSF superposition to generate PSF-convolved images, then fine-tune the network with PSF-based augmentations to handle spatially variant blur and chromatic dispersion. Deliver a production-ready model that improves restoration quality by +1.7% over state-of-the-art baselines.
+<div class="entry">
+  <div class="entry-head"><span><strong>Machine Learning Intern</strong>, <a href="https://www.metacam.tech/">Tsinghua University MetaCam Lab</a></span><span class="date">Jun – Aug 2023</span></div>
+  <p>Built a spatially adaptive CNN that removes spatially varying optical blur by learning point spread functions across the image field, trained on a ray-traced synthetic pipeline with PSF-based augmentation; improved restoration quality by 1.7% over prior baselines.</p>
+</div>
 
 ## Skills
 
-***Languages***: Python (NumPy, CVXPY, TensorFlow, PyTorch), C/C++, Verilog/HDL, MATLAB, HTML
-<br>***Robotic Learning***: OpenCV, OpenAI Gymnasium, Alfred, ROS2 VirtualHome, BEHAVIOR-1K, MPE, MuJoCo, NVIDIA Isaac Sim, ROS2
-<br>***Machine Learning:***: Reinforcement Learning, Diffusion Models, Online Learning, SGD, AdaBoost, Transformers
-<br>***DevOps/Tools**: Git, CVXPY, Unity, Unreal Engine, Simulink, Docker, AWS, Firebase, REST APIs, MySQL
+<div class="skills">
+<strong>Languages</strong>: Python (NumPy, CVXPY, PyTorch, TensorFlow), C/C++, Verilog/HDL, MATLAB<br>
+<strong>Robotics and simulation</strong>: ROS 2, MuJoCo, NVIDIA Isaac Sim, VirtualHome, AI2-THOR, BEHAVIOR-1K, ALFRED, MPE, Gymnasium, OpenCV<br>
+<strong>Machine learning</strong>: reinforcement learning, diffusion models, online learning, transformers<br>
+<strong>Tools</strong>: Git, Docker, AWS, Unreal Engine, Unity, Simulink
+</div>

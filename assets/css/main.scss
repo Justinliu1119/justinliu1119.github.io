@@ -144,3 +144,168 @@ h1:before, .anchor:before {
 .legacy-projects-font .paper-box-text p:first-child {
     margin-bottom: 0.15em;
 }
+
+/* ==========================================================================
+   Homepage refinements: research themes, publication entries, dated lists
+   ========================================================================== */
+
+$pub-muted: #5a6673;
+$pub-rule: #e6e8eb;
+
+.page__content {
+  line-height: 1.6;
+
+  h2 {
+    margin-top: 2.2em;
+    margin-bottom: 0.9em;
+    font-size: 1.3em;
+    letter-spacing: 0.01em;
+  }
+
+  h3.pub-group {
+    margin: 1.8em 0 0.2em;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $pub-muted;
+  }
+}
+
+.intro p { max-width: 46em; }
+
+/* Research themes */
+.themes { margin: 1.2em 0 0.4em; }
+.theme {
+  padding: 0.7em 0 0.7em 1em;
+  border-left: 2px solid $pub-rule;
+  margin-bottom: 0.8em;
+  max-width: 46em;
+
+  .theme-title { font-weight: 600; color: $primary-color; }
+  p { margin: 0.15em 0 0.25em; font-size: 0.95em; }
+  .theme-works { font-size: 0.85em; color: $pub-muted; }
+}
+
+/* Publication / project entries */
+.pub {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9em;
+  padding: 1.3em 0;
+  border-bottom: 1px solid $pub-rule;
+
+  &:last-of-type { border-bottom: none; }
+
+  @include breakpoint($medium) {
+    flex-direction: row;
+    gap: 1.6em;
+    align-items: flex-start;
+  }
+}
+
+.pub-media {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 16 / 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafbfc;
+  border: 1px solid $pub-rule;
+  border-radius: 3px;
+  overflow: hidden;
+
+  img, video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    box-shadow: none;
+  }
+
+  @include breakpoint($medium) { width: 220px; }
+}
+
+.pub-body {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 0.92em;
+  line-height: 1.5;
+
+  p { margin: 0 0 0.3em; font-size: 1em; }
+}
+
+.pub-title { font-weight: 600; color: $text-color; font-size: 1.04em; line-height: 1.35; }
+.pub-authors { color: $text-color; }
+.pub-authors strong { font-weight: 600; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+.pub-venue { color: $pub-muted; font-style: italic; }
+.pub-venue b { font-style: normal; font-weight: 600; color: $text-color; }
+.pub-summary { margin-top: 0.45em !important; }
+.pub-links {
+  font-size: 0.92em;
+  a { text-decoration: none; margin-right: 0.15em; }
+  a:hover { text-decoration: underline; }
+  a::before { content: "["; color: $pub-muted; }
+  a::after { content: "]"; color: $pub-muted; }
+}
+.pub-note { font-size: 0.85em; color: $pub-muted; margin-bottom: 0.4em; }
+
+/* Plain (image-less) publication list */
+.pub-list .pub-body { font-size: 0.95em; }
+.pub-list .pub { padding: 0.9em 0; }
+
+/* Dated lists (news, honors, service, teaching) */
+.dated-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: flex;
+    gap: 1em;
+    padding: 0.28em 0;
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.5;
+  }
+  .date {
+    flex: 0 0 6.2em;
+    color: $pub-muted;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .item { flex: 1 1 auto; min-width: 0; }
+
+  &.date-right li { justify-content: space-between; }
+  &.date-right .date { flex: 0 0 auto; order: 2; text-align: right; padding-left: 1em; }
+  &.date-right .item { order: 1; }
+
+  @media (max-width: 599px) {
+    li { flex-direction: column; gap: 0; }
+    .date, &.date-right .date { flex: none; order: 0; text-align: left; padding-left: 0; font-size: 0.88em; }
+  }
+}
+
+.entry { margin-bottom: 1em; max-width: 46em; font-size: 0.95em;
+  .entry-head { display: flex; justify-content: space-between; gap: 1em; flex-wrap: wrap; }
+  .entry-head .date { color: $pub-muted; white-space: nowrap; }
+  p { margin: 0.15em 0 0; }
+}
+
+.skills { font-size: 0.93em; line-height: 1.7; }
+
+/* Education with school logos */
+.edu-row {
+  display: flex; align-items: center; gap: 1.2em;
+  padding: 0.55em 0; max-width: 46em; font-size: 0.95em; line-height: 1.45;
+  .edu-logo { flex: 0 0 110px; width: 110px; height: 36px; object-fit: contain; object-position: left center; box-shadow: none; }
+  .edu-text { flex: 1 1 auto; min-width: 0; }
+  .edu-text span { color: $pub-muted; }
+  .date { color: $pub-muted; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  @media (max-width: 599px) {
+    flex-wrap: wrap; gap: 0.4em 1em;
+    .date { flex-basis: 100%; font-size: 0.88em; }
+  }
+}

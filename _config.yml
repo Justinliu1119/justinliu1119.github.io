@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Justin Liu's Academic Homepage"
-description              : ""
+description              : "Academic homepage of Justin Yao Liu, a UC Berkeley EECS Ph.D. student researching safe learning, multi-agent systems, robotics, and cyber-physical systems."
 url                      : "https://justinliu1119.github.io"
 repository               : "Justinliu1119/justinliu1119.github.io"
 google_scholar_stats_use_cdn : true
@@ -24,12 +24,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Justin Yao Liu"
   avatar           : "images/Autograph.png"
-  bio              : "Ph.D. in EECS at UC Berkeley; AI and Robotics Researcher"
-  location         : "Los Angeles, CA, USA"
+  bio              : "EECS Ph.D. student at UC Berkeley | AI and robotics researcher"
+  location         : "Berkeley, CA, USA"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=BbvMhlEAAAAJ&hl=en"
-  email            : "jliu3548@usc.edu"
+  email            : "justinliu1119@berkeley.edu"
   cv               : "/cv/"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -138,7 +138,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
