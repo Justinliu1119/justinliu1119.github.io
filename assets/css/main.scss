@@ -381,7 +381,7 @@ details.pub-authors[open] summary { display: none; }
 
 /* Larger fixed figure frame; text column width is tuned per entry (assets/js/pub-fit.js) so text height equals figure height */
 @media (min-width: 48em) {
-  .pub-media { flex: 0 0 336px !important; width: 336px !important; }
+  .pub-media { flex: 0 0 303px !important; width: 303px !important; }
   .pub-body.pub-fit { display: flex; flex-direction: column; justify-content: space-between; }
   .pub-body.pub-fit > p { margin-bottom: 0; }
 }

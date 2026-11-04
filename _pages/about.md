@@ -19,7 +19,7 @@ redirect_from:
 
 <div class="intro" markdown="1">
 
-I am a first-year Ph.D. student in [Electrical Engineering and Computer Sciences at UC Berkeley](https://eecs.berkeley.edu/). Before Berkeley, I received B.S. degrees in Electrical and Computer Engineering (Honors) and Applied & Computational Mathematics from the [University of Southern California](https://www.usc.edu/), where I worked with Prof. [Bhaskar Krishnamachari](https://viterbi.usc.edu/directory/faculty/Krishnamachari/Bhaskar) in the [Autonomous Networks Research Group](https://anrg.usc.edu/www/) and with Prof. [Peter Beerel](https://sites.usc.edu/eessc/people/). I have also worked with Prof. [Qi Zhu](http://users.eecs.northwestern.edu/~qzhu/) as a visiting scholar in the [Design Automation of Intelligent Systems Lab](http://zhulab.eecs.northwestern.edu/index.html) at Northwestern, Prof. [Yinyu Ye](https://stanford.edu/~yyye/) at Stanford, and Prof. Dionysis Kalogerias at Yale.
+I am a first-year Ph.D. student in [Electrical Engineering and Computer Sciences at UC Berkeley](https://eecs.berkeley.edu/). Before Berkeley, I received B.S. degrees from the [University of Southern California](https://www.usc.edu/) in Electrical and Computer Engineering (Honors) and Applied & Computational Mathematics. At USC, I worked with Prof. [Bhaskar Krishnamachari](https://viterbi.usc.edu/directory/faculty/Krishnamachari/Bhaskar) in the [Autonomous Networks Research Group](https://anrg.usc.edu/www/) and with Prof. [Peter Beerel](https://sites.usc.edu/eessc/people/). I have also worked with Prof. [Qi Zhu](http://users.eecs.northwestern.edu/~qzhu/) as a visiting scholar in the [Design Automation of Intelligent Systems Lab](http://zhulab.eecs.northwestern.edu/index.html) at Northwestern, Prof. [Yinyu Ye](https://stanford.edu/~yyye/) at Stanford, and Prof. Dionysis Kalogerias at Yale.
 
 </div>
 
@@ -51,6 +51,7 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
 ## News
 
 <ul class="dated-list">
+  <li><span class="date">Sep 2026</span><span class="item"><em>SENTINEL</em> accepted to <a href="https://neurips.cc/">NeurIPS 2026</a>.</span></li>
   <li><span class="date">Aug 2026</span><span class="item">Started my Ph.D. in EECS at UC Berkeley.</span></li>
   <li><span class="date">Dec 2025</span><span class="item"><em>DISPATCH</em> released on <a href="https://arxiv.org/abs/2511.17915">arXiv</a>.</span></li>
   <li><span class="date">Nov 2025</span><span class="item"><em>Predictive Modeling in AUV Navigation</em> submitted to IEEE IV 2026 (<a href="https://arxiv.org/abs/2603.27422">arXiv</a>).</span></li>
@@ -77,7 +78,7 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
     <p class="pub-title">AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization</p>
     <p class="pub-authors">Le Qiu, Cole Harrison, Jiankai Sun, <strong>Yao Liu</strong>, Suning Huang, Qianzhong Chen, Yang You, Marco Pavone</p>
     <p class="pub-meta"><span class="pub-venue status">arXiv preprint, 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2606.21148">Paper</a></p>
-    <p class="pub-summary">Canonicalizing observations and actions in a mug-centric frame lets one closed-loop policy grasp mugs by the handle across shapes and poses, with zero-shot sim-to-real transfer.</p>
+    <p class="pub-summary">A single closed-loop policy grasps mugs by the handle across shapes and poses by canonicalizing observations and actions in a mug-centric frame. Trained only in simulation, it transfers zero-shot to a real Franka Panda.</p>
   </div>
 </div>
 
@@ -87,7 +88,7 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
     <p class="pub-title">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</p>
     <p class="pub-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
     <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2510.12985">Paper</a><span class="sep">|</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a><span class="sep">|</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a></p>
-    <p class="pub-summary">Temporal-logic safety specifications for embodied LLM agents, checked at the semantic, plan, and trajectory levels in VirtualHome and AI2-THOR with interpretable counterexamples.</p>
+    <p class="pub-summary">SENTINEL specifies safety requirements for embodied LLM agents in temporal logic and checks them at the semantic, plan, and trajectory levels. Verification in VirtualHome and AI2-THOR flags unsafe states, ordering violations, and timed hazards with interpretable counterexamples.</p>
   </div>
 </div>
 
