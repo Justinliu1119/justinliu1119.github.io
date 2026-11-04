@@ -19,38 +19,18 @@ redirect_from:
 
 <div class="intro" markdown="1">
 
-I am a first-year Ph.D. student in Electrical Engineering and Computer Sciences at UC Berkeley. I received B.S. degrees in Electrical and Computer Engineering (Honors) and Applied & Computational Mathematics from the University of Southern California in 2025.
-
-Before Berkeley, I worked with Prof. [Bhaskar Krishnamachari](https://viterbi.usc.edu/directory/faculty/Krishnamachari/Bhaskar) in the [Autonomous Networks Research Group](https://anrg.usc.edu/www/) and Prof. [Peter Beerel](https://sites.usc.edu/eessc/people/) at USC; with Prof. [Qi Zhu](http://users.eecs.northwestern.edu/~qzhu/) in the [Design Automation of Intelligent Systems Lab](http://zhulab.eecs.northwestern.edu/index.html) at Northwestern, where I was a visiting scholar; with Prof. [Yinyu Ye](https://stanford.edu/~yyye/) at Stanford on online stochastic optimization; and with Prof. Dionysis Kalogerias at Yale on robust multi-agent learning.
+I am a first-year Ph.D. student in Electrical Engineering and Computer Sciences at UC Berkeley. Before Berkeley, I received B.S. degrees in Electrical and Computer Engineering (Honors) and Applied & Computational Mathematics from the University of Southern California, where I worked with Prof. [Bhaskar Krishnamachari](https://viterbi.usc.edu/directory/faculty/Krishnamachari/Bhaskar) in the [Autonomous Networks Research Group](https://anrg.usc.edu/www/) and with Prof. [Peter Beerel](https://sites.usc.edu/eessc/people/). I have also worked with Prof. [Qi Zhu](http://users.eecs.northwestern.edu/~qzhu/) as a visiting scholar in the [Design Automation of Intelligent Systems Lab](http://zhulab.eecs.northwestern.edu/index.html) at Northwestern, Prof. [Yinyu Ye](https://stanford.edu/~yyye/) at Stanford, and Prof. Dionysis Kalogerias at Yale. Previously, I was an intern at [Tsinghua University's MetaCam Lab](https://www.metacam.tech/).
 
 </div>
 
-## Research
+## Research Vision
 
 <div class="intro" markdown="1">
 
-I study how autonomous agents can make good decisions when each one sees only part of the world, information arrives over time, and some outcomes are unsafe. These conditions appear in multi-robot exploration, embodied assistants, and networked cyber-physical systems. They raise a shared set of questions: what an agent should infer about what it cannot observe, when communication is worth its cost, how tasks and resources should be divided as new information is revealed, and how to check that a learned or language-model-driven policy respects safety constraints.
+My research aims to build autonomous agents that act reliably when each one sees only part of the world, information arrives over time, and some outcomes are unsafe. These conditions arise in multi-robot exploration, embodied assistants, and networked cyber-physical systems. In each setting, an agent has to infer what it cannot observe, decide when communication is worth its cost, divide tasks and resources as new information is revealed, and respect safety constraints while it acts.
 
-I approach these questions with tools from optimization, reinforcement learning, generative modeling, and formal methods. My work so far falls into three connected threads.
+To this end, I draw on optimization, reinforcement learning, generative modeling, and formal methods. I study decentralized coordination under partial observability, online decision-making with provable guarantees, and the specification and verification of safety for learned and language-model-driven policies. My goal is autonomous systems whose efficiency, fairness, and safety can be stated precisely and checked, not only measured after deployment.
 
-</div>
-
-<div class="themes">
-  <div class="theme">
-    <div class="theme-title">Coordination under partial observability</div>
-    <p>Decentralized policies that assign tasks fairly and coordinate with limited communication, using equilibrium-based objectives, graph message passing, and diffusion models that infer global state from local views.</p>
-    <div class="theme-works">DISPATCH · Quiet Multi-Agent Systems · Zeroth-order robust MARL (ongoing)</div>
-  </div>
-  <div class="theme">
-    <div class="theme-title">Online decision-making under uncertainty</div>
-    <p>Algorithms that update prices, allocations, or state estimates as data arrives sequentially, with regret and constraint-violation guarantees where possible.</p>
-    <div class="theme-works">Adaptive Online Arrow–Debreu Markets · AUV navigation via Kalman filtering · Byzantine-robust distributed inference</div>
-  </div>
-  <div class="theme">
-    <div class="theme-title">Safe and reliable embodied agents</div>
-    <p>Formal specification and verification of safety for LLM-based embodied agents, and robot policies that generalize across object geometry and pose.</p>
-    <div class="theme-works">SENTINEL · AnyMug</div>
-  </div>
 </div>
 
 ## Education
@@ -132,7 +112,7 @@ I approach these questions with tools from optimization, reinforcement learning,
 </div>
 
 <div class="pub">
-  <div class="pub-media"><img src="{{ '/images/ML_Inference_2.png' | relative_url }}" alt="Distributed inference framework for IoT systems" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/distributed_detection.png' | relative_url }}" alt="Distributed inference framework for IoT systems" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection</p>
     <p class="pub-authors">Xuan Zhou, U. Muhan, <strong>Yao Liu</strong>, Peter Beerel</p>
@@ -142,7 +122,7 @@ I approach these questions with tools from optimization, reinforcement learning,
 </div>
 
 <div class="pub">
-  <div class="pub-media"><img src="{{ '/images/Pedestrian_Detection.png' | relative_url }}" alt="Synthetic dataset analysis for pedestrian detection" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/letsroll_pipeline.png' | relative_url }}" alt="Traditional versus rolling-shutter-aware detection pipeline" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</p>
     <p class="pub-authors">Yue Hu, G. Datta, K. Beerel, <strong>Yao Liu</strong>, Peter Beerel</p>
@@ -152,7 +132,7 @@ I approach these questions with tools from optimization, reinforcement learning,
 </div>
 
 <div class="pub">
-  <div class="pub-media"><img src="{{ '/images/Kalman_Filter_2.png' | relative_url }}" alt="Kalman filter AUV tracking" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/auv_localization.png' | relative_url }}" alt="Acoustic localization of a submersible from surface buoys" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</p>
     <p class="pub-authors">Zizhan Tang<sup>*</sup>, <strong>Yao Liu</strong><sup>*</sup>, Jiexi Liu</p>
