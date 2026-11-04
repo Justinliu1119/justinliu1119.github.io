@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Justin Liu's Academic Homepage"
-description              : "Academic homepage of Justin Yao Liu, a UC Berkeley EECS Ph.D. student researching safe learning, multi-agent systems, robotics, and cyber-physical systems."
+description              : ""
 url                      : "https://justinliu1119.github.io"
 repository               : "Justinliu1119/justinliu1119.github.io"
 google_scholar_stats_use_cdn : true

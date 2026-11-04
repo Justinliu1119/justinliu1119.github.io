@@ -25,21 +25,6 @@ Before Berkeley, I worked with Prof. [Bhaskar Krishnamachari](https://viterbi.us
 
 </div>
 
-## Education
-
-<div class="edu">
-  <div class="edu-row">
-    <img class="edu-logo" src="{{ '/images/logo_berkeley.svg' | relative_url }}" alt="UC Berkeley">
-    <div class="edu-text"><strong>University of California, Berkeley</strong><br><span>Ph.D. in Electrical Engineering and Computer Sciences</span></div>
-    <span class="date">2026 – present</span>
-  </div>
-  <div class="edu-row">
-    <img class="edu-logo" src="{{ '/images/logo_usc.svg' | relative_url }}" alt="University of Southern California">
-    <div class="edu-text"><strong>University of Southern California</strong><br><span>B.S. in Electrical and Computer Engineering (Honors)<br>B.S. in Applied &amp; Computational Mathematics</span></div>
-    <span class="date">2021 – 2025</span>
-  </div>
-</div>
-
 ## Research
 
 <div class="intro" markdown="1">
@@ -65,6 +50,21 @@ I approach these questions with tools from optimization, reinforcement learning,
     <div class="theme-title">Safe and reliable embodied agents</div>
     <p>Formal specification and verification of safety for LLM-based embodied agents, and robot policies that generalize across object geometry and pose.</p>
     <div class="theme-works">SENTINEL · AnyMug</div>
+  </div>
+</div>
+
+## Education
+
+<div class="edu">
+  <div class="edu-row">
+    <img class="edu-logo" src="{{ '/images/seal_berkeley.svg' | relative_url }}" alt="UC Berkeley">
+    <div class="edu-text"><strong>University of California, Berkeley</strong><br><span>Ph.D. in Electrical Engineering and Computer Sciences</span></div>
+    <span class="date">2026 – present</span>
+  </div>
+  <div class="edu-row">
+    <img class="edu-logo" src="{{ '/images/seal_usc.svg' | relative_url }}" alt="University of Southern California">
+    <div class="edu-text"><strong>University of Southern California</strong><br><span>B.S. in Electrical and Computer Engineering (Honors)<br>B.S. in Applied &amp; Computational Mathematics</span></div>
+    <span class="date">2021 – 2025</span>
   </div>
 </div>
 
