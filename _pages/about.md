@@ -180,7 +180,7 @@ I study how robots can use predictive world models to infer what they cannot dir
 </div>
 
 <div class="pub" data-href="https://arxiv.org/abs/2603.27422">
-  <div class="pub-media"><img src="{{ '/images/auv_localization.png' | relative_url }}" alt="Acoustic localization of a submersible from surface buoys" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/auv_tdoa.svg' | relative_url }}" alt="TDOA localization: an AUV emits acoustic signals received by reference receiver s0 and receivers s1 to s4" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://arxiv.org/abs/2603.27422">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</a></p>
     <p class="pub-authors">Zizhan Tang<sup>*</sup>, <strong>Yao Liu</strong><sup>*</sup>, Jiexi Liu</p>
