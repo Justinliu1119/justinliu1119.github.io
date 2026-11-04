@@ -50,8 +50,9 @@ I study how robots can use predictive world models to infer what they cannot dir
 
 ## News
 
-<ul class="dated-list">
-  <li><span class="date">Sep 2026</span><span class="item"><em>SENTINEL</em> accepted to <a href="https://neurips.cc/">NeurIPS 2026</a>.</span></li>
+<div class="news-box" tabindex="0" aria-label="News (scrollable)">
+<ul class="dated-list news-list">
+  <li class="news-hot"><span class="date">Sep 2026</span><span class="item"><strong>SENTINEL</strong> is accepted to <a href="https://neurips.cc/">NeurIPS 2026</a>! 🎉</span></li>
   <li><span class="date">Aug 2026</span><span class="item">Started my Ph.D. in EECS at UC Berkeley.</span></li>
   <li><span class="date">Dec 2025</span><span class="item"><em>DISPATCH</em> released on <a href="https://arxiv.org/abs/2511.17915">arXiv</a>.</span></li>
   <li><span class="date">Nov 2025</span><span class="item"><em>Predictive Modeling in AUV Navigation</em> submitted to IEEE IV 2026 (<a href="https://arxiv.org/abs/2603.27422">arXiv</a>).</span></li>
@@ -63,6 +64,7 @@ I study how robots can use predictive world models to infer what they cannot dir
   <li><span class="date">May 2024</span><span class="item">Honorable Mention, <a href="https://www.contest.comap.com/undergraduate/contests/mcm/contests/2024/results/#b">MCM 2024</a>, for Kalman-filter-based submarine trajectory prediction.</span></li>
   <li><span class="date">Jun 2023</span><span class="item">Started as an ML intern at <a href="https://www.metacam.tech/">Tsinghua MetaCam Lab</a>.</span></li>
 </ul>
+</div>
 
 ## Selected Publications
 
