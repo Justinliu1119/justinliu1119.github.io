@@ -367,3 +367,13 @@ details.pub-authors[open] summary { display: none; }
 
 /* Let prose and lists use the full content width */
 .intro p, .theme, .entry, .edu-row { max-width: none; }
+
+/* Wider overall layout so the text column has more room */
+#main { max-width: 1560px !important; }
+.masthead .masthead__inner-wrap { max-width: 1560px !important; }
+@media (min-width: 57.8125em) {
+  .page { padding-left: 1.5em; padding-right: 0; }
+}
+@media (min-width: 48em) {
+  .pub-media { flex: 0 0 270px; width: 270px; }
+}
