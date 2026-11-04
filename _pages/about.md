@@ -27,9 +27,9 @@ I am a first-year Ph.D. student in [Electrical Engineering and Computer Sciences
 
 <div class="intro" markdown="1">
 
-My research aims to build autonomous agents that act reliably when each one sees only part of the world, information arrives over time, and some outcomes are unsafe. These conditions arise in multi-robot exploration, embodied assistants, and networked cyber-physical systems. In each setting, an agent has to infer what it cannot observe, decide when communication is worth its cost, divide tasks and resources as new information is revealed, and respect safety constraints while it acts.
+My research aims to advance general-purpose physical intelligence: robots and teams of robots that learn to perceive, plan, and act in the physical world, with guarantees on how they behave. Learning has made robots far more capable, but a policy that performs well on average can still fail under partial observability, distribution shift, or adversarial perturbation. I want learned controllers to come with statements that can be checked: that they satisfy safety specifications, stay robust under uncertainty, and improve with bounded regret as they gather experience.
 
-To this end, I draw on optimization, reinforcement learning, generative modeling, and formal methods. I study decentralized coordination under partial observability, online decision-making with provable guarantees, and the specification and verification of safety for learned and language-model-driven policies. My goal is autonomous systems whose efficiency, fairness, and safety can be stated precisely and checked, not only measured after deployment.
+To this end, I combine learning-based control with tools from optimization, online learning, and formal methods. I work on predictive world models that let decentralized agents infer what they cannot observe, robust and equilibrium-based multi-agent learning for coordination under partial information, and temporal-logic specification and verification for learned and foundation-model-driven policies. My goal is general-purpose robots whose capabilities grow with data while their reliability can be stated precisely and proven.
 
 </div>
 
