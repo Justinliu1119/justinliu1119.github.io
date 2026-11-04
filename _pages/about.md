@@ -77,7 +77,7 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
     <p class="pub-title">AnyMug: Pose-Agnostic Robotic Functional Grasping via Observation–Action Canonicalization</p>
     <p class="pub-authors">Le Qiu, Cole Harrison, Jiankai Sun, <strong>Yao Liu</strong>, Suning Huang, Qianzhong Chen, Yang You, Marco Pavone</p>
     <p class="pub-meta"><span class="pub-venue status">arXiv preprint, 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2606.21148">Paper</a></p>
-    <p class="pub-summary">A single closed-loop policy grasps mugs by the handle across shapes and poses by canonicalizing observations and actions in a mug-centric frame. Trained only in simulation, it transfers zero-shot to a real Franka Panda.</p>
+    <p class="pub-summary">Canonicalizing observations and actions in a mug-centric frame lets one closed-loop policy grasp mugs by the handle across shapes and poses, with zero-shot sim-to-real transfer.</p>
   </div>
 </div>
 
@@ -87,7 +87,7 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
     <p class="pub-title">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</p>
     <p class="pub-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
     <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2510.12985">Paper</a><span class="sep">|</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a><span class="sep">|</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a></p>
-    <p class="pub-summary">SENTINEL specifies safety requirements for embodied LLM agents in temporal logic and checks them at the semantic, plan, and trajectory levels. Verification in VirtualHome and AI2-THOR flags unsafe states, ordering violations, and timed hazards with interpretable counterexamples.</p>
+    <p class="pub-summary">Temporal-logic safety specifications for embodied LLM agents, checked at the semantic, plan, and trajectory levels in VirtualHome and AI2-THOR with interpretable counterexamples.</p>
   </div>
 </div>
 
@@ -199,3 +199,5 @@ To this end, I draw on optimization, reinforcement learning, generative modeling
 <strong>Machine learning</strong>: reinforcement learning, diffusion models, online learning, transformers<br>
 <strong>Tools</strong>: Git, Docker, AWS, Unreal Engine, Unity, Simulink
 </div>
+
+<script src="{{ '/assets/js/pub-fit.js' | relative_url }}"></script>
