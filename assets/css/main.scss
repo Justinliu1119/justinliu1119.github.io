@@ -423,7 +423,7 @@ details.pub-authors[open] summary { display: none; }
 /* Caption line at the top of a figure frame; the media sits below it */
 .pub-media .media-caption {
   position: absolute;
-  top: 3px;
+  top: 4.5px;
   left: 10px;
   right: 10px;
   z-index: 1;
@@ -439,8 +439,8 @@ details.pub-authors[open] summary { display: none; }
   pointer-events: none;
 }
 @media (min-width: 48em) {
-  .pub-media.has-caption video { top: 19px; height: calc(100% - 26px); width: calc(100% - 8px); left: 4px; }
-  .pub-media.has-caption .media-caption { left: 10px; }
+  .pub-media.has-caption video { top: 20.5px; height: calc(100% - 26px); width: calc(100% - 8px); left: 4px; }
+  .pub-media.has-caption .media-caption { left: 12px; }
 }
 .pub-media.has-caption { padding-top: 26px; }
 
