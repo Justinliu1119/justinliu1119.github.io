@@ -430,10 +430,11 @@ details.pub-authors[open] summary { display: none; }
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  font-size: 0.66em;
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", Georgia, serif;
+  font-size: 0.74em;
   line-height: 1.3;
-  letter-spacing: 0.02em;
-  font-weight: 600;
+  letter-spacing: 0;
+  font-weight: 700;
   color: #000;
   pointer-events: none;
 }
