@@ -443,3 +443,6 @@ details.pub-authors[open] summary { display: none; }
   .pub-media.has-caption .media-caption { left: 19px; }
 }
 .pub-media.has-caption { padding-top: 26px; }
+
+/* Sidebar email shown as plain text */
+.author__email { white-space: normal; word-break: break-word; }
