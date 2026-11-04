@@ -413,3 +413,11 @@ details.pub-authors[open] summary { display: none; }
 }
 .pub-body pre.bibtex[hidden] { display: none; }
 .bib-toggle[aria-expanded="true"] { text-decoration: underline; }
+
+/* AnyMug video: fill the frame and zoom slightly to trim the video's own white margins */
+.pub-media { overflow: hidden; }
+.pub-media video {
+  object-fit: cover !important;
+  transform: scale(1.12);
+  transform-origin: 47% 52%;
+}
