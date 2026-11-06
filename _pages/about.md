@@ -215,49 +215,36 @@ To this end, I study predictive world models for reasoning under partial observa
 
 <ul class="dated-list date-right">
   <li><span class="item">UC Berkeley EECS Ph.D. Fellowship</span><span class="date">2026</span></li>
-  <li><span class="item">Discover Scholar Distinction, USC</span><span class="date">2025</span></li>
   <li><span class="item">Gold Medal, Kaggle LMSYS Chatbot Arena Human Preference Predictions</span><span class="date">2024</span></li>
-  <li><span class="item">Honorable Mention, Mathematical Contest in Modeling (COMAP)</span><span class="date">2024</span></li>
   <li><span class="item">Ming Hsieh Institute Undergraduate Scholar, USC (top 5 research scholars in EE)</span><span class="date">2024</span></li>
+  <li><span class="item">Discover Scholar Distinction, USC</span><span class="date">2025</span></li>
+</ul>
+<details class="more-list">
+<summary>Show all honors</summary>
+<ul class="dated-list date-right">
+  <li><span class="item">Honorable Mention, Mathematical Contest in Modeling (COMAP)</span><span class="date">2024</span></li>
   <li><span class="item">Provost Research Scholarship, USC</span><span class="date">2024</span></li>
-  <li><span class="item">Academic Achievement Award, USC</span><span class="date">2024–2025</span></li>
   <li><span class="item">W.V.T. Rusch Engineering Honors Degree, USC</span><span class="date">2023</span></li>
   <li><span class="item">Richardson CURVE Award, USC</span><span class="date">2022–2024</span></li>
+  <li><span class="item">Academic Achievement Award, USC</span><span class="date">2024–2025</span></li>
   <li><span class="item">Dean's List, USC</span><span class="date">2022–2025</span></li>
 </ul>
+</details>
 
-## Service
+## Service &amp; Teaching
 
 <ul class="dated-list date-right">
   <li><span class="item">Reviewer, Conference on Robot Learning (CoRL)</span><span class="date">2026</span></li>
   <li><span class="item">Reviewer, IEEE Intelligent Vehicles Symposium (IV)</span><span class="date">2026</span></li>
+  <li><span class="item"><strong>Course Producer</strong>, <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=18&amp;coid=283518">EE 202 Linear Circuits</a>, USC</span><span class="date">Fall 2023 – Spring 2025</span></li>
+  <li><span class="item"><strong>Grader</strong>, <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=21&amp;coid=330673">EE 301 Linear Systems</a> and MATH 245, USC</span><span class="date">Fall 2024</span></li>
 </ul>
 
-## Teaching
-
-<div class="entry">
-  <div class="entry-head"><span><strong>Course Producer</strong>, <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=18&amp;coid=283518">EE 202 Linear Circuits</a>, USC</span><span class="date">Fall 2023 – Spring 2025</span></div>
-  <p>Led lab sections, held office hours, and ran exam review sessions.</p>
-</div>
-<div class="entry">
-  <div class="entry-head"><span><strong>Grader</strong>, <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=21&amp;coid=330673">EE 301 Linear Systems</a> and MATH 245, USC</span><span class="date">Fall 2024</span></div>
-  <p>Graded homework, quizzes, and lab reports.</p>
-</div>
-
-## Industry Experience
+## Experience
 
 <div class="entry">
   <div class="entry-head"><span><strong>Machine Learning Intern</strong>, <a href="https://www.metacam.tech/">Tsinghua University MetaCam Lab</a></span><span class="date">Jun – Aug 2023</span></div>
   <p>Built a spatially adaptive CNN that removes spatially varying optical blur by learning point spread functions across the image field, trained on a ray-traced synthetic pipeline with PSF-based augmentation; improved restoration quality by 1.7% over prior baselines.</p>
-</div>
-
-## Skills
-
-<div class="skills">
-<strong>Languages</strong>: Python (NumPy, CVXPY, PyTorch, TensorFlow), C/C++, Verilog/HDL, MATLAB<br>
-<strong>Robotics and simulation</strong>: ROS 2, MuJoCo, NVIDIA Isaac Sim, VirtualHome, AI2-THOR, BEHAVIOR-1K, ALFRED, MPE, Gymnasium, OpenCV<br>
-<strong>Machine learning</strong>: reinforcement learning, diffusion models, online learning, transformers<br>
-<strong>Tools</strong>: Git, Docker, AWS, Unreal Engine, Unity, Simulink
 </div>
 
 <script>

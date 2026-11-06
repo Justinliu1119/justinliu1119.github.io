@@ -11,7 +11,7 @@ excerpt: "Selected non-publication projects and competition work."
 <article class="op-item">
   <a class="op-media" href="{{ '/images/LLM_Fine_Tuning.png' | relative_url }}"><img src="{{ '/images/LLM_Fine_Tuning.png' | relative_url }}" alt="Chatbot Arena Human Preference Prediction"></a>
   <div class="op-body">
-    <div class="pl-head"><p class="pl-title">Chatbot Arena Human Preference Prediction</p><span class="pl-tag">Kaggle Project</span></div>
+    <div class="pl-head"><p class="pl-title">Chatbot Arena Human Preference Prediction</p><span class="pl-tag">Kaggle Gold Medal</span></div>
     <p class="op-text">We trained Gemma-2-9B and Llama-3.1-8B with 4-bit QLoRA to predict human preferences, using AdamW and gradient accumulation to optimize log loss. To improve training efficiency and robustness, we tuned the context length and adopted length-sorted batching. We further improved performance by constructing a validation-weighted ensemble, yielding more stable and accurate preference probabilities.</p>
   </div>
 </article>
