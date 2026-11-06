@@ -556,3 +556,11 @@ details.pub-authors[open] summary { display: none; }
   .page__content h2.pl-year, h2.pl-year { position: static; padding: 0 0 0.4rem; }
   .pl-head { flex-direction: column; gap: 0.1rem; }
 }
+
+/* Publications page: wider column, shifted left */
+@media (min-width: 57.8125em) {
+  .archive:has(.pl) > * { margin-left: -120px; margin-right: -40px; }
+}
+@media (min-width: 90em) {
+  .archive:has(.pl) > * { margin-left: -160px; margin-right: -110px; }
+}
