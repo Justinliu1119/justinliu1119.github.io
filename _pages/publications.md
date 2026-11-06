@@ -6,7 +6,7 @@ author_profile: true
 excerpt: "Papers and manuscripts on multi-agent systems, online decision-making, and safe embodied agents."
 ---
 
-<p class="pub-note"><sup>*</sup> equal contribution &nbsp;·&nbsp; <sup>†</sup> alphabetical order &nbsp;·&nbsp; <a href="https://scholar.google.com/citations?user=BbvMhlEAAAAJ&amp;hl=en">Google Scholar</a></p>
+<p class="pub-note">* Equal contribution &nbsp;·&nbsp; <sup>†</sup> Alphabetical order &nbsp;·&nbsp; <a href="https://scholar.google.com/citations?user=BbvMhlEAAAAJ&amp;hl=en">Google Scholar</a></p>
 
 <div class="pl">
 <section class="pl-group">
@@ -26,7 +26,7 @@ excerpt: "Papers and manuscripts on multi-agent systems, online decision-making,
 }</pre>
 </article>
 <article class="pl-item"><div class="pl-head"><p class="pl-title"><a href="https://arxiv.org/abs/2510.12985">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</a></p><span class="pl-tag is-accepted">NeurIPS 2026</span></div>
-<p class="pl-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
+<p class="pl-authors">Simon Sinong Zhan*, Philip Wang*, <strong>Justin Yao Liu*</strong>, Yiyan Peng*, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
 <p class="pl-venue">Advances in Neural Information Processing Systems (<b>NeurIPS</b>), 2026</p>
 <p class="pl-links"><a href="https://arxiv.org/abs/2510.12985">paper</a><span class="pl-sep">/</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">website</a><span class="pl-sep">/</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">code</a><span class="pl-sep">/</span><button type="button" class="bib-toggle pl-bib" aria-expanded="false">bibtex</button></p>
 <pre class="bibtex" id="zhan2026sentinel" hidden>@misc{zhan2026sentinel,
@@ -40,7 +40,7 @@ excerpt: "Papers and manuscripts on multi-agent systems, online decision-making,
 }</pre>
 </article>
 <article class="pl-item"><div class="pl-head"><p class="pl-title"><a href="https://arxiv.org/abs/2603.27422">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</a></p><span class="pl-tag">Submitted, IEEE IV 2026</span></div>
-<p class="pl-authors">Zizhan Tang<sup>*</sup>, <strong>Yao Liu</strong><sup>*</sup>, Jiexi Liu</p>
+<p class="pl-authors">Zizhan Tang*, <strong>Yao Liu*</strong>, Jiexi Liu</p>
 <p class="pl-links"><a href="https://arxiv.org/abs/2603.27422">paper</a><span class="pl-sep">/</span><button type="button" class="bib-toggle pl-bib" aria-expanded="false">bibtex</button></p>
 <pre class="bibtex" id="tang2026auv" hidden>@misc{tang2026auv,
   title         = {Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering},

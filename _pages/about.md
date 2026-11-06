@@ -27,9 +27,9 @@ I am a first-year Ph.D. student in [Electrical Engineering and Computer Sciences
 
 <div class="intro" markdown="1">
 
-My research aims to advance general-purpose physical intelligence: robots and teams of robots that learn to perceive, plan, and act in the physical world, with guarantees on their behavior. Learning has made robots more capable, but strong average performance does not ensure reliability under partial observability, distribution shift, or adversarial perturbations. I want to build learned controllers whose behavior we can reason about and verify: whether they satisfy safety specifications, remain robust under uncertainty, and improve with bounded regret as they gain experience.
+My research aims to advance general-purpose physical intelligence by developing robots and multi-agent systems that learn to perceive, plan, and act reliably under uncertainty, with meaningful guarantees on their behavior.
 
-I study how robots can use predictive world models to infer what they cannot directly observe, account for uncertainty and risk when making decisions, and coordinate with other agents under partial information. I also work on using explicit task and safety specifications to guide and verify learned policies, including vision-language-action models. These directions share a central question: how can we make robots more adaptable while preserving meaningful guarantees on their behavior? My goal is to develop general-purpose robots that generalize across tasks and environments, grow more capable with data and experience, and offer reliability guarantees with clear assumptions and limits.
+To this end, I study predictive world models for reasoning under partial observability, risk-aware decision-making and multi-agent coordination, and specification-guided learning and verification for robotic policies, including vision-language-action models. My goal is to develop adaptable robots that generalize across tasks and environments, improve through experience, and remain safe and robust with clearly defined guarantees.
 
 </div>
 
@@ -68,7 +68,7 @@ I study how robots can use predictive world models to infer what they cannot dir
 
 ## Selected Publications
 
-<p class="pub-note"><sup>*</sup> equal contribution &nbsp;·&nbsp; <sup>†</sup> alphabetical order &nbsp;·&nbsp; <a href="{{ '/publications/' | relative_url }}">Full list</a></p>
+<p class="pub-note">* Equal contribution &nbsp;·&nbsp; <sup>†</sup> Alphabetical order &nbsp;·&nbsp; <a href="{{ '/publications/' | relative_url }}">Full list</a></p>
 
 <div class="pub" data-href="https://arxiv.org/abs/2606.21148">
   <div class="pub-media has-caption">
@@ -98,7 +98,7 @@ I study how robots can use predictive world models to infer what they cannot dir
   <div class="pub-media"><img src="{{ '/images/sentinel_pipeline.png' | relative_url }}" alt="SENTINEL framework overview" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://arxiv.org/abs/2510.12985">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</a></p>
-    <p class="pub-authors">Simon Sinong Zhan<sup>*</sup>, Philip Wang<sup>*</sup>, <strong>Justin Yao Liu</strong><sup>*</sup>, Yiyan Peng<sup>*</sup>, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
+    <p class="pub-authors">Simon Sinong Zhan*, Philip Wang*, <strong>Justin Yao Liu*</strong>, Yiyan Peng*, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
     <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2510.12985">Paper</a><span class="sep">|</span><a href="https://nu-ideas-lab.github.io/SENTINEL/">Website</a><span class="sep">|</span><a href="https://github.com/NU-IDEAS-Lab/SENTINEL">Code</a><span class="sep">|</span><a href="#zhan2026sentinel" class="bib-toggle" aria-expanded="false" aria-controls="zhan2026sentinel">BibTeX</a></p>
     <pre class="bibtex" id="zhan2026sentinel" hidden>@misc{zhan2026sentinel,
   title         = {SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents},
@@ -185,7 +185,7 @@ I study how robots can use predictive world models to infer what they cannot dir
   <div class="pub-media"><img src="{{ '/images/auv_tdoa.svg' | relative_url }}" alt="TDOA localization: an AUV emits acoustic signals received by reference receiver s0 and receivers s1 to s4" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://arxiv.org/abs/2603.27422">Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering</a></p>
-    <p class="pub-authors">Zizhan Tang<sup>*</sup>, <strong>Yao Liu</strong><sup>*</sup>, Jiexi Liu</p>
+    <p class="pub-authors">Zizhan Tang*, <strong>Yao Liu*</strong>, Jiexi Liu</p>
     <p class="pub-meta"><span class="pub-venue status">Submitted to IEEE IV 2026</span><span class="sep">|</span><a href="https://arxiv.org/abs/2603.27422">Paper</a><span class="sep">|</span><a href="#tang2026auv" class="bib-toggle" aria-expanded="false" aria-controls="tang2026auv">BibTeX</a></p>
     <pre class="bibtex" id="tang2026auv" hidden>@misc{tang2026auv,
   title         = {Predictive Modeling in AUV Navigation: A Perspective from Kalman Filtering},
