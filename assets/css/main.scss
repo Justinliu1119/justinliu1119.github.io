@@ -597,3 +597,6 @@ details.pub-authors[open] summary { display: none; }
 /* Homepage: tighter section spacing */
 .page__content h2 { margin-top: 1.9em; }
 .page__content h2#research-vision { margin-top: 1.2em; }
+
+/* Keep the logo beside the name in the masthead */
+.masthead__menu-item a.site-brand { display: inline-flex; flex-direction: row; align-items: center; white-space: nowrap; }

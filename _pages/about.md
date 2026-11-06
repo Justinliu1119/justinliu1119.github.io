@@ -2,6 +2,7 @@
 permalink: /
 title: ""
 excerpt: ""
+description: "EECS Ph.D. student at UC Berkeley | AI and robotics researcher"
 author_profile: true
 redirect_from: 
   - /about/
@@ -43,7 +44,7 @@ To this end, I study predictive world models for reasoning under partial observa
   </div>
   <div class="edu-row">
     <img class="edu-logo" src="{{ '/images/seal_usc_cardinal.svg' | relative_url }}" alt="University of Southern California">
-    <div class="edu-text"><strong>University of Southern California</strong><br><span>B.S. in Electrical and Computer Engineering (Honors)<br>B.S. in Applied &amp; Computational Mathematics</span></div>
+    <div class="edu-text"><strong>USC</strong><br><span>B.S. in Electrical and Computer Engineering (Honors)<br>B.S. in Applied &amp; Computational Mathematics</span></div>
     <span class="date">2021 – 2025</span>
   </div>
 </div>

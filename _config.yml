@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Justin Liu's Academic Homepage"
-description              : ""
+title                    : "Justin Yao Liu"
+description              : "EECS Ph.D. student at UC Berkeley | AI and robotics researcher"
 url                      : "https://justinliu1119.github.io"
 repository               : "Justinliu1119/justinliu1119.github.io"
 google_scholar_stats_use_cdn : true
