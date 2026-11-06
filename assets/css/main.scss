@@ -593,3 +593,7 @@ details.pub-authors[open] summary { display: none; }
   .op-item { flex-direction: column; gap: 0.8rem; }
   .op-media { flex: none; width: 100%; }
 }
+
+/* Homepage: tighter section spacing */
+.page__content h2 { margin-top: 1.9em; }
+.page__content h2#research-vision { margin-top: 1.2em; }
