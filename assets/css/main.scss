@@ -616,7 +616,3 @@ details.pub-authors[open] summary { display: none; }
 .plain-list li::marker { color: #9fb6cc; }
 .plain-list.labeled { padding-left: 0; list-style: none; }
 .plain-list .yr { color: $pub-muted; }
-
-/* Taller frame for entries whose paper figures are not wide */
-.pub-media.fit-tall { aspect-ratio: 1600 / 1309 !important; padding: 0; }
-.pub-media.fit-tall img { top: 0; left: 0; width: 100%; height: 100%; }
