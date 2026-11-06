@@ -501,3 +501,58 @@ details.pub-authors[open] summary { display: none; }
   }
 }
 .news-list li.news-hot::before { background: #c0392b; box-shadow: 0 0 0 3px rgba(192,57,43,.15); }
+
+/* Publications page: year rail + typographic list */
+.pl-group {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  column-gap: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+.page__content h2.pl-year, h2.pl-year {
+  position: sticky;
+  top: 4.5rem;
+  align-self: start;
+  margin: 0;
+  padding: 0.7rem 0 0;
+  border: 0;
+  font-family: Palatino, "Palatino Linotype", Georgia, serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #1e3a52;
+  font-variant-numeric: oldstyle-nums;
+}
+.pl-item { padding: 0.75rem 0 0.95rem; border-top: 1px solid #e3e8ee; font-size: 0.95em; }
+.pl-items .pl-item:first-child { border-top-color: #1e3a52; }
+.pl-item p { margin: 0; }
+.pl-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1.5rem; }
+.pl-title { font-weight: 600; line-height: 1.4; color: $text-color; }
+.pl-title a, .pl-title a:visited { color: inherit; text-decoration: none; }
+.pl-title a:hover { color: #2f5d8a; text-decoration: underline; text-underline-offset: 2px; }
+.pl-tag {
+  flex: none;
+  font-size: 0.86em;
+  font-style: italic;
+  color: $pub-muted;
+  white-space: nowrap;
+}
+.pl-tag.is-accepted { font-style: normal; font-weight: 600; letter-spacing: 0.02em; color: #1e3a52; }
+.pl-authors { margin-top: 0.15rem !important; line-height: 1.5; color: $pub-muted; }
+.pl-authors strong { color: $text-color; font-weight: 600; }
+.pl-venue { margin-top: 0.1rem !important; font-size: 0.92em; font-style: italic; color: $pub-muted; }
+.pl-venue b { font-style: normal; font-weight: 600; }
+.pl-links { margin-top: 0.3rem !important; font-size: 0.9em; }
+.pl-links a { color: #2f5d8a; text-decoration: none; }
+.pl-links a:hover { text-decoration: underline; }
+.pl-sep { margin: 0 0.45em; color: #c5cfda; }
+.pl-bib { padding: 0; border: 0; background: none; box-shadow: none; font: inherit; color: #2f5d8a; cursor: pointer; }
+.pl-bib:hover { text-decoration: underline; background: none; }
+.pl-bib[aria-expanded="true"] { color: #1e3a52; font-weight: 600; }
+.pl-item pre.bibtex { margin: 0.5rem 0 0; }
+.pl-item pre.bibtex[hidden] { display: none; }
+@media (max-width: 700px) {
+  .pl-group { grid-template-columns: minmax(0, 1fr); margin-bottom: 1.6rem; }
+  .page__content h2.pl-year, h2.pl-year { position: static; padding: 0 0 0.4rem; }
+  .pl-head { flex-direction: column; gap: 0.1rem; }
+}
