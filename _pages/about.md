@@ -144,7 +144,7 @@ To this end, I study predictive world models for reasoning under partial observa
 </div>
 
 <div class="pub" data-href="https://dl.acm.org/doi/10.1145/3716368.3735230">
-  <div class="pub-media"><img src="{{ '/images/distributed_detection.png' | relative_url }}" alt="Distributed inference framework for IoT systems" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/distributed_redundancy.svg' | relative_url }}" alt="Devices compute random redundant activations, and a mismatch at the next layer flags the attack" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3716368.3735230">An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection</a></p>
     <p class="pub-authors">Xuan Zhou, U. Muhan, <strong>Yao Liu</strong>, Peter Beerel</p>
@@ -159,12 +159,12 @@ To this end, I study predictive world models for reasoning under partial observa
   year      = {2025},
   doi       = {10.1145/3716368.3735230}
 }</pre>
-    <p class="pub-summary">A partial-redundancy scheme for detecting Byzantine faults in distributed ML inference. We derive bounds on the inferences needed for 99% detection confidence at 2–5% redundancy, validated on GPT-2.</p>
+    <p class="pub-summary">A low-cost defense for LLM inference split across edge devices. Each device also computes a small, randomly chosen set of redundant activations, and the next layer flags any mismatch. We derive how many inferences detection takes and validate it on GPT-2 Small: with 10% overhead and 4 of 8 devices in a layer compromised, all malicious devices are identified in 39.42 inferences on average.</p>
   </div>
 </div>
 
 <div class="pub" data-href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">
-  <div class="pub-media"><img src="{{ '/images/letsroll_pipeline.png' | relative_url }}" alt="Traditional versus rolling-shutter-aware detection pipeline" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/letsroll_shutter.svg' | relative_url }}" alt="Global-shutter and rolling-shutter frames with their row readout timing" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</a></p>
     <p class="pub-authors">Yue Hu, G. Datta, K. Beerel, <strong>Yao Liu</strong>, Peter Beerel</p>
@@ -178,7 +178,7 @@ To this end, I study predictive world models for reasoning under partial observa
   year      = {2024},
   doi       = {10.1109/SiPS62058.2024.00028}
 }</pre>
-    <p class="pub-summary">An Unreal Engine 5 pipeline synthesizes paired global- and rolling-shutter frames with exact ground truth. Rolling-shutter-aware training improves recall by 53.1% on real rolling-shutter scenes.</p>
+    <p class="pub-summary">Can detectors skip rolling-shutter correction? We built a dataset of 21,258 frames, in paired global- and rolling-shutter images, from Unreal Engine 5 and real scenes in downtown Los Angeles. YOLOv8 fine-tuned on rolling-shutter images nearly matches global-shutter performance at IoU 0.5, and adding synthetic data to the small real set improves recall by 53.1% and mAP@0.5 by 30.3% on real rolling-shutter data.</p>
   </div>
 </div>
 
