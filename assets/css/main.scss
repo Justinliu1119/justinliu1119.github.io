@@ -564,3 +564,32 @@ details.pub-authors[open] summary { display: none; }
 @media (min-width: 90em) {
   .archive:has(.pl) > * { margin-left: -160px; margin-right: -110px; }
 }
+
+/* Other Projects page */
+.op-item {
+  display: flex;
+  gap: 1.6rem;
+  align-items: flex-start;
+  padding: 1.1rem 0 1.2rem;
+  border-top: 1px solid #e3e8ee;
+  font-size: 0.95em;
+}
+.op-list .op-item:first-child { border-top-color: #1e3a52; }
+.op-media {
+  flex: 0 0 270px;
+  width: 270px;
+  aspect-ratio: 16 / 10;
+  padding: 6px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #eceef0;
+  border-radius: 8px;
+}
+.op-media img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.op-body { flex: 1; min-width: 0; }
+.op-body p { margin: 0; }
+.op-text { margin-top: 0.3rem !important; line-height: 1.55; color: $text-color; }
+@media (max-width: 700px) {
+  .op-item { flex-direction: column; gap: 0.8rem; }
+  .op-media { flex: none; width: 100%; }
+}
