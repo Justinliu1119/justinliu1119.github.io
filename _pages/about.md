@@ -25,13 +25,9 @@ I am a first-year Ph.D. student in [Electrical Engineering and Computer Sciences
 
 ## Research Vision
 
-<div class="intro" markdown="1">
-
 My research aims to advance general-purpose physical intelligence: robots and teams of robots that learn to perceive, plan, and act in the physical world, with guarantees on their behavior. Learning has made robots more capable, but strong average performance does not ensure reliability under partial observability, distribution shift, or adversarial perturbations. I want to build learned controllers whose behavior we can reason about and verify: whether they satisfy safety specifications, remain robust under uncertainty, and improve with bounded regret as they gain experience.
 
 I study how robots can use predictive world models to infer what they cannot directly observe, account for uncertainty and risk when making decisions, and coordinate with other agents under partial information. I also work on using explicit task and safety specifications to guide and verify learned policies, including vision-language-action models. These directions share a central question: how can we make robots more adaptable while preserving meaningful guarantees on their behavior? My goal is to develop general-purpose robots that generalize across tasks and environments, grow more capable with data and experience, and offer reliability guarantees with clear assumptions and limits.
-
-</div>
 
 ## Education
 
