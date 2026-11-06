@@ -144,7 +144,7 @@ To this end, I study predictive world models for reasoning under partial observa
 </div>
 
 <div class="pub" data-href="https://dl.acm.org/doi/10.1145/3716368.3735230">
-  <div class="pub-media"><img src="{{ '/images/distributed_redundancy.svg' | relative_url }}" alt="Devices compute random redundant activations, and a mismatch at the next layer flags the attack" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/distributed_paper_figs.png' | relative_url }}" alt="Figures 1 and 2 from the paper: secure distributed inference and dual redundancy" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3716368.3735230">An Efficient Distributed Inference Framework for IoT Systems with Byzantine Fault Detection</a></p>
     <p class="pub-authors">Xuan Zhou, U. Muhan, <strong>Yao Liu</strong>, Peter Beerel</p>
@@ -164,7 +164,7 @@ To this end, I study predictive world models for reasoning under partial observa
 </div>
 
 <div class="pub" data-href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">
-  <div class="pub-media"><img src="{{ '/images/letsroll_shutter.svg' | relative_url }}" alt="Global-shutter and rolling-shutter frames with their row readout timing" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/letsroll_paper_fig3.png' | relative_url }}" alt="Figure 3 from the paper: global and rolling shutter mechanisms" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</a></p>
     <p class="pub-authors">Yue Hu, G. Datta, K. Beerel, <strong>Yao Liu</strong>, Peter Beerel</p>
