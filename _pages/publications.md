@@ -6,7 +6,7 @@ author_profile: true
 excerpt: "Papers and manuscripts on multi-agent systems, online decision-making, and safe embodied agents."
 ---
 
-<p class="pub-note">* Equal contribution &nbsp;·&nbsp; <sup>†</sup> Alphabetical order &nbsp;·&nbsp; <a href="https://scholar.google.com/citations?user=BbvMhlEAAAAJ&amp;hl=en">Google Scholar</a></p>
+<p class="pub-note">* Equal contribution &nbsp;·&nbsp; <a href="https://scholar.google.com/citations?user=BbvMhlEAAAAJ&amp;hl=en">Google Scholar</a></p>
 
 <div class="pl">
 <section class="pl-group">
@@ -113,7 +113,7 @@ excerpt: "Papers and manuscripts on multi-agent systems, online decision-making,
 <p class="pl-authors">Anthony Goeckner, <strong>Yao Liu</strong>, Zhian Ruan, Alessandro Pinto, Qi Zhu</p>
 </article>
 <article class="pl-item"><div class="pl-head"><p class="pl-title">Adaptive Online Pricing for Arrow–Debreu Markets</p><span class="pl-tag">In preparation</span></div>
-<p class="pl-authors">C. Chen<sup>†</sup>, <strong>Yao Liu</strong><sup>†</sup>, J. Yang<sup>†</sup>, Z. Yang<sup>†</sup>, Yinyu Ye</p>
+<p class="pl-authors">Guangyuan Yuan, <strong>Yao Liu</strong>, Jiawen Yang, Yang Zhan, Caihua Chen, Yinyu Ye</p>
 </article>
 <article class="pl-item"><div class="pl-head"><p class="pl-title">Visualization of Wildfire Spread and Smoke Using Unreal Engine</p><span class="pl-tag">In preparation</span></div>
 <p class="pl-authors"><strong>Yao Liu</strong>, Bryan Shaddy, Assad Oberai, Peter Beerel</p>

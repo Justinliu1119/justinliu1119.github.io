@@ -69,7 +69,7 @@ To this end, I study predictive world models for reasoning under partial observa
 
 ## Selected Publications
 
-<p class="pub-note">* Equal contribution &nbsp;·&nbsp; <sup>†</sup> Alphabetical order &nbsp;·&nbsp; <a href="{{ '/publications/' | relative_url }}">Full list</a></p>
+<p class="pub-note">* Equal contribution &nbsp;·&nbsp; <a href="{{ '/publications/' | relative_url }}">Full list</a></p>
 
 <div class="pub" data-href="https://arxiv.org/abs/2606.21148">
   <div class="pub-media has-caption">
@@ -205,7 +205,7 @@ To this end, I study predictive world models for reasoning under partial observa
   <div class="pub-media"><img src="{{ '/images/Arrow_Debreu.png' | relative_url }}" alt="Adaptive online Arrow-Debreu markets" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title">Adaptive Online Pricing for Arrow–Debreu Markets</p>
-    <p class="pub-authors">C. Chen<sup>†</sup>, <strong>Yao Liu</strong><sup>†</sup>, J. Yang<sup>†</sup>, Z. Yang<sup>†</sup>, Yinyu Ye</p>
+    <p class="pub-authors">Guangyuan Yuan, <strong>Yao Liu</strong>, Jiawen Yang, Yang Zhan, Caihua Chen, Yinyu Ye</p>
     <p class="pub-meta"><span class="pub-venue status">In preparation</span></p>
     <p class="pub-summary">Online algorithms that compute Arrow–Debreu equilibrium prices as agents arrive with incomplete information, with <i>O</i>(log <i>n</i>) regret and <i>O</i>(1) constraint violation.</p>
   </div>
