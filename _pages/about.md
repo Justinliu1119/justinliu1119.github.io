@@ -211,33 +211,27 @@ To this end, I study predictive world models for reasoning under partial observa
   </div>
 </div>
 
-## Honors
+## Selected Honors
 
-<ul class="dated-list date-right">
-  <li><span class="item">UC Berkeley EECS Ph.D. Fellowship</span><span class="date">2026</span></li>
-  <li><span class="item">Gold Medal, Kaggle LMSYS Chatbot Arena Human Preference Predictions</span><span class="date">2024</span></li>
-  <li><span class="item">Ming Hsieh Institute Undergraduate Scholar, USC (top 5 research scholars in EE)</span><span class="date">2024</span></li>
-  <li><span class="item">Discover Scholar Distinction, USC</span><span class="date">2025</span></li>
+<ul class="plain-list">
+  <li>UC Berkeley EECS Ph.D. Fellowship<span class="yr">, 2026</span></li>
+  <li>Gold Medal, Kaggle LMSYS Chatbot Arena Human Preference Predictions<span class="yr">, 2024</span></li>
+  <li>Ming Hsieh Institute Undergraduate Scholar, USC (top 5 research scholars in EE)<span class="yr">, 2024</span></li>
+  <li>Discover Scholar Distinction, USC<span class="yr">, 2025</span></li>
+  <li>Honorable Mention, Mathematical Contest in Modeling (COMAP)<span class="yr">, 2024</span></li>
+  <li>Provost Research Scholarship, USC<span class="yr">, 2024</span></li>
+  <li>W.V.T. Rusch Engineering Honors Degree, USC<span class="yr">, 2023</span></li>
+  <li>Richardson CURVE Award, USC<span class="yr">, 2022–2024</span></li>
+  <li>Academic Achievement Award, USC<span class="yr">, 2024–2025</span></li>
+  <li>Dean's List, USC<span class="yr">, 2022–2025</span></li>
 </ul>
-<details class="more-list">
-<summary>Show all honors</summary>
-<ul class="dated-list date-right">
-  <li><span class="item">Honorable Mention, Mathematical Contest in Modeling (COMAP)</span><span class="date">2024</span></li>
-  <li><span class="item">Provost Research Scholarship, USC</span><span class="date">2024</span></li>
-  <li><span class="item">W.V.T. Rusch Engineering Honors Degree, USC</span><span class="date">2023</span></li>
-  <li><span class="item">Richardson CURVE Award, USC</span><span class="date">2022–2024</span></li>
-  <li><span class="item">Academic Achievement Award, USC</span><span class="date">2024–2025</span></li>
-  <li><span class="item">Dean's List, USC</span><span class="date">2022–2025</span></li>
-</ul>
-</details>
 
 ## Service &amp; Teaching
 
-<ul class="dated-list date-right">
-  <li><span class="item">Reviewer, Conference on Robot Learning (CoRL)</span><span class="date">2026</span></li>
-  <li><span class="item">Reviewer, IEEE Intelligent Vehicles Symposium (IV)</span><span class="date">2026</span></li>
-  <li><span class="item"><strong>Course Producer</strong>, <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=18&amp;coid=283518">EE 202 Linear Circuits</a>, USC</span><span class="date">Fall 2023 – Spring 2025</span></li>
-  <li><span class="item"><strong>Grader</strong>, <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=21&amp;coid=330673">EE 301 Linear Systems</a> and MATH 245, USC</span><span class="date">Fall 2024</span></li>
+<ul class="plain-list labeled">
+  <li><strong>Conference Reviewer:</strong> CoRL 2026, IEEE IV 2026</li>
+  <li><strong>Course Producer:</strong> <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=18&amp;coid=283518">EE 202 Linear Circuits</a>, USC<span class="yr">, Fall 2023 – Spring 2025</span></li>
+  <li><strong>Grader:</strong> <a href="https://catalogue.usc.edu/preview_course_nopop.php?catoid=21&amp;coid=330673">EE 301 Linear Systems</a> and MATH 245, USC<span class="yr">, Fall 2024</span></li>
 </ul>
 
 ## Experience
