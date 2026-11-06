@@ -2,7 +2,7 @@
 permalink: /
 title: ""
 excerpt: ""
-description: "EECS Ph.D. student at UC Berkeley | AI and robotics researcher"
+description: "EECS Ph.D. student at UC Berkeley, AI and robotics researcher"
 author_profile: true
 redirect_from: 
   - /about/
