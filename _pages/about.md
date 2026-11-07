@@ -164,7 +164,7 @@ To this end, I study predictive world models for reasoning under partial observa
 </div>
 
 <div class="pub" data-href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">
-  <div class="pub-media"><img src="{{ '/images/letsroll_figs45_full.png' | relative_url }}" alt="Figures 4 and 5 from the paper: detection experiment pipeline and example predictions on real scenes" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/letsroll_figs45_col.png' | relative_url }}" alt="Figures 4 and 5 from the paper: detection experiment pipeline and example predictions on real scenes" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</a></p>
     <p class="pub-authors">Yue Hu, G. Datta, K. Beerel, <strong>Yao Liu</strong>, Peter Beerel</p>
