@@ -24,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Justin Yao Liu"
   avatar           : "images/Autograph.png"
-  bio              : "EECS Ph.D. student at UC Berkeley | AI and robotics researcher"
+  bio              :
   location         : 
   employer         : 
   pubmed           : 

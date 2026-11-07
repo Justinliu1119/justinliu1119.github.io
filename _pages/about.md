@@ -96,7 +96,7 @@ To this end, I study predictive world models for reasoning under partial observa
 </div>
 
 <div class="pub" data-href="https://arxiv.org/abs/2510.12985">
-  <div class="pub-media"><img src="{{ '/images/sentinel_pipeline.png' | relative_url }}" alt="SENTINEL framework overview" loading="lazy"></div>
+  <div class="pub-media fill-frame"><img src="{{ '/images/sentinel_pipeline.png' | relative_url }}" alt="SENTINEL framework overview" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://arxiv.org/abs/2510.12985">SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents</a></p>
     <p class="pub-authors">Simon Sinong Zhan*, Philip Wang*, <strong>Justin Yao Liu*</strong>, Yiyan Peng*, Yiqi Lyu, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu</p>
@@ -164,7 +164,7 @@ To this end, I study predictive world models for reasoning under partial observa
 </div>
 
 <div class="pub" data-href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">
-  <div class="pub-media"><img src="{{ '/images/letsroll_figs45_col.png' | relative_url }}" alt="Figures 4 and 5 from the paper: detection experiment pipeline and example predictions on real scenes" loading="lazy"></div>
+  <div class="pub-media"><img src="{{ '/images/letsroll_figs45_full.png' | relative_url }}" alt="Figures 4 and 5 from the paper: detection experiment pipeline and example predictions on real scenes" loading="lazy"></div>
   <div class="pub-body">
     <p class="pub-title"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10768224">Let's Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types</a></p>
     <p class="pub-authors">Yue Hu, G. Datta, K. Beerel, <strong>Yao Liu</strong>, Peter Beerel</p>
