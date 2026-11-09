@@ -39,12 +39,12 @@ To this end, I study predictive world models for reasoning under partial observa
 <div class="edu">
   <div class="edu-row">
     <img class="edu-logo" src="{{ '/images/seal_berkeley.svg' | relative_url }}" alt="UC Berkeley">
-    <div class="edu-text"><strong>UC Berkeley</strong><br><span>Ph.D. in Electrical Engineering and Computer Sciences</span></div>
+    <div class="edu-text"><strong>Ph.D. in Electrical Engineering and Computer Sciences</strong><br><span><a href="https://www.berkeley.edu/">UC Berkeley</a></span></div>
     <span class="date">2026 – present</span>
   </div>
   <div class="edu-row">
     <img class="edu-logo" src="{{ '/images/seal_usc_cardinal.svg' | relative_url }}" alt="University of Southern California">
-    <div class="edu-text"><strong>University of Southern California</strong><br><span>B.S. in Electrical and Computer Engineering (Honors)<br>B.S. in Applied &amp; Computational Mathematics</span></div>
+    <div class="edu-text"><strong>B.S. in Electrical and Computer Engineering (Honors)</strong><br><strong>B.S. in Applied &amp; Computational Mathematics</strong><br><span><a href="https://www.usc.edu/">University of Southern California</a></span></div>
     <span class="date">2021 – 2025</span>
   </div>
 </div>
